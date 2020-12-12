@@ -50,13 +50,15 @@ to download Homebrew you need paste the following link into Terminal:
 
 ##### press Enter
 
+##### &
+
 #### when/if prompted press Enter again 
 
 Wait patiently as this may takes a while.🧐
 
 After awhile Homebrew should be installed. 😊
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 2. Installing Packages & Applications
 
@@ -124,6 +126,8 @@ close packages.txt by clicking red ❌ or by:
 
 ##### click inside of packages.txt
 
+##### &
+
 ##### press command + Q
 
 
@@ -141,7 +145,7 @@ Wait patiently as this may takes a while.🧐
 
 After awhile all Packages & Applications will be installed. 😊
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Also I really reccomend geting:
 - RedQuits:
@@ -169,14 +173,18 @@ in Search bar type:
 ```Amphetamine```
 
 ##### press Enter
+
+##### &
  
 ##### click on get
+
+##### &
 
 #### (if needed type in your iCloud password)
 
 Amphetamine should begin download
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 3. Installing Oh-My-Zsh
 
@@ -193,6 +201,8 @@ open -a iTerm
 
 ##### click inside of Terminal
 
+##### &
+
 ##### press command + Q
 
 to install oh-my-zsh type the following link into iTerm2: 
@@ -203,7 +213,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 ##### press Enter
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 4. Installing Spaceship Prompt Theme for iTerm2(Terminal)
 
@@ -232,6 +242,8 @@ code ~/.zshrc
 #### .zshrc should open in Visual Studio Code
 
 ##### click inside Visual Studio Code
+
+##### &
 
 ##### press command + F
 
@@ -293,7 +305,7 @@ plugins should look like:
 plugins=()
 ```
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Adding Aliases
 
@@ -391,7 +403,7 @@ alias gru='git remote update'
 
 ##### press command + S 
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Changing Visual Studio Font & Settings
 
@@ -407,6 +419,8 @@ settings.json
 
 ##### click on Edit in setiings.json 
 
+##### &
+
 ##### remove everything that is inside of settings.json to do that:
 
 ##### press Command + A
@@ -415,9 +429,9 @@ settings.json
 
 ##### press delete/backspace
  
-#### settings.json should be empty.
+#### settings.json should now be empty.
  
-type the following into settings.json :
+type the following into settings.json:
 
 ```
     {
@@ -549,6 +563,8 @@ type the following into settings.json :
 
 ##### click inside of Visual Studio Code
 
+##### &
+
 ##### press command + Q
 
 go back into iTerm2 
@@ -567,7 +583,7 @@ source ~/.zshrc
 
 ##### press Enter
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## 6. Installing Visual Studio Extensions
@@ -676,7 +692,7 @@ Wait patiently as this may takes awhile.🧐
 After awhile everything should be installed. 😊
 
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## 7. Setting up Node with nvm
@@ -760,7 +776,7 @@ or
 #### v"LATEST_NODE_VERSION"
 
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## 8. Setting up Eslint + Prettier with Airbnb Style Guide
@@ -833,7 +849,7 @@ No
  
 ##### press Enter
  
-#### choose both  ( move down with arrow keys,  press space, make sure both check marks are green)
+#### choose both  ( move down with arrow keys,  press space to select, make sure both check marks are green)
  
 ✅ Browser
 
@@ -868,7 +884,7 @@ choose
  
 ##### press Enter
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 9. Adding SSH-KEY to github account
 
@@ -886,10 +902,10 @@ type the following into iTerm2:
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
-#### Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [Press enter]
+#### Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [press Enter]
 
-#### Enter passphrase (empty for no passphrase): [Type a passphrase]
-#### Enter same passphrase again: [Type passphrase again]
+#### Enter passphrase (empty for no passphrase): [type a Passphrase]
+#### Enter same passphrase again: [type Passphrase Again]
 
 
 type the following into iTerm2:
@@ -944,6 +960,8 @@ close .ssh/config by clicking red ❌ or by:
 
 ##### click inside of .ssh/config
 
+##### &
+
 ##### press command + Q
 
  
@@ -957,9 +975,13 @@ type in the same password you used above for Keychains
  
  ##### press Enter
  
- #### type the password agian if necessary
+ ##### &
  
- ##### press Enter
+ #### if necessary type the password agian
+ 
+ ##### &
+ 
+ ##### if necessary press Enter again
  
 type the following into iTerm2:
  
@@ -975,11 +997,17 @@ login
  
  ##### click on your profile picture 
  
+ ##### &
+ 
  ##### click on settings 
+ 
+ ##### &
  
  ##### click on SSH and GPG key
  
- ##### Click New SSH key or Add SSH key.
+ ##### &
+ 
+ ##### Click New SSH key or Add SSH key
  
 for title write: 
  
@@ -989,9 +1017,15 @@ for title write:
  
  ##### click into key text area
  
+  ##### &
+ 
  ##### press command + V 
  
- #### SSH-KEY should paste into key text area.
+  ##### &
+ 
+ #### SSH-KEY should paste into key text area
+ 
+  ##### &
  
  ##### press add SSH key
  
@@ -999,5 +1033,5 @@ for title write:
  
  
  ## you're finished, good job 😀👍
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
