@@ -28,8 +28,24 @@ brew install —cask alfred ; brew install —cask flux ; brew install —cask o
 
 press Enter
 
+type this into your terminal 
 
-open iTerm2.
+open iTerm2 
+
+press enter
+
+
+iTerm should be open we will use it from now on you can close Terminal by clicking red x or typing this command into the terminal
+
+exit
+
+press enter
+
+
+
+(from now on anytime i refer to terminal i mean iTerm2) 
+
+
 
 now we will install oh-my-zsh.
 
