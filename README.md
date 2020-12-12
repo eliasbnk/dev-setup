@@ -178,9 +178,8 @@ After a little awhile all Packages & Applications should be installed. 😊
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-#### after all Packages & Applications install
+### after all Packages & Applications install
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type the following into Terminal:
 
