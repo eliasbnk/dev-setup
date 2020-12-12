@@ -881,41 +881,68 @@ eslint --init
 
 ##### [press Enter]
 
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint1.png)
+
+
 
 scroll down with arrow keys to choose
 
 ❯ To check syntax, find problems, and enforce code style
 
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint1.png)
+
+
 ##### [press Enter]
 
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint2.png)
+
+
+
+
 
 choose 
 
 ❯  JavaScript modules (import/export)
 
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint2.png)
+
+
 ##### [press Enter]
 
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint3.png)
+
+
+
+
+
 
 choose 
 
 ❯ React
 
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint3.png)
+
+
 ##### [press Enter]
 
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint4.png)
+
+
+
+
 
 choose
 
 No
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint4.png)
+
  
 ##### [press Enter]
- 
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint5.png)
+
+
+
+
+
  
 #### choose both  ( move down with arrow keys,  press space to select, make sure both check marks are green)
  
@@ -923,37 +950,56 @@ No
 
 ✅ Node
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint5.png)
+
+
 ##### [press Enter]
 
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint6.png)
+
+
+
 
 choose 
 
 ❯ Use a popular style guide
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint6.png)
+
+
 ##### [press Enter]
 
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint7.png)
+
 
 choose 
 
 ❯ Airbnb: https://github.com/airbnb/javascript
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint7.png)
+
+
 ##### [press Enter]
 
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint8.png)
- 
+
+
+
+
 scroll down with arrow keys to choose
  
  ❯ JSON
  
+ ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint8.png)
+ 
+ 
 ##### [press Enter]
 
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint9.png)
+
 
 choose
  
  Yes
+ 
+ ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint9.png)
+ 
  
 ##### [press Enter]
 
