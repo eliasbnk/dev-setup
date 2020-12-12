@@ -911,7 +911,7 @@ choose
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint8.png)
  
-choose
+scroll down with arrow keys to choose
  
  ❯ JSON
  
