@@ -161,6 +161,16 @@ Wait patiently as this may takes a while.🧐
 
 After a little awhile all Packages & Applications should be installed. 😊
 
+#### after all Packages & Applications install
+
+type the following into Terminal:
+
+```
+rm -rf packages.txt
+```
+
+##### [press Enter]
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Also I really recommend geting:
@@ -218,6 +228,7 @@ open -a iTerm
 
 ##### [press enter]
 
+#### click on open/ok/allow
 
 #### iTerm2 should be open. We will use iTerm2 from now on. 
 
@@ -262,6 +273,8 @@ type the following into iTerm2:
 ```
 code ~/.zshrc
 ```
+
+#### click on open/ok/allow
 
 #### .zshrc should open in Visual Studio Code
 
