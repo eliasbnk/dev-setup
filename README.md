@@ -347,10 +347,10 @@ Edit in setiings.json
 remove everything and paste this into settings.json :
 
 
-{
-    "workbench.colorTheme": "Monokai",
+    {"workbench.colorTheme": "Monokai",
     
     "[json]": {
+        
        
         "editor.quickSuggestions": {
         
@@ -465,6 +465,7 @@ remove everything and paste this into settings.json :
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 
     }
+
 
 press Command + S
 
