@@ -143,16 +143,16 @@ After awhile all Packages & Applications will be installed. 😊
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Also I really reccomen geting:
+Also I really reccomend geting:
 - RedQuits:
 (if you press ❌ it preform command+Q on that Application, which unfortunately Apple did add. As if you press ❌ current Application window closes, but app is minimized into the Application Icon)
 
 To download RedQuits: http://redquits.s3.amazonaws.com/RedQuits_v2.pkg
 
 - Amphetamine:
-(Keeps display awake. very useful if you're downloading or uploading a large file, and dont want computer to go to sleep, and end/pause the process)
+(Keeps display awake. Very useful if you're downloading or uploading a large file, and dont want your computer to go to sleep, and end/pause the process)
 
-to download Amphetamine:
+To download Amphetamine:
 
 ##### press command + SPACE
 
