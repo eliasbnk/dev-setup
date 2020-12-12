@@ -1,46 +1,61 @@
-First thing you want to do is open your terminal 
+### First thing you want to do is open your terminal 
 
-to open terminal
+### to open terminal
 
-press command+SPACE
+### press command+SPACE
 
-in spotlight type in
+### in spotlight type in
 
+```
 terminal 
+```
 
-press Enter
+### press Enter
 
-next we are going to download Homebrew
+### next we are going to download Homebrew
 
-to do that paste this into your terminal
+### to do that paste this into your terminal
 
+```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+### press Enter
 
-press Enter
+### when prompted press enter again 
 
-Homebrew should be installed 
+### Wait patiently as this may takes a while.
 
+### Homebrew should be installed 
+
+### next we will install packages/applications that you most likely will use on daily basis.
+
+### to do that type this into your terminal 
  
-type this into your terminal 
+ ```
+cd Desktop
+ ```
+### press enter
  
- cd Desktop
+ ### type this into your terminal 
  
- press enter
- 
- type this into your terminal 
- 
+ ```
  touch packages.txt
+ ```
  
- press enter
+ ### press enter
  
-  type this into your terminal 
+ ### type this into your terminal 
   
+  ```
   open packages.txt
+  ```
   
-  press enter
+### press enter
   
-  type this into packages.txt:
  
+### type this into packages.txt:
+ 
+ ```
  --cask alfred 
  
  --cask flux
@@ -73,83 +88,99 @@ type this into your terminal
  
 git
 
-
-
 yarn
 
 zsh
 
- nvm
+nvm
  
 --cask oversight 
 
-press command+S
+```
 
-go back to terminal and type
+### press command+S
 
+### go back to terminal and type
+
+```
 brew install $(<packages.txt)
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
+```
 
-press Enter
+### press Enter
 
-after everything installs
+### Wait patiently as this may takes a while.
+
+### after everything installs
+
+### type this into your terminal 
+
+```
+open -a iTerm
+```
+
+### press enter
 
 
-type this into your terminal 
+### iTerm should be open we will use it from now on you can close Terminal by clicking red ❌ or typing this command into the terminal
 
-open iTerm2 
-
-press enter
-
-
-iTerm should be open we will use it from now on you can close Terminal by clicking red x or typing this command into the terminal
-
+```
 exit
+```
 
-press enter
-
-
-
-(from now on anytime i refer to terminal i mean iTerm2) 
+### press enter
 
 
 
-now we will install oh-my-zsh.
-
-type this into your terminal 
+### (from now on anytime i refer to terminal i mean iTerm2) 
 
 
+
+### now we will install oh-my-zsh.
+
+### to do that type this into your terminal 
+
+```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+### press Enter
 
-press Enter
 
+### next we will install spaceship prompt theme
 
-next we will install spaceship prompt theme
+### to do that type this into your terminal 
 
-type this into your terminal 
-
+```
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+```
 
-press Enter
+### press Enter
 
-type this into your terminal 
+### type this into your terminal 
 
+```
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme" 
+```
 
-press Enter
+## press Enter
 
-type this into your terminal 
+### type this into your terminal 
 
+```
 code ~/.zshrc
+```
 
-that should open .zshrc in vscode
+### that should open .zshrc in vscode
 
-press command + f
+### press command + f
 
 type in ZSH_THEME
 
-press enter
+
 
 VS CODE should highlight ZSH_THEME 
+
 
 change your theme from
 
@@ -164,8 +195,8 @@ while we are in ~/.zshrc lets add couple more things
 this is for nvm, type this under ZSH_THEME
 
  export NVM_DIR="$HOME/.nvm"
-  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  
+  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  
 
 next press command + F
 
@@ -281,6 +312,13 @@ source ~/.zshrc
 
 press Enter
 
+type in terminal 
+
+chmod 755 /usr/local/share/zsh
+chmod 755 /usr/local/share/zsh/site-functions
+
+press enter
+
 next in terminal type in
 
 cd Desktop
@@ -301,112 +339,105 @@ press Enter
 
 copy and paste the following into vscode-extensions.txt :
 
-patbenatar.advanced-new-file
+code --install-extension patbenatar.advanced-new-file
 
-gluons.vscode-atom-javascript-snippet
+code --install-extension gluons.vscode-atom-javascript-snippet 
 
-formulahendry.auto-close-tag
+code --install-extension formulahendry.auto-close-tag 
 
-formulahendry.auto-rename-tag
+code --install-extension formulahendry.auto-rename-tag
 
-mgmcdermott.vscode-language-babel
+code --install-extension mgmcdermott.vscode-language-babel
 
-aaron-bond.better-comments
+code --install-extension aaron-bond.better-comments
 
-thekalinga.bootstrap4-vscode
+code --install-extension thekalinga.bootstrap4-vscode
 
-coenraads.bracket-pair-colorizer-2
+code --install-extension coenraads.bracket-pair-colorizer-2
 
-wmaurer.change-case
+code --install-extension wmaurer.change-case
 
-streetsidesoftware.code-spell-checker
+code --install-extension streetsidesoftware.code-spell-checker
 
-vmsynkov.colonize
+code --install-extension vmsynkov.colonize
 
-kamikillerto.vscode-colorize
+code --install-extension kamikillerto.vscode-colorize
 
-pranaygp.vscode-css-peek
+code --install-extension pranaygp.vscode-css-peek
 
-msjsdiag.debugger-for-chrome
+code --install-extension msjsdiag.debugger-for-chrome
 
-usernamehw.errorlens
+code --install-extension usernamehw.errorlens
 
-dbaeumer.vscode-eslint
+code --install-extension dbaeumer.vscode-eslint
 
-toba.vsfire
+code --install-extension toba.vsfire
 
-tombonnike.vscode-status-bar-format-toggle
+code --install-extension tombonnike.vscode-status-bar-format-toggle
 
-waderyan.gitblame
+code --install-extension waderyan.gitblame
 
-mhutchie.git-graph
+code --install-extension mhutchie.git-graph
 
-donjayamanne.githistory
+code --install-extension  donjayamanne.githistory
 
-felipecaputo.git-project-manager
+code --install-extension  felipecaputo.git-project-manager
 
-eamodio.gitlens
+code --install-extension eamodio.gitlens
 
-fabiospampinato.vscode-highlight
+code --install-extension fabiospampinato.vscode-highlight
 
-vincaslt.highlight-matching-tag
+code --install-extension vincaslt.highlight-matching-tag
 
-abusaidm.html-snippets
+code --install-extension abusaidm.html-snippets
 
-oderwat.indent-rainbow
+code --install-extension oderwat.indent-rainbow
 
-sirtori.indenticator
+code --install-extension sirtori.indenticator
 
-zignd.html-css-class-completion
+code --install-extension zignd.html-css-class-completion
 
-xabikos.javascriptsnippets
+code --install-extension xabikos.javascriptsnippets
 
-akamud.vscode-javascript-snippet-pack
+code --install-extension akamud.vscode-javascript-snippet-pack
 
-ritwickdey.liveserver
+code --install-extension ritwickdey.liveserver
 
-pkief.material-icon-theme
+code --install-extension pkief.material-icon-theme
 
-ibm.output-colorizer
+code --install-extension ibm.output-colorizer
 
-ionutvmi.path-autocomplete
+code --install-extension ionutvmi.path-autocomplete
 
-christian-kohler.path-intellisense
+code --install-extension christian-kohler.path-intellisense
 
-esbenp.prettier-vscode
+code --install-extension esbenp.prettier-vscode
 
-rvest.vs-code-prettier-eslint
+code --install-extension rvest.vs-code-prettier-eslint
 
-jundat95.react-native-snippet
+code --install-extension jundat95.react-native-snippet
 
-equimper.react-native-react-redux
+code --install-extension equimper.react-native-react-redux
 
-burkeholland.simple-react-snippets
+code --install-extension burkeholland.simple-react-snippets
 
-joeberria.statusbarerror
+code --install-extension joeberria.statusbarerror
 
-rafamel.subtle-brackets
+code --install-extension rafamel.subtle-brackets
 
-wayou.vscode-todo-highlight
+code --install-extension  wayou.vscode-todo-highlight
 
-britesnow.vscode-toggle-quotes
+code --install-extension  britesnow.vscode-toggle-quotes
 
-chakrounanas.turbo-console-log
+code --install-extension  chakrounanas.turbo-console-log
 
-visualstudioexptteam.vscodeintellicode
+code --install-extension  visualstudioexptteam.vscodeintellicode
 
-shyykoserhiy.vscode-spotify
+code --install-extension shyykoserhiy.vscode-spotify
 
-jpoissonnier.vscode-styled-components
+code --install-extension  jpoissonnier.vscode-styled-components
 
-midnightsyntax.vscode-wrap-console-log
-
-press command+S
-
-go back to terminal and type in
-
-
-while read line; do code --install-extension "$line";done < vscode-extensions.txt
+code --install-extension  midnightsyntax.vscode-wrap-console-log
 
 press enter
 
@@ -594,21 +625,17 @@ press enter
 
 type in terminal 
 
+```
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
-
-press enter
-
-next type into terminal 
 
 npx install-peerdeps --dev eslint-config-airbnb
 
-press enter
-
-type into terminal
+npm init -y
 
 eslint --init
+```
 
-press enter
+### press enter
 
 scroll down with arrow keys to choose
 
@@ -633,86 +660,102 @@ choose
 
  No
  
- press enter
+ ## press enter
  
- choose both  ( move down with arrow keys,  press space, make sure both check marks are green)
+ ### choose both  ( move down with arrow keys,  press space, make sure both check marks are green)
  
 ✅ Browser
 
 ✅ Node
 
-press enter
+### press enter
 
 
-choose 
+### choose 
 
 ❯ Use a popular style guide
 
-press enter
+### press enter
 
-choose 
+
+
+### choose 
 
 ❯ Airbnb: https://github.com/airbnb/javascript
 
- press enter
+ ### press enter
  
- choose
+ ### choose
  
  ❯ JSON
  
  press enter
+
+
+
  
- choose
+ ### choose
  
  Yes
  
- press enter
+ ### press enter
 
-type in terminal 
+### type in terminal 
 
+```
 cd
+```
+### press enter
 
-press enter
+### type in terminal
 
-type in terminal
-
+```
 ssh-keygen -t ed25519 -C "babenko.elias@gmail.com"
+```
 
-Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [Press enter]
+### Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [Press enter]
 
-Enter passphrase (empty for no passphrase): [Type a passphrase]
-Enter same passphrase again: [Type passphrase again]
+### Enter passphrase (empty for no passphrase): [Type a passphrase]
+### Enter same passphrase again: [Type passphrase again]
 
 
-type in terminal 
+### type in terminal 
 
+```
 eval "$(ssh-agent -s)"
+```
 
-press ENTER
+### press ENTER
 
 
-type in terminal 
+### type in terminal 
 
+```
 open ~/.ssh/config
+```
 
-press Enter
+### press Enter
 
-if file doesnt exist type in terminal
+### if file doesnt exist type in terminal
 
+```
 touch ~/.ssh/config
+```
 
-press Enter
+### press Enter
 
-next type in terminal
+### next type in terminal
 
+```
 open ~/.ssh/config
+```
 
-press Enter
-
-
-in ~/.ssh/config file type this in:
+### press Enter
 
 
+### in ~/.ssh/config file type this in:
+
+```
 Host *
 
   AddKeysToAgent yes
@@ -720,64 +763,68 @@ Host *
   UseKeychain yes
   
   IdentityFile ~/.ssh/id_ed25519
+``` 
  
+### press Command+S
  
- press Command+S
- 
- go back to terminal and type in
- 
+### go back to terminal and type in
+ ```
  ssh-add -K ~/.ssh/id_ed25519
+ ```
+ ### press enter
  
- press enter
+ ### type in the password you used above
  
- type in the password you used above
+ ### press Enter
  
- press Enter
+ ### type the password agian if necessary
  
- type the password agian if necessary
+ ### press Enter
  
- press Enter
+ ### now type in terminal 
  
- now type in terminal 
- 
+ ```
  pbcopy < ~/.ssh/id_ed25519.pub
+ ```
  
- press enter
+ ### press enter
  
- head over to your github account 
+ ### head over to your github account 
  
- login
+ ### login
  
- click on your profile picture 
+ ### click on your profile picture 
  
- click on settings 
+ ### click on settings 
  
- click on SSH and GPG key
+ ### click on SSH and GPG key
  
- Click New SSH key or Add SSH key.
+ ### Click New SSH key or Add SSH key.
  
- for title write 
+ ### for title write 
  
+ ```
  macBook
+ ```
  
- click into key text area
+ ### click into key text area
  
- press command+V 
+ ### press command+V 
  
- press add SSH key
+ ### press add SSH key
  
- write github password 
+ ### write github password 
  
- lastly go to 
+ ### lastly go to 
  
  http://redquits.s3.amazonaws.com/RedQuits_v2.pkg
  
- downloads redquit
+ ### downloads redquit
  
- and final thin to download go to App Store
+ ### and final thin to download go to App Store
  
- and search for Amphetamine
+ ### and search for ```Amphetamine```
  
- download the app
+ ### download the app
  
- you're finished, good job 😀👍
+ ### you're finished, good job 😀👍
