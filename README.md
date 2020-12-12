@@ -1,6 +1,8 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# This file contains info on how to setup your web development enviroment. In this file I cover:
+# This file contains info on how to setup your web development enviroment. 
+
+In this file I cover:
 
 -How to install homebrew.
 
