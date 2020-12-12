@@ -839,7 +839,7 @@ choose
 
 choose 
 
-React
+❯ React
 
 ##### press Enter
 
@@ -899,7 +899,7 @@ cd
 type the following into iTerm2:
 
 ```
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_github_acount_email_email@example.com"
 ```
 
 #### Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [press Enter]
