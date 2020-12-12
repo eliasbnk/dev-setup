@@ -81,6 +81,8 @@ plugins=()
 
 next scroll all the way down to the end of the file and add these aliases
 
+
+
 alias gap="git add -p"
 
 alias gaa="git add ."
@@ -166,6 +168,8 @@ alias gcm='echo -e "\033[1;32m What is your commit message (what have you done, 
 alias gs='git status -uno'
 
 alias gru='git remote update'
+
+
 
 press command+S 
 
@@ -534,6 +538,7 @@ choose
  choose both  ( move down with arrow keys,  press space, make sure both check marks are green)
  
 ✅ Browser
+
 ✅ Node
 
 press enter
@@ -546,6 +551,7 @@ choose
 press enter
 
 choose 
+
 ❯ Airbnb: https://github.com/airbnb/javascript
 
  press enter
@@ -575,7 +581,7 @@ ssh-keygen -t ed25519 -C "babenko.elias@gmail.com"
 Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [Press enter]
 
 Enter passphrase (empty for no passphrase): [Type a passphrase]
-> Enter same passphrase again: [Type passphrase again]
+Enter same passphrase again: [Type passphrase again]
 
 
 type in terminal 
@@ -608,8 +614,11 @@ in ~/.ssh/config file type this in:
 
 
 Host *
+
   AddKeysToAgent yes
+  
   UseKeychain yes
+  
   IdentityFile ~/.ssh/id_ed25519
  
  
