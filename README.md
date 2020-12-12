@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# This file contains info on how to setup your web development enviroment. 
+# This guide contains info on how to setup your web development enviroment. 
 
-## In this file I cover:
+## In this guide I cover:
 
 -How to install Homebrew
 
@@ -34,9 +34,9 @@
 
 # Disclaimer:
 
-# All information provided in this manual is for general informational purposes only. You agree that you use such information entirely at your own risk. Under no circumstances will I be held responsible or liable in any way for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss of profits, business interruption or loss of information) resulting or arising directly or indirectly from your use of or inability to use this manual. 
+# All information provided in this guide is for general informational purposes only. You agree that you use such information entirely at your own risk. Under no circumstances will I be held responsible or liable in any way for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss of profits, business interruption or loss of information) resulting or arising directly or indirectly from your use of or inability to use this manual. 
 
-# This manual is dumbed done to my granny's level. So if you mess your machine up, you must be a talented genius 😂
+# This guide is dumbed done to my granny's level. So if you mess your machine up, you must be a talented genius 😂
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
