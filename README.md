@@ -1,59 +1,77 @@
-### First thing you want to do is open your terminal 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### to open terminal
+# This file contains info on how to setup your web development enviroment. In this file I cover:
 
-### press command+SPACE
+-How to install homebrew.
+-How to install necessary Packages & useful Applications
+-How to install Oh-My-Zsh
+-How to install Spaceship Prompt Theme for your Terminal
+-How to add aliases & nvm to .zshrc
+-How to change Visual Studio Font & Settings
+-How to set up Node with nvm
+-How to set up eslint + prettier with airbnb style guide
+-How to add generate and add SSH key to your github account
+-And I added some useful Visual Studio Code extensions
 
-### in spotlight type in
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## 1. INSTALL HOMEBREW
+
+First thing you want to do is open your Terminal 
+
+to open terminal
+
+##### press command + SPACE
+
+in spotlight type:
 
 ```
-terminal 
+Terminal 
 ```
 
-### press Enter
-
-### next we are going to download Homebrew
-
-### to do that paste this into your terminal
+to download Homebrew you need paste the following link into Terminal:
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-### press Enter
 
-### when prompted press enter again 
+##### press Enter
 
-### Wait patiently as this may takes a while.
+#### when/if prompted press Enter again 
 
-### Homebrew should be installed 
+Wait patiently as this may takes a while.🧐
 
-### next we will install packages/applications that you most likely will use on daily basis.
+After awhile Homebrew should be installed 😊
 
-### to do that type this into your terminal 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 2.Installing Packages & Applications
+
+type this into Terminal: 
  
  ```
 cd Desktop
  ```
-### press enter
+##### press Enter
  
- ### type this into your terminal 
+type the following into Terminal: 
  
  ```
  touch packages.txt
  ```
  
- ### press enter
+##### press Enter
  
- ### type this into your terminal 
+type the following into Terminal:
   
   ```
   open packages.txt
   ```
   
-### press enter
+##### press Enter
   
- 
-### type this into packages.txt:
+type the following into packages.txt:
  
  ```
  --cask alfred 
@@ -64,13 +82,9 @@ cd Desktop
  
  --cask bartender  
  
- --cask brave-browser 
- 
  --cask google-chrome 
  
  --cask spectacle 
- 
- --cask zoomus
  
  --cask cheatsheet 
  
@@ -80,11 +94,7 @@ cd Desktop
  
  --cask spotify
  
- --cask expressvpn
- 
  --cask iterm2
- 
- --cask viber 
  
 git
 
@@ -98,9 +108,16 @@ nvm
 
 ```
 
-### press command+S
+##### press command + S 
 
-### go back to terminal and type
+close packages.txt by clicking red ❌ or by:
+
+click inside of packages.txt
+
+##### press command + Q
+
+
+type all of the following into Terminal at once : 
 
 ```
 brew install $(<packages.txt)
@@ -108,112 +125,162 @@ brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
 ```
 
-### press Enter
+##### press Enter
 
-### Wait patiently as this may takes a while.
+Wait patiently as this may takes a while.🧐
 
-### after everything installs
+After awhile everything should be installed 😊
 
-### type this into your terminal 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Also I really reccomen geting:
+- RedQuits:
+(if you press ❌ it preform command+Q on that Application, which unfortunately Apple did add. As if you press ❌ current Application window closes, but app is minimized into the Application Icon)
+
+To download RedQuits: http://redquits.s3.amazonaws.com/RedQuits_v2.pkg
+
+- Amphetamine:
+(Keeps display awake. very useful if you're downloading or uploading a large file, and dont want computer to go to sleep, and end/pause the process)
+
+to download Amphetamine:
+
+##### press command + SPACE
+
+type in spotlight:
+
+```
+App Store
+```
+
+##### press Enter
+ 
+in search bar type ```Amphetamine```
+
+##### press Enter
+ 
+click on get
+(if needed type in your iCloud password)
+
+Amphetamine should begin download
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 3. Installing Oh-My-Zsh
+
+type the following into Terminal: 
 
 ```
 open -a iTerm
 ```
 
-### press enter
+##### press enter
 
 
-### iTerm should be open we will use it from now on you can close Terminal by clicking red ❌ or typing this command into the terminal
+#### iTerm should be open we will use it from now on. you can close Terminal by clicking red ❌ or by:
 
-```
-exit
-```
+click inside of Terminal
 
-### press enter
+##### press command + Q
 
-
-
-### (from now on anytime i refer to terminal i mean iTerm2) 
-
-
-
-### now we will install oh-my-zsh.
-
-### to do that type this into your terminal 
+to install oh-my-zsh type the following link into iTerm2: 
 
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-### press Enter
 
+##### press Enter
 
-### next we will install spaceship prompt theme
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### to do that type this into your terminal 
+## 4. Installing Spaceship Prompt Theme for iTerm2(Terminal)
+
+type this link into iTerm2:
 
 ```
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 ```
 
-### press Enter
+##### press Enter
 
-### type this into your terminal 
+type this link into iTerm2: 
 
 ```
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme" 
 ```
 
-## press Enter
+##### press Enter
 
-### type this into your terminal 
+type this into iTerm2: 
 
 ```
 code ~/.zshrc
 ```
 
-### that should open .zshrc in vscode
+#### .zshrc should open in Visual Studio Code
 
-### press command + f
+click inside Visual Studio Code
 
-type in ZSH_THEME
+##### press command + F
+
+type in Find bar:
+
+```
+ZSH_THEME
+```
 
 
+#### VS CODE should highlight ZSH_THEME 
 
-VS CODE should highlight ZSH_THEME 
 
+change your ZSH_THEME: 
 
-change your theme from
+ from ZSH_THEME="robbyrussell" to ```ZSH_THEME="spaceship"```
 
-ZSH_THEME="robbyrussell"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-to
+## 5. Adding aliases & nvm to .zshrc, and Changing Visual Studio Font & Settings.
 
-ZSH_THEME="spaceship"
+while we are in ~/.zshrc lets add couple more things:
 
-while we are in ~/.zshrc lets add couple more things
+### Adding nvm
 
-this is for nvm, type this under ZSH_THEME
+type the following right under ZSH_THEME :
 
+```
  export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  
   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  
+```
 
-next press command + F
+#### (note: next step: removing git plugin is optional, but it tends to clash with my aliases, so i remove it.)
 
-type in plugins 
+to remove git plugin:
 
-press enter
+##### press command + F
 
-and remove everything inside the brackets
+type in Find bar:
+
+```
+plugins 
+```
+
+#### VS CODE should highlight plugins 
+
+and remove everything inside of the brackets ()
 
 it should look like this 
 
+```
 plugins=()
+```
 
-next scroll all the way down to the end of the file and add these aliases
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Adding Aliases
+scroll all the way down to the end of the file and add these aliases:
 
 
-
+```
 alias gap="git add -p"
 
 alias gaa="git add ."
@@ -299,247 +366,37 @@ alias gcm='echo -e "\033[1;32m What is your commit message (what have you done, 
 alias gs='git status -uno'
 
 alias gru='git remote update'
-
-
-
-press command+S 
-
-close file and go back to terminal 
-
-type in
-
-source ~/.zshrc
-
-press Enter
-
-type in terminal 
-
-chmod 755 /usr/local/share/zsh
-chmod 755 /usr/local/share/zsh/site-functions
-
-press enter
-
-next in terminal type in
-
-cd Desktop
-
-press Enter
-
-type in terminal 
-
-touch vscode-extensions.txt
-
-press Enter
-
-next type in Terminal 
-
-open vscode-extensions.txt
-
-press Enter
-
-copy and paste the following into vscode-extensions.txt :
-
-code --install-extension patbenatar.advanced-new-file
-
-code --install-extension gluons.vscode-atom-javascript-snippet 
-
-code --install-extension formulahendry.auto-close-tag 
-
-code --install-extension formulahendry.auto-rename-tag
-
-code --install-extension mgmcdermott.vscode-language-babel
-
-code --install-extension aaron-bond.better-comments
-
-code --install-extension thekalinga.bootstrap4-vscode
-
-code --install-extension coenraads.bracket-pair-colorizer-2
-
-code --install-extension wmaurer.change-case
-
-code --install-extension streetsidesoftware.code-spell-checker
-
-code --install-extension vmsynkov.colonize
-
-code --install-extension kamikillerto.vscode-colorize
-
-code --install-extension pranaygp.vscode-css-peek
-
-code --install-extension msjsdiag.debugger-for-chrome
-
-code --install-extension usernamehw.errorlens
-
-code --install-extension dbaeumer.vscode-eslint
-
-code --install-extension toba.vsfire
-
-code --install-extension tombonnike.vscode-status-bar-format-toggle
-
-code --install-extension waderyan.gitblame
-
-code --install-extension mhutchie.git-graph
-
-code --install-extension  donjayamanne.githistory
-
-code --install-extension  felipecaputo.git-project-manager
-
-code --install-extension eamodio.gitlens
-
-code --install-extension fabiospampinato.vscode-highlight
-
-code --install-extension vincaslt.highlight-matching-tag
-
-code --install-extension abusaidm.html-snippets
-
-code --install-extension oderwat.indent-rainbow
-
-code --install-extension sirtori.indenticator
-
-code --install-extension zignd.html-css-class-completion
-
-code --install-extension xabikos.javascriptsnippets
-
-code --install-extension akamud.vscode-javascript-snippet-pack
-
-code --install-extension ritwickdey.liveserver
-
-code --install-extension pkief.material-icon-theme
-
-code --install-extension ibm.output-colorizer
-
-code --install-extension ionutvmi.path-autocomplete
-
-code --install-extension christian-kohler.path-intellisense
-
-code --install-extension esbenp.prettier-vscode
-
-code --install-extension rvest.vs-code-prettier-eslint
-
-code --install-extension jundat95.react-native-snippet
-
-code --install-extension equimper.react-native-react-redux
-
-code --install-extension burkeholland.simple-react-snippets
-
-code --install-extension joeberria.statusbarerror
-
-code --install-extension rafamel.subtle-brackets
-
-code --install-extension  wayou.vscode-todo-highlight
-
-code --install-extension  britesnow.vscode-toggle-quotes
-
-code --install-extension  chakrounanas.turbo-console-log
-
-code --install-extension  visualstudioexptteam.vscodeintellicode
-
-code --install-extension shyykoserhiy.vscode-spotify
-
-code --install-extension  jpoissonnier.vscode-styled-components
-
-code --install-extension  midnightsyntax.vscode-wrap-console-log
-
-press enter
-
-next we will setup node with nvm 
-### (note: I use node version 12.16.2 if you want use latest version or any other version you're welcome to do so.)
-
-
-
-### example 1 :
-
-to use version 12.16.2 type in terminal:
-```
-nvm install "v12.16.2"
 ```
 
-### press Enter
 
-type in terminal:
+##### press command + S 
 
-```
-nvm use "v12.16.2"
-```
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### press Enter
+### Changing Visual Studio Font & Settings
 
-### example 2 :
+##### press Command + ,
 
-to use some other node version:
-
-```
-nvm install "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
-```
-
-### press Enter
-type in terminal:
-
-```
-nvm use "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
-```
-
-### example 3:
-to use latest available version of node:
-
-type in terminal:
-```
- nvm install node
- ```
- ### press Enter
- 
- type in terminal:
- 
- ```
-  nvm use node
-  
- ```
-### press Enter
-
-
-
-
-check node version by typing in
-
-```
-node --version
-```
-### press Enter
-
-Terminal Should return
-
-v12.16.2 or v"YOUR_DESIRED_NODE_VERSION_NUMBER" or v"LATEST_NODE_VERSION"
-
-next type in terminal
-
-```
-vs 
-```
-
-### press Enter
-
-### press Command + ,
-
-in search type
+in Search bar type:
 
 ```
 settings.json
 ```
 
-click on
+##### click on Edit in setiings.json 
 
-### Edit in setiings.json 
+remove everything that is inside of settings.json to do that:
 
-remove everything that is inside settings.json to do that
+##### press Command + A
 
-### press Command + A
+#### everything in settings.json should be highlighted
 
-everything in settings.json should be highlighted 
-
-### press delete/backspace
+##### press delete/backspace
  
+#### settings.json should be empty.
+ 
+type this into settings.json :
 
-
-copy and paste this into settings.json :
 ```
     {
     
@@ -664,31 +521,258 @@ copy and paste this into settings.json :
 
 ```
 
-### press Command + S
+##### press Command + S
 
-go back to terminal and type in
+ close Visual Studio Code by clicking red ❌ or by:
 
+##### click inside of Visual Studio Code
+
+##### press command + Q
+
+go back into iTerm2 
+
+type all of the following into iTerm2 at once : 
+
+```
+
+chmod 755 /usr/local/share/zsh
+
+chmod 755 /usr/local/share/zsh/site-functions
+
+source ~/.zshrc
+
+```
+
+##### press Enter
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## 6. Installing Visual Studio Extensions
+
+
+in iTerm2 type all of the following at once:
+
+```
+
+code --install-extension patbenatar.advanced-new-file
+
+code --install-extension formulahendry.auto-close-tag 
+
+code --install-extension formulahendry.auto-rename-tag
+
+code --install-extension mgmcdermott.vscode-language-babel
+
+code --install-extension aaron-bond.better-comments
+
+code --install-extension coenraads.bracket-pair-colorizer-2
+
+code --install-extension wmaurer.change-case
+
+code --install-extension streetsidesoftware.code-spell-checker
+
+code --install-extension vmsynkov.colonize
+
+code --install-extension kamikillerto.vscode-colorize
+
+code --install-extension pranaygp.vscode-css-peek
+
+code --install-extension msjsdiag.debugger-for-chrome
+
+code --install-extension usernamehw.errorlens
+
+code --install-extension dbaeumer.vscode-eslint
+
+code --install-extension toba.vsfire
+
+code --install-extension tombonnike.vscode-status-bar-format-toggle
+
+code --install-extension waderyan.gitblame
+
+code --install-extension mhutchie.git-graph
+
+code --install-extension  donjayamanne.githistory
+
+code --install-extension  felipecaputo.git-project-manager
+
+code --install-extension eamodio.gitlens
+
+code --install-extension fabiospampinato.vscode-highlight
+
+code --install-extension vincaslt.highlight-matching-tag
+
+code --install-extension abusaidm.html-snippets
+
+code --install-extension oderwat.indent-rainbow
+
+code --install-extension sirtori.indenticator
+
+code --install-extension zignd.html-css-class-completion
+
+code --install-extension xabikos.javascriptsnippets
+
+code --install-extension ritwickdey.liveserver
+
+code --install-extension pkief.material-icon-theme
+
+code --install-extension ibm.output-colorizer
+
+code --install-extension ionutvmi.path-autocomplete
+
+code --install-extension christian-kohler.path-intellisense
+
+code --install-extension esbenp.prettier-vscode
+
+code --install-extension rvest.vs-code-prettier-eslint
+
+code --install-extension jundat95.react-native-snippet
+
+code --install-extension joeberria.statusbarerror
+
+code --install-extension rafamel.subtle-brackets
+
+code --install-extension  wayou.vscode-todo-highlight
+
+code --install-extension  britesnow.vscode-toggle-quotes
+
+code --install-extension  chakrounanas.turbo-console-log
+
+code --install-extension  visualstudioexptteam.vscodeintellicode
+
+code --install-extension shyykoserhiy.vscode-spotify
+
+code --install-extension  jpoissonnier.vscode-styled-components
+
+code --install-extension  midnightsyntax.vscode-wrap-console-log
+
+```
+
+##### press Enter
+
+Wait patiently as this may takes awhile.🧐
+
+After awhile everything should be installed. 😊
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## 7. Setting up Node with nvm
+
+
+next we will setup node with nvm 
+
+
+### (note: I use node version 12.16.2 if you want use latest version or any other version you're welcome to do so.)
+
+
+
+##### example 1 (setting up Node with version 12.16.2) :
+
+
+```
+nvm install "v12.16.2"
+```
+
+##### press Enter
+
+type the following into iTerm2:
+
+```
+nvm use "v12.16.2"
+```
+
+#### press Enter
+
+### example 2 (setting up Node with your desired version) :
+
+type the following into iTerm2:
+
+```
+nvm install "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
+```
+
+##### press Enter
+
+type the following into iTerm2:
+
+```
+nvm use "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
+```
+
+### example 3 (setting up Node with the latest available version) :
+
+type the following into iTerm2:
+
+```
+ nvm install node
+ ```
+##### press Enter
+ 
+type the following into iTerm2:
+ 
+ ```
+  nvm use node
+  
+ ```
+##### press Enter
+
+to check node version type the following into iTerm2 :
+
+```
+node --version
+```
+
+#### press Enter
+
+### iTerm2 Should return:
+
+#### v12.16.2 
+
+or 
+
+#### v"YOUR_DESIRED_NODE_VERSION_NUMBER" 
+
+or 
+
+#### v"LATEST_NODE_VERSION"
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## 8. Setting up Eslint + Prettier with Airbnb Style Guide
+
+
+type the following into iTerm2:
+
+ 
 ```
 cd
 ```
-### press Enter
 
-type in iTerm2:
+##### press Enter
+
+type the following into iTerm2:
+
 
 ```
 mkdir eslint
 ```
-### press Enter
+
+##### press Enter
 
 
-type in terminal 
+type the following into iTerm2:
+
 
 ```
 cd eslint
 ```
-press enter
 
-type in terminal 
+##### press Enter
+
+type all of the following into iTerm2 at once:
 
 ```
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
@@ -700,125 +784,127 @@ npm init -y
 eslint --init
 ```
 
-### press enter
+##### press Enter
 
 scroll down with arrow keys to choose
 
 ❯ To check syntax, find problems, and enforce code style
 
-press Enter
+##### press Enter
 
 choose 
 
 ❯  JavaScript modules (import/export)
  
- press enter
+##### press Enter
 
 
 choose 
 
 React
 
-press enter
+##### press Enter
 
 choose
 
- No
+No
  
- ## press enter
+##### press Enter
  
- ### choose both  ( move down with arrow keys,  press space, make sure both check marks are green)
+#### choose both  ( move down with arrow keys,  press space, make sure both check marks are green)
  
 ✅ Browser
 
 ✅ Node
 
-### press enter
+##### press Enter
 
 
-### choose 
+choose 
 
 ❯ Use a popular style guide
 
-### press enter
+##### press Enter
 
 
 
-### choose 
+choose 
 
 ❯ Airbnb: https://github.com/airbnb/javascript
 
- ### press enter
+##### press Enter
  
- ### choose
+choose
  
  ❯ JSON
  
- press enter
+##### press Enter
 
-
-
- 
- ### choose
+choose
  
  Yes
  
- ### press enter
+##### press Enter
 
-### type in terminal 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 9. Adding SSH-KEY to github account
+
+
+type the following into iTerm2:
 
 ```
 cd
 ```
-### press enter
+##### press Enter
 
-### type in terminal
+type the following into iTerm2:
 
 ```
 ssh-keygen -t ed25519 -C "babenko.elias@gmail.com"
 ```
 
-### Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [Press enter]
+#### Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [Press enter]
 
-### Enter passphrase (empty for no passphrase): [Type a passphrase]
-### Enter same passphrase again: [Type passphrase again]
+#### Enter passphrase (empty for no passphrase): [Type a passphrase]
+#### Enter same passphrase again: [Type passphrase again]
 
 
-### type in terminal 
+type the following into iTerm2:
 
 ```
 eval "$(ssh-agent -s)"
 ```
 
-### press ENTER
+##### press Enter
 
 
-### type in terminal 
+type the following into iTerm2:
 
 ```
 open ~/.ssh/config
 ```
 
-### press Enter
+##### press Enter
 
-### if file doesnt exist type in terminal
+#### if file doesnt exist type the following into iTerm2:
 
 ```
 touch ~/.ssh/config
 ```
 
-### press Enter
+##### press Enter
 
-### next type in terminal
+type the following into iTerm2:
 
 ```
 open ~/.ssh/config
 ```
 
-### press Enter
+##### press Enter
 
 
-### in ~/.ssh/config file type this in:
+#### in ~/.ssh/config file type the following all:
 
 ```
 Host *
@@ -830,66 +916,66 @@ Host *
   IdentityFile ~/.ssh/id_ed25519
 ``` 
  
-### press Command+S
+##### press Command + S
+
+close .ssh/config by clicking red ❌ or by:
+
+##### click inside of .ssh/config
+
+##### press command + Q
+
  
-### go back to terminal and type in
+go back to iTerm2 and type the following :
  ```
  ssh-add -K ~/.ssh/id_ed25519
  ```
- ### press enter
+ ##### press Enter
  
- ### type in the password you used above
+type in the same password you used above for Keychains
  
- ### press Enter
+ ##### press Enter
  
- ### type the password agian if necessary
+ #### type the password agian if necessary
  
- ### press Enter
+ ##### press Enter
  
- ### now type in terminal 
+type the following into iTerm2:
  
  ```
  pbcopy < ~/.ssh/id_ed25519.pub
  ```
  
- ### press enter
+ ##### press Enter
  
- ### head over to your github account 
+ #### head over to your github account 
  
- ### login
+login
  
- ### click on your profile picture 
+ ##### click on your profile picture 
  
- ### click on settings 
+ ##### click on settings 
  
- ### click on SSH and GPG key
+ ##### click on SSH and GPG key
  
- ### Click New SSH key or Add SSH key.
+ ##### Click New SSH key or Add SSH key.
  
- ### for title write 
+for title write: 
  
  ```
  macBook
  ```
  
- ### click into key text area
+ ##### click into key text area
  
- ### press command+V 
+ ##### press command + V 
  
- ### press add SSH key
+ #### SSH-KEY should paste into key text area.
  
- ### write github password 
+ ##### press add SSH key
  
- ### lastly go to 
+ write github password 
  
- http://redquits.s3.amazonaws.com/RedQuits_v2.pkg
  
- ### downloads redquit
- 
- ### and final thin to download go to App Store
- 
- ### and search for ```Amphetamine```
- 
- ### download the app
- 
- ### you're finished, good job 😀👍
+ ## you're finished, good job 😀👍
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
