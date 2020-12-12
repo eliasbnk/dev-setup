@@ -18,14 +18,14 @@
 
 -How to set up Node with nvm
 
--How to set up eslint + prettier with airbnb style guide
+-How to set up Eslint + Prettier with Airbnb Style Guide
 
--How to add generate and add SSH key to your github account
+-How to generate SSH key and add it to your github account
 
 -And I added some useful Visual Studio Code extensions
 
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## 1. Installing Homebrew
