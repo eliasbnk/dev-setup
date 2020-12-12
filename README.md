@@ -193,53 +193,6 @@ rm -rf packages.txt
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Also I really recommend geting:
-- RedQuits:
-(if you press ❌ it preform command+Q on that Application, which unfortunately Apple did add. As if you press ❌ current Application window closes, but app is minimized into the Application Icon)
-
-To download RedQuits: http://redquits.s3.amazonaws.com/RedQuits_v2.pkg
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-- Amphetamine:
-(Keeps display awake. Very useful if you're downloading or uploading a large file, and dont want your computer to go to sleep, and end/pause the process)
-
-To download Amphetamine:
-
-##### [press command + SPACE]
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/spotlight.png)
-
-type in Spotlight:
-
-```
-App Store
-```
-
-##### [press Enter]
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/search.png)
-
-in Search bar type:
-
-```Amphetamine```
-
-##### [press Enter]
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/amphetamine.png)
-
-##### &
- 
-##### click on get
-
-##### &
-
-#### (if needed type in your iCloud password)
-
-Amphetamine should begin download
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ## 3. Installing Oh-My-Zsh
 
 type the following into Terminal: 
@@ -1238,4 +1191,50 @@ for title write:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
  ## you're finished, good job 😀👍
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+Also I really recommend geting:
+- RedQuits:
+(if you press ❌ it preform command+Q on that Application, which unfortunately Apple did add. As if you press ❌ current Application window closes, but app is minimized into the Application Icon)
+
+To download RedQuits: http://redquits.s3.amazonaws.com/RedQuits_v2.pkg
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Amphetamine:
+(Keeps display awake. Very useful if you're downloading or uploading a large file, and dont want your computer to go to sleep, and end/pause the process)
+
+To download Amphetamine:
+
+##### [press command + SPACE]
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/spotlight.png)
+
+type in Spotlight:
+
+```
+App Store
+```
+
+##### [press Enter]
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/search.png)
+
+in Search bar type:
+
+```Amphetamine```
+
+##### [press Enter]
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/amphetamine.png)
+
+##### &
+ 
+##### click on get
+
+##### &
+
+#### (if needed type in your iCloud password)
+
+Amphetamine should begin download
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
