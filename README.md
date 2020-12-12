@@ -961,12 +961,21 @@ type the following into iTerm2:
 ```
 ssh-keygen -t ed25519 -C "your_github_acount_email_email@example.com"
 ```
+#### iTerm2 will return:
 
-#### Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [press Enter]
+Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): 
 
-#### Enter passphrase (empty for no passphrase): "CHOOSE_A_PASSWORD"
-#### Enter same passphrase again: "WRITE_THE_PASSWORD_AGAIN"
+##### [press Enter]
 
+Enter passphrase (empty for no passphrase): 
+
+##### "CHOOSE_A_PASSWORD"
+
+Enter same passphrase again: 
+
+##### "WRITE_THE_PASSWORD_AGAIN"
+
+##### [press Enter]
 
 type the following into iTerm2:
 
