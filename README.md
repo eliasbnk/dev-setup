@@ -219,7 +219,9 @@ open -a iTerm
 ##### [press enter]
 
 
-#### iTerm2 should be open. We will use iTerm2 from now on. you can close Terminal by clicking red ❌ or by:
+#### iTerm2 should be open. We will use iTerm2 from now on. 
+
+#### Close Terminal by clicking red ❌ or by:
 
 ##### click inside of Terminal
 
