@@ -56,6 +56,7 @@ in Spotlight type:
 ```
 Terminal 
 ```
+##### [press Enter]
 
 to download Homebrew you need paste the following link into Terminal:
 
