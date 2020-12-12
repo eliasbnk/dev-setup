@@ -3,15 +3,25 @@
 # This file contains info on how to setup your web development enviroment. In this file I cover:
 
 -How to install homebrew.
+
 -How to install necessary Packages & useful Applications
+
 -How to install Oh-My-Zsh
+
 -How to install Spaceship Prompt Theme for your Terminal
+
 -How to add aliases & nvm to .zshrc
+
 -How to change Visual Studio Font & Settings
+
 -How to set up Node with nvm
+
 -How to set up eslint + prettier with airbnb style guide
+
 -How to add generate and add SSH key to your github account
+
 -And I added some useful Visual Studio Code extensions
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
