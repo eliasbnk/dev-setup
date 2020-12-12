@@ -280,7 +280,7 @@ alias c="clear"
 
 alias e="exit"
 
-alias dd="cd /Users/elias/project"
+alias dd="cd /Users/`whoami`/project"
 
 alias S="sudo"
 
@@ -288,7 +288,7 @@ alias vsn="code -n"
 
 alias sl="lite-server"
 
-alias app='echo -e "\033[1;32m React App Name?" && read name && cd /Users/elias/project && npx create-react-app $name &&  cd $name &&  code . && npm start'
+alias app='echo -e "\033[1;32m React App Name?" && read name && cd /Users/`whoami`/project && npx create-react-app $name &&  cd $name &&  code . && npm start'
 
 alias gra='echo -e "\033[1;32m Repository Link?" && read link &&  git remote add origin $link'
 
@@ -441,48 +441,109 @@ code --install-extension  midnightsyntax.vscode-wrap-console-log
 
 press enter
 
-type in terminal
+next we will setup node with nvm 
+### (note: I use node version 12.16.2 if you want use latest version or any other version you're welcome to do so.)
 
+
+
+### example 1 :
+
+to use version 12.16.2 type in terminal:
+```
 nvm install "v12.16.2"
+```
 
-press Enter
+### press Enter
 
-type in terminal
+type in terminal:
 
+```
 nvm use "v12.16.2"
+```
 
-press Enter
+### press Enter
+
+### example 2 :
+
+to use some other node version:
+
+```
+nvm install "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
+```
+
+### press Enter
+type in terminal:
+
+```
+nvm use "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
+```
+
+### example 3:
+to use latest available version of node:
+
+type in terminal:
+```
+ nvm install node
+ ```
+ ### press Enter
+ 
+ type in terminal:
+ 
+ ```
+  nvm use node
+  
+ ```
+### press Enter
+
+
+
 
 check node version by typing in
 
+```
 node --version
-
-press Enter
+```
+### press Enter
 
 Terminal Should return
 
-v12.16.2
+v12.16.2 or v"YOUR_DESIRED_NODE_VERSION_NUMBER" or v"LATEST_NODE_VERSION"
 
 next type in terminal
 
-vs
+```
+vs 
+```
 
-press Enter
+### press Enter
 
-press Command + ,
+### press Command + ,
 
 in search type
 
+```
 settings.json
+```
 
 click on
 
-Edit in setiings.json 
+### Edit in setiings.json 
 
-remove everything and paste this into settings.json :
+remove everything that is inside settings.json to do that
+
+### press Command + A
+
+everything in settings.json should be highlighted 
+
+### press delete/backspace
+ 
 
 
-    {"workbench.colorTheme": "Monokai",
+copy and paste this into settings.json :
+```
+    {
+    
+    "workbench.colorTheme": "Monokai",
     
     "[json]": {
         
@@ -601,26 +662,30 @@ remove everything and paste this into settings.json :
 
     }
 
+```
 
-press Command + S
+### press Command + S
 
 go back to terminal and type in
 
+```
 cd
+```
+### press Enter
 
-press enter
+type in iTerm2:
 
-type in terminal
-
+```
 mkdir eslint
-
-press enter
+```
+### press Enter
 
 
 type in terminal 
 
+```
 cd eslint
-
+```
 press enter
 
 type in terminal 
