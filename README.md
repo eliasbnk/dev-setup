@@ -969,11 +969,17 @@ Enter a file in which to save the key (/Users/you/.ssh/id_ed25519):
 
 Enter passphrase (empty for no passphrase): 
 
-##### "CHOOSE_A_PASSWORD"
+##### "CHOOSE_AND_TYPE_A_PASSWORD"
+
+##### &
+
+##### [press Enter]
 
 Enter same passphrase again: 
 
-##### "WRITE_THE_PASSWORD_AGAIN"
+##### "WRITE_THE_SAME_PASSWORD_AGAIN"
+
+##### &
 
 ##### [press Enter]
 
