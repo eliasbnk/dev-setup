@@ -25,6 +25,19 @@
 -And I added some useful Visual Studio Code extensions
 
 
+
+## p.s. When I say type, I actually mean copy [press command + C] + paste [press command + V] 😁
+
+## Had to say "type" because there are people who don't know how to use copy + paste.
+
+## On that note, 
+
+# Disclaimer:
+
+# All information provided in this manual is for general informational purposes only. You agree that you use such information entirely at your own risk. Under no circumstances will I be held responsible or liable in any way for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss of profits, business interruption or loss of information) resulting or arising directly or indirectly from your use of or inability to use this manual. 
+
+# This manual is dumbed done to my granny's level. So if you mess your machine up, you must be a talented genius 😂
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -34,7 +47,7 @@ First thing you want to do is open your Terminal
 
 to open terminal
 
-##### press command + SPACE
+##### [press command + SPACE]
 
 in Spotlight type:
 
@@ -48,15 +61,15 @@ to download Homebrew you need paste the following link into Terminal:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-##### press Enter
+##### [press Enter]
 
 ##### &
 
-#### when/if prompted press Enter again 
+#### when/if prompted [press Enter] again 
 
 Wait patiently as this may takes a while.🧐
 
-After awhile Homebrew should be installed. 😊
+After a little awhile Homebrew should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -67,7 +80,7 @@ type the following into Terminal:
  ```
 cd Desktop
  ```
-##### press Enter
+##### [press Enter]
  
 type the following into Terminal: 
  
@@ -75,7 +88,7 @@ type the following into Terminal:
  touch packages.txt
  ```
  
-##### press Enter
+##### [press Enter]
  
 type the following into Terminal:
   
@@ -83,7 +96,7 @@ type the following into Terminal:
   open packages.txt
   ```
   
-##### press Enter
+##### [press Enter]
   
 type the following into packages.txt:
  
@@ -120,7 +133,7 @@ nvm
 
 ```
 
-##### press command + S 
+##### [press command + S] 
 
 close packages.txt by clicking red ❌ or by:
 
@@ -128,7 +141,7 @@ close packages.txt by clicking red ❌ or by:
 
 ##### &
 
-##### press command + Q
+##### [press command + Q]
 
 
 type all of the following into Terminal at once: 
@@ -139,11 +152,11 @@ brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
 ```
 
-##### press Enter
+##### [press Enter]
 
 Wait patiently as this may takes a while.🧐
 
-After awhile all Packages & Applications will be installed. 😊
+After a little awhile all Packages & Applications should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -158,7 +171,7 @@ To download RedQuits: http://redquits.s3.amazonaws.com/RedQuits_v2.pkg
 
 To download Amphetamine:
 
-##### press command + SPACE
+##### [press command + SPACE]
 
 type in Spotlight:
 
@@ -166,13 +179,13 @@ type in Spotlight:
 App Store
 ```
 
-##### press Enter
+##### [press Enter]
  
 in Search bar type:
 
 ```Amphetamine```
 
-##### press Enter
+##### [press Enter]
 
 ##### &
  
@@ -194,7 +207,7 @@ type the following into Terminal:
 open -a iTerm
 ```
 
-##### press enter
+##### [press enter]
 
 
 #### iTerm2 should be open. We will use iTerm2 from now on. you can close Terminal by clicking red ❌ or by:
@@ -203,7 +216,7 @@ open -a iTerm
 
 ##### &
 
-##### press command + Q
+##### [press command + Q]
 
 to install oh-my-zsh type the following link into iTerm2: 
 
@@ -211,7 +224,7 @@ to install oh-my-zsh type the following link into iTerm2:
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-##### press Enter
+##### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -223,7 +236,7 @@ to install Spaceship Prompt Theme type the following link into iTerm2:
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 ```
 
-##### press Enter
+##### [press Enter]
 
 type the following link into iTerm2: 
 
@@ -231,7 +244,7 @@ type the following link into iTerm2:
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme" 
 ```
 
-##### press Enter
+##### [press Enter]
 
 type the following into iTerm2: 
 
@@ -245,7 +258,7 @@ code ~/.zshrc
 
 ##### &
 
-##### press command + F
+##### [press command + F]
 
 type in Find bar:
 
@@ -287,7 +300,7 @@ type the following right under ZSH_THEME:
 
 to remove git plugin:
 
-##### press command + F
+##### [press command + F]
 
 type in Find bar:
 
@@ -401,11 +414,11 @@ alias gru='git remote update'
 ```
 
 
-##### press command + S 
+##### [press command + S] 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Changing Visual Studio Font & Settings
+### Changing Visual Studio Code's Font, Theme, and Layout.
 
 inside Visual Studio Code
 
@@ -423,11 +436,11 @@ settings.json
 
 ##### remove everything that is inside of settings.json to do that:
 
-##### press Command + A
+##### [press Command + A]
 
 #### everything in settings.json should be highlighted
 
-##### press delete/backspace
+##### [press delete/backspace]
  
 #### settings.json should now be empty.
  
@@ -557,7 +570,7 @@ type the following into settings.json:
 
 ```
 
-##### press Command + S
+##### [press Command + S]
 
  close Visual Studio Code by clicking red ❌ or by:
 
@@ -565,7 +578,7 @@ type the following into settings.json:
 
 ##### &
 
-##### press command + Q
+##### [press command + Q]
 
 go back into iTerm2 
 
@@ -581,12 +594,12 @@ source ~/.zshrc
 
 ```
 
-##### press Enter
+##### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## 6. Installing Visual Studio Extensions
+## 6. Installing Visual Studio Extensions.
 
 
 in iTerm2 type all of the following at once:
@@ -685,17 +698,17 @@ code --install-extension  midnightsyntax.vscode-wrap-console-log
 
 ```
 
-##### press Enter
+##### [press Enter]
 
 Wait patiently as this may takes awhile.🧐
 
-After awhile everything should be installed. 😊
+After a little awhile all Visual Studio Extensions should be installed. 😊
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## 7. Setting up Node with nvm
+## 7. Setting up Node with nvm.
 
 
 next we will setup node with nvm 
@@ -720,7 +733,7 @@ type the following into iTerm2:
 nvm use "v12.16.2"
 ```
 
-#### press Enter
+#### [press Enter]
 
 ### example 2 (setting up Node with your desired version) :
 
@@ -730,7 +743,7 @@ type the following into iTerm2:
 nvm install "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
 ```
 
-##### press Enter
+##### [press Enter]
 
 type the following into iTerm2:
 
@@ -745,7 +758,7 @@ type the following into iTerm2:
 ```
  nvm install node
  ```
-##### press Enter
+##### [press Enter]
  
 type the following into iTerm2:
  
@@ -753,7 +766,7 @@ type the following into iTerm2:
   nvm use node
   
  ```
-##### press Enter
+##### [press Enter]
 
 to check node version type the following into iTerm2 :
 
@@ -761,7 +774,7 @@ to check node version type the following into iTerm2 :
 node --version
 ```
 
-#### press Enter
+#### [press Enter]
 
 ### iTerm2 Should return:
 
@@ -779,7 +792,7 @@ or
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## 8. Setting up Eslint + Prettier with Airbnb Style Guide
+## 8. Setting up Eslint + Prettier with Airbnb Style Guide.
 
 
 type the following into iTerm2:
@@ -789,7 +802,7 @@ type the following into iTerm2:
 cd
 ```
 
-##### press Enter
+##### [press Enter]
 
 type the following into iTerm2:
 
@@ -798,7 +811,7 @@ type the following into iTerm2:
 mkdir eslint
 ```
 
-##### press Enter
+##### [press Enter]
 
 
 type the following into iTerm2:
@@ -808,7 +821,7 @@ type the following into iTerm2:
 cd eslint
 ```
 
-##### press Enter
+##### [press Enter]
 
 type all of the following into iTerm2 at once:
 
@@ -822,32 +835,32 @@ npm init -y
 eslint --init
 ```
 
-##### press Enter
+##### [press Enter]
 
 scroll down with arrow keys to choose
 
 ❯ To check syntax, find problems, and enforce code style
 
-##### press Enter
+##### [press Enter]
 
 choose 
 
 ❯  JavaScript modules (import/export)
  
-##### press Enter
+##### [press Enter]
 
 
 choose 
 
 ❯ React
 
-##### press Enter
+##### [press Enter]
 
 choose
 
 No
  
-##### press Enter
+##### [press Enter]
  
 #### choose both  ( move down with arrow keys,  press space to select, make sure both check marks are green)
  
@@ -855,14 +868,14 @@ No
 
 ✅ Node
 
-##### press Enter
+##### [press Enter]
 
 
 choose 
 
 ❯ Use a popular style guide
 
-##### press Enter
+##### [press Enter]
 
 
 
@@ -870,23 +883,23 @@ choose
 
 ❯ Airbnb: https://github.com/airbnb/javascript
 
-##### press Enter
+##### [press Enter]
  
 choose
  
  ❯ JSON
  
-##### press Enter
+##### [press Enter]
 
 choose
  
  Yes
  
-##### press Enter
+##### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 9. Adding SSH-KEY to github account
+## 9. Adding SSH-KEY to github account.
 
 
 type the following into iTerm2:
@@ -894,7 +907,7 @@ type the following into iTerm2:
 ```
 cd
 ```
-##### press Enter
+##### [press Enter]
 
 type the following into iTerm2:
 
@@ -904,8 +917,8 @@ ssh-keygen -t ed25519 -C "your_github_acount_email_email@example.com"
 
 #### Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [press Enter]
 
-#### Enter passphrase (empty for no passphrase): [type a Passphrase]
-#### Enter same passphrase again: [type Passphrase Again]
+#### Enter passphrase (empty for no passphrase): "CHOOSE_A_PASSWORD"
+#### Enter same passphrase again: "WRITE_THE_PASSWORD_AGAIN"
 
 
 type the following into iTerm2:
@@ -914,7 +927,7 @@ type the following into iTerm2:
 eval "$(ssh-agent -s)"
 ```
 
-##### press Enter
+##### [press Enter]
 
 
 type the following into iTerm2:
@@ -923,7 +936,7 @@ type the following into iTerm2:
 open ~/.ssh/config
 ```
 
-##### press Enter
+##### [press Enter]
 
 #### if file doesnt exist type the following into iTerm2:
 
@@ -931,7 +944,7 @@ open ~/.ssh/config
 touch ~/.ssh/config
 ```
 
-##### press Enter
+##### [press Enter]
 
 type the following into iTerm2:
 
@@ -939,7 +952,7 @@ type the following into iTerm2:
 open ~/.ssh/config
 ```
 
-##### press Enter
+##### [press Enter]
 
 
 #### in ~/.ssh/config file type the following all:
@@ -954,7 +967,7 @@ Host *
   IdentityFile ~/.ssh/id_ed25519
 ``` 
  
-##### press Command + S
+##### [press Command + S]
 
 close .ssh/config by clicking red ❌ or by:
 
@@ -962,18 +975,18 @@ close .ssh/config by clicking red ❌ or by:
 
 ##### &
 
-##### press command + Q
+##### [press command + Q]
 
  
 go back to iTerm2 and type the following :
  ```
  ssh-add -K ~/.ssh/id_ed25519
  ```
- ##### press Enter
+ ##### [press Enter]
  
 type in the same password you used above for Keychains
  
- ##### press Enter
+ ##### [press Enter]
  
  ##### &
  
@@ -981,7 +994,7 @@ type in the same password you used above for Keychains
  
  ##### &
  
- ##### if necessary press Enter again
+ ##### if necessary [press Enter] again
  
 type the following into iTerm2:
  
@@ -989,7 +1002,7 @@ type the following into iTerm2:
  pbcopy < ~/.ssh/id_ed25519.pub
  ```
  
- ##### press Enter
+ ##### [press Enter]
  
  #### head over to your github account 
  
@@ -1019,7 +1032,7 @@ for title write:
  
   ##### &
  
- ##### press command + V 
+ ##### [press command + V]
  
   ##### &
  
@@ -1029,7 +1042,9 @@ for title write:
  
  ##### press add SSH key
  
- write github password 
+ enter in your github password 
+ 
+  ##### [press Enter]
  
  
  ## you're finished, good job 😀👍
