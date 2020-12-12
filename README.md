@@ -1,4 +1,16 @@
-First thing you want to do is open your terminal and download Homebrew.
+First thing you want to do is open your terminal 
+
+to open terminal
+
+press command+SPACE
+
+in spotlight type in
+
+terminal 
+
+press Enter
+
+next we are going to download Homebrew
 
 to do that paste this into your terminal
 
