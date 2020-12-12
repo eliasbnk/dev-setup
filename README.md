@@ -187,6 +187,8 @@ in Search bar type:
 
 ##### [press Enter]
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/amphetamine.png)
+
 ##### &
  
 ##### click on get
@@ -269,6 +271,7 @@ ZSH_THEME
 
 #### VS CODE should highlight ZSH_THEME 
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ZSH_THEME.png)
 
 change your ZSH_THEME 
 
@@ -290,6 +293,8 @@ while we are in ~/.zshrc lets add couple more things:
 
 type the following right under ZSH_THEME:
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/nvm.png)
+
 ```
  export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  
@@ -310,9 +315,13 @@ plugins
 
 #### VS CODE should highlight plugins 
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/plugins1.png)
+
 remove everything inside of the brackets () after plugins=
 
 plugins should look like: 
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/plugins2.png)
 
 ```
 plugins=()
@@ -324,6 +333,7 @@ plugins=()
 
 scroll all the way down to the bottom/end of the .zshrc file, and type all of the following:
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/aliases.png)
 
 ```
 alias gap="git add -p"
@@ -431,6 +441,8 @@ settings.json
 ```
 
 ##### click on Edit in setiings.json 
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/setting3.png)
 
 ##### &
 
@@ -837,18 +849,25 @@ eslint --init
 
 ##### [press Enter]
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint1.png)
+
 scroll down with arrow keys to choose
 
 ❯ To check syntax, find problems, and enforce code style
 
+
 ##### [press Enter]
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint2.png)
 
 choose 
 
 ❯  JavaScript modules (import/export)
- 
+
+
 ##### [press Enter]
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint3.png)
 
 choose 
 
@@ -856,11 +875,15 @@ choose
 
 ##### [press Enter]
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint4.png)
+
 choose
 
 No
  
 ##### [press Enter]
+ 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint5.png)
  
 #### choose both  ( move down with arrow keys,  press space to select, make sure both check marks are green)
  
@@ -870,6 +893,7 @@ No
 
 ##### [press Enter]
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint6.png)
 
 choose 
 
@@ -877,19 +901,23 @@ choose
 
 ##### [press Enter]
 
-
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint7.png)
 
 choose 
 
 ❯ Airbnb: https://github.com/airbnb/javascript
 
 ##### [press Enter]
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint8.png)
  
 choose
  
  ❯ JSON
  
 ##### [press Enter]
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint9.png)
 
 choose
  
@@ -1016,10 +1044,13 @@ login
  
  ##### &
  
+ ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh1.png)
+ 
  ##### click on SSH and GPG key
  
  ##### &
  
+  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh3.png)
  ##### Click New SSH key or Add SSH key
  
 for title write: 
@@ -1027,7 +1058,7 @@ for title write:
  ```
  macBook
  ```
- 
+   ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh2.png)
  ##### click into key text area
  
   ##### &
