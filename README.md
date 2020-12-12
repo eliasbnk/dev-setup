@@ -65,6 +65,8 @@ press command + f
 
 type in ZSH_THEME
 
+press enter
+
 VS CODE should highlight ZSH_THEME 
 
 change your theme from
@@ -83,7 +85,11 @@ this is for nvm, type this under ZSH_THEME
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
-next press command + F plugins 
+next press command + F
+
+type in plugins 
+
+press enter
 
 and remove everything inside the brackets
 
