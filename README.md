@@ -22,9 +22,92 @@ Homebrew should be installed
 
  
 type this into your terminal 
+ 
+ cd Desktop
+ 
+ press enter
+ 
+ type this into your terminal 
+ 
+ touch packages.txt
+ 
+ press enter
+ 
+  type this into your terminal 
+  
+  open packages.txt
+  
+  press enter
+  
+  type this into packages.txt:
+ 
+ alfred 
+ 
+ flux
+ 
+ visual-studio-code 
+ 
+ bartender  
+ 
+ brave-browser 
+ 
+ google-chrome 
+ 
+ spectacle 
+ 
+ zoomus
+ 
+ cheatsheet 
+ 
+ iterm2 
+ 
+ hyperswitch
+ 
+ spotify
+ 
+ expressvpn
+ 
+ iterm2
+ 
+ viber 
+ 
+ oversight 
 
-brew install —cask alfred ; brew install —cask flux ; brew install —cask oversight ;  brew install —cask visual-studio-code ; brew install —cask bartender ;  brew install —cask font-fira-code ;   brew install —cask slack  ;   brew install —cask brave-browser ;   brew install —cask google-chrome ;      brew install —cask spectacle ;  brew install —cask zoomus ; brew install —cask cheatsheet  ;  brew install —cask iterm2 ;   brew install —cask hyperswitch ;   brew install —cask spotify ; brew install —cask expressvpn ;  brew install —cask iterm2  ;     brew install —cask viber ; brew install git ;	brew install node ;	 brew install nvm ;	 brew install yarn ; brew install zsh ;
+press command+S
 
+go back to terminal and type
+
+brew install --cask $(<packages.txt)
+
+press Enter
+
+after everything installs
+
+type in terminal
+
+ open packages.txt
+  
+  press enter
+  
+  remove what we wrote before and type this into packages.txt:
+
+font-fira-code
+
+git
+
+node
+
+nvm
+
+yarn
+
+zsh
+
+press command+S
+
+go back to terminal and type
+
+brew install $(<packages.txt)
 
 press Enter
 
