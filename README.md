@@ -41,67 +41,47 @@ type this into your terminal
   
   type this into packages.txt:
  
- alfred 
+ --cask alfred 
  
- flux
+ --cask flux
  
- visual-studio-code 
+ --cask visual-studio-code 
  
- bartender  
+ --cask bartender  
  
- brave-browser 
+ --cask brave-browser 
  
- google-chrome 
+ --cask google-chrome 
  
- spectacle 
+ --cask spectacle 
  
- zoomus
+ --cask zoomus
  
- cheatsheet 
+ --cask cheatsheet 
  
- iterm2 
+ --cask iterm2 
  
- hyperswitch
+ --cask hyperswitch
  
- spotify
+ --cask spotify
  
- expressvpn
+ --cask expressvpn
  
- iterm2
+ --cask iterm2
  
- viber 
+ --cask viber 
  
- oversight 
-
-press command+S
-
-go back to terminal and type
-
-brew install --cask $(<packages.txt)
-
-press Enter
-
-after everything installs
-
-type in terminal
-
- open packages.txt
-  
-  press enter
-  
-  remove what we wrote before and type this into packages.txt:
-
-font-fira-code
-
 git
 
-node
 
-nvm
 
 yarn
 
 zsh
+
+ nvm
+ 
+--cask oversight 
 
 press command+S
 
@@ -110,6 +90,9 @@ go back to terminal and type
 brew install $(<packages.txt)
 
 press Enter
+
+after everything installs
+
 
 type this into your terminal 
 
