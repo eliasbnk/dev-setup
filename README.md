@@ -82,47 +82,89 @@ plugins=()
 next scroll all the way down to the end of the file and add these aliases
 
 alias gap="git add -p"
+
 alias gaa="git add ."
+
 alias gd="git diff"
+
 alias gi="git init"
+
 alias gl="git log"
+
 alias gpll="git pull"
+
 alias gp="git push"
+
 alias gpom="git push origin master"
+
 alias gss="git status -s"
+
 alias gcl="git clone"
+
 alias path='echo -e ${PATH//:/\\n}'
+
 alias ns="npm install"
+
 alias yad="yarn add"
+
 alias ni="npm init -y"
+
 alias spotify="open -a Spotify"
+
 alias slack="open -a Slack"
+
 alias sett='open -a "System Preferences"'
-alias vscode='open -a "Visual Studio Code"'
+
+alias vs='open -a "Visual Studio Code"'
+
 alias viber="open -a Viber"
+
 alias trel="open -a Trello"
+
 alias appst='open -a "App Store"'
+
 alias gcb="git checkout -b"
+
 alias gc="git checkout"
+
 alias a="code"
-alias c="code ."
+
+alias aa="code ."
+
 alias ns="npm start"
+
 alias nr="npm run"
+
 alias l="ls" # List files in current directory
+
 alias ll="ls -al" # List all files in current directory in long list format
+
 alias oo ="open ."
+
 alias o="open" # Open the current directory in Finder
+
 alias c="clear"
+
 alias e="exit"
+
 alias dd="cd /Users/elias/project"
+
 alias S="sudo"
+
 alias vsn="code -n"
+
 alias sl="lite-server"
+
 alias app='echo -e "\033[1;32m React App Name?" && read name && cd /Users/elias/project && npx create-react-app $name &&  cd $name &&  code . && npm start'
+
 alias gra='echo -e "\033[1;32m Repository Link?" && read link &&  git remote add origin $link'
+
 alias gfp='echo -e "\033[1;32m To which Repository-Branch do you want to push?" && read branch && git fetch origin $branch && git push -uf origin $branch'
+
 alias gcm='echo -e "\033[1;32m What is your commit message (what have you done, changed, or need to do) ?" && read message && git commit -m "$message"'
+
 alias gs='git status -uno'
+
 alias gru='git remote update'
 
 press command+S 
@@ -239,7 +281,7 @@ v12.16.2
 
 next type in terminal
 
-vscode
+vs
 
 press Enter
 
@@ -340,6 +382,105 @@ remove everything and paste this into settings.json :
 press Command + S
 
 go back to terminal and type in
+
+cd
+
+press enter
+
+type in terminal
+
+mkdir eslint
+
+press enter
+
+
+type in terminal 
+
+cd eslint
+
+press enter
+
+type in terminal 
+
+npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
+
+press enter
+
+next type into terminal 
+
+npx install-peerdeps --dev eslint-config-airbnb
+
+press enter
+
+type into terminal
+
+eslint --init
+
+press enter
+
+scroll down with arrow keys to choose
+
+❯ To check syntax, find problems, and enforce code style
+
+press Enter
+
+choose 
+
+❯  JavaScript modules (import/export)
+ 
+ press enter
+
+
+choose 
+
+React
+
+press enter
+
+choose
+
+ No
+ 
+ press enter
+ 
+ choose both  ( move down with arrow keys,  press space, make sure both check marks are green)
+ 
+✅ Browser
+✅ Node
+
+press enter
+
+
+choose 
+
+❯ Use a popular style guide
+
+press enter
+
+choose 
+❯ Airbnb: https://github.com/airbnb/javascript
+
+ press enter
+ 
+ choose
+ 
+ ❯ JSON
+ 
+ press enter
+ 
+ choose
+ 
+ Yes
+ 
+ press enter
+
+type in terminal 
+
+cd
+
+press enter
+
+type in terminal
 
 ssh-keygen -t ed25519 -C "babenko.elias@gmail.com"
 
