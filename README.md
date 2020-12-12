@@ -49,6 +49,8 @@ to open terminal
 
 ##### [press command + SPACE]
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/spotlight.png)
+
 in Spotlight type:
 
 ```
@@ -173,6 +175,8 @@ To download Amphetamine:
 
 ##### [press command + SPACE]
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/spotlight.png)
+
 type in Spotlight:
 
 ```
@@ -180,7 +184,9 @@ App Store
 ```
 
 ##### [press Enter]
- 
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/search.png)
+
 in Search bar type:
 
 ```Amphetamine```
@@ -262,6 +268,8 @@ code ~/.zshrc
 
 ##### [press command + F]
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/find.png)
+
 type in Find bar:
 
 ```
@@ -306,6 +314,8 @@ type the following right under ZSH_THEME:
 to remove git plugin:
 
 ##### [press command + F]
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/find.png)
 
 type in Find bar:
 
@@ -432,9 +442,15 @@ alias gru='git remote update'
 
 inside Visual Studio Code
 
+
+
 ##### press Command + ,
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/settings7.png)
+
 in Search bar type:
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/settings5.png)
 
 ```
 settings.json
