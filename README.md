@@ -4,7 +4,7 @@
 
 ## In this file I cover:
 
--How to install homebrew.
+-How to install Homebrew
 
 -How to install necessary Packages & useful Applications
 
