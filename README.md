@@ -169,6 +169,10 @@ brew install --cask font-fira-code
 
 ##### [press Enter]
 
+#### if prompted for Password input your Password
+
+#### if prompted to input your Password, after inputing Password [press Enter]  
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
