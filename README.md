@@ -198,54 +198,103 @@ press Enter
 copy and paste the following into vscode-extensions.txt :
 
 patbenatar.advanced-new-file
+
 gluons.vscode-atom-javascript-snippet
+
 formulahendry.auto-close-tag
+
 formulahendry.auto-rename-tag
+
 mgmcdermott.vscode-language-babel
+
 aaron-bond.better-comments
+
 thekalinga.bootstrap4-vscode
+
 coenraads.bracket-pair-colorizer-2
+
 wmaurer.change-case
+
 streetsidesoftware.code-spell-checker
+
 vmsynkov.colonize
+
 kamikillerto.vscode-colorize
+
 pranaygp.vscode-css-peek
+
 msjsdiag.debugger-for-chrome
+
 usernamehw.errorlens
+
 dbaeumer.vscode-eslint
+
 toba.vsfire
+
 tombonnike.vscode-status-bar-format-toggle
+
 waderyan.gitblame
+
 mhutchie.git-graph
+
 donjayamanne.githistory
+
 felipecaputo.git-project-manager
+
 eamodio.gitlens
+
 fabiospampinato.vscode-highlight
+
 vincaslt.highlight-matching-tag
+
 abusaidm.html-snippets
+
 oderwat.indent-rainbow
+
 sirtori.indenticator
+
 zignd.html-css-class-completion
+
 xabikos.javascriptsnippets
+
 akamud.vscode-javascript-snippet-pack
+
 ritwickdey.liveserver
+
 pkief.material-icon-theme
+
 ibm.output-colorizer
+
 ionutvmi.path-autocomplete
+
 christian-kohler.path-intellisense
+
 esbenp.prettier-vscode
+
 rvest.vs-code-prettier-eslint
+
 jundat95.react-native-snippet
+
 equimper.react-native-react-redux
+
 burkeholland.simple-react-snippets
+
 joeberria.statusbarerror
+
 rafamel.subtle-brackets
+
 wayou.vscode-todo-highlight
+
 britesnow.vscode-toggle-quotes
+
 chakrounanas.turbo-console-log
+
 visualstudioexptteam.vscodeintellicode
+
 shyykoserhiy.vscode-spotify
+
 jpoissonnier.vscode-styled-components
+
 midnightsyntax.vscode-wrap-console-log
 
 press command+S
@@ -300,81 +349,119 @@ remove everything and paste this into settings.json :
 
 {
     "workbench.colorTheme": "Monokai",
+    
     "[json]": {
-        
-
-
-
-
-
-
+       
         "editor.quickSuggestions": {
+        
             "strings": true
         },
-        "editor.suggest.insertMode": "replace",
-   
-       
-            
         
+        "editor.suggest.insertMode": "replace",
         
     },
-    
     
     "window.zoomLevel": 0,
    
     "editor.formatOnType": true,
+    
     "editor.fontSize": 12,
+    
     "editor.fontWeight": "normal",
    
-    
         "editor.fontFamily": "Fira Code",
+        
         "editor.fontLigatures": true,
+        
     "editor.tokenColorCustomizations":{
+    
         "textMateRules": [
+        
             {
+            
                 "name": "comment",
+                
                 "scope": [
+                
                     "comment"
+                    
                 ],
+                
                 "settings": {
+                
                     "fontStyle": "italic"
+                    
                 }
+                
             },
+            
             {
                 "name": "Keyword Storage",
+                
                 "scope": [
+                
                     "keyword",
+                    
                     "keyword.control",
+                    
                     "storage"
+                    
                 ],
+                
                 "settings": {
+                
                     "fontStyle": "italic"
+                    
                 }
+                
             },
+            
             {
                 "name": "Entity",
+                
                 "scope": [
+                
                     "entity.name.method",
+                    
                     "entity.name.type.class",
+                    
                     "entity.other.attribute-name"
+                    
                 ],
+                
                 "settings": {
+                
                     "fontStyle": "italic"
+                  
                 }
+                
             },
+            
             {
                 "name": "Variable",
+                
                 "scope": [
+                
                     "variable.language"
+                    
                 ],
+                
                 "settings": {
+                
                     "fontStyle": "italic"
+                    
                 }
+                
             }
+            
         ]
+        
     },
+    
     "editor.matchBrackets": "always",
+    
     "editor.suggestSelection": "first",
+    
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 
     }
@@ -582,3 +669,5 @@ Host *
  and search for Amphetamine
  
  download the app
+ 
+ you're finished, good job 😀👍
