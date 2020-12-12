@@ -1,8 +1,8 @@
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # This file contains info on how to setup your web development enviroment. 
 
-In this file I cover:
+## In this file I cover:
 
 -How to install homebrew.
 
@@ -28,7 +28,7 @@ In this file I cover:
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## 1. INSTALL HOMEBREW
+## 1. Installing Homebrew
 
 First thing you want to do is open your Terminal 
 
@@ -36,7 +36,7 @@ to open terminal
 
 ##### press command + SPACE
 
-in spotlight type:
+in Spotlight type:
 
 ```
 Terminal 
@@ -54,13 +54,13 @@ to download Homebrew you need paste the following link into Terminal:
 
 Wait patiently as this may takes a while.🧐
 
-After awhile Homebrew should be installed 😊
+After awhile Homebrew should be installed. 😊
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 2.Installing Packages & Applications
+## 2. Installing Packages & Applications
 
-type this into Terminal: 
+type the following into Terminal: 
  
  ```
 cd Desktop
@@ -115,8 +115,6 @@ yarn
 zsh
 
 nvm
- 
---cask oversight 
 
 ```
 
@@ -124,12 +122,12 @@ nvm
 
 close packages.txt by clicking red ❌ or by:
 
-click inside of packages.txt
+##### click inside of packages.txt
 
 ##### press command + Q
 
 
-type all of the following into Terminal at once : 
+type all of the following into Terminal at once: 
 
 ```
 brew install $(<packages.txt)
@@ -141,7 +139,7 @@ brew install --cask font-fira-code
 
 Wait patiently as this may takes a while.🧐
 
-After awhile everything should be installed 😊
+After awhile all Packages & Applications will be installed. 😊
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -158,7 +156,7 @@ to download Amphetamine:
 
 ##### press command + SPACE
 
-type in spotlight:
+type in Spotlight:
 
 ```
 App Store
@@ -166,12 +164,15 @@ App Store
 
 ##### press Enter
  
-in search bar type ```Amphetamine```
+in Search bar type:
+
+```Amphetamine```
 
 ##### press Enter
  
-click on get
-(if needed type in your iCloud password)
+##### click on get
+
+#### (if needed type in your iCloud password)
 
 Amphetamine should begin download
 
@@ -188,9 +189,9 @@ open -a iTerm
 ##### press enter
 
 
-#### iTerm should be open we will use it from now on. you can close Terminal by clicking red ❌ or by:
+#### iTerm2 should be open. We will use iTerm2 from now on. you can close Terminal by clicking red ❌ or by:
 
-click inside of Terminal
+##### click inside of Terminal
 
 ##### press command + Q
 
@@ -206,7 +207,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 ## 4. Installing Spaceship Prompt Theme for iTerm2(Terminal)
 
-type this link into iTerm2:
+to install Spaceship Prompt Theme type the following link into iTerm2:
 
 ```
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
@@ -214,7 +215,7 @@ git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/theme
 
 ##### press Enter
 
-type this link into iTerm2: 
+type the following link into iTerm2: 
 
 ```
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme" 
@@ -222,7 +223,7 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 
 ##### press Enter
 
-type this into iTerm2: 
+type the following into iTerm2: 
 
 ```
 code ~/.zshrc
@@ -230,7 +231,7 @@ code ~/.zshrc
 
 #### .zshrc should open in Visual Studio Code
 
-click inside Visual Studio Code
+##### click inside Visual Studio Code
 
 ##### press command + F
 
@@ -244,11 +245,17 @@ ZSH_THEME
 #### VS CODE should highlight ZSH_THEME 
 
 
-change your ZSH_THEME: 
+change your ZSH_THEME 
 
- from ZSH_THEME="robbyrussell" to ```ZSH_THEME="spaceship"```
+from:
+ 
+ZSH_THEME="robbyrussell" 
+ 
+to: 
+ 
+ ```ZSH_THEME="spaceship"```
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 5. Adding aliases & nvm to .zshrc, and Changing Visual Studio Font & Settings.
 
@@ -256,7 +263,7 @@ while we are in ~/.zshrc lets add couple more things:
 
 ### Adding nvm
 
-type the following right under ZSH_THEME :
+type the following right under ZSH_THEME:
 
 ```
  export NVM_DIR="$HOME/.nvm"
@@ -278,9 +285,9 @@ plugins
 
 #### VS CODE should highlight plugins 
 
-and remove everything inside of the brackets ()
+remove everything inside of the brackets () after plugins=
 
-it should look like this 
+plugins should look like: 
 
 ```
 plugins=()
@@ -289,7 +296,8 @@ plugins=()
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Adding Aliases
-scroll all the way down to the end of the file and add these aliases:
+
+scroll all the way down to the bottom/end of the .zshrc file, and type all of the following:
 
 
 ```
@@ -387,6 +395,8 @@ alias gru='git remote update'
 
 ### Changing Visual Studio Font & Settings
 
+inside Visual Studio Code
+
 ##### press Command + ,
 
 in Search bar type:
@@ -397,7 +407,7 @@ settings.json
 
 ##### click on Edit in setiings.json 
 
-remove everything that is inside of settings.json to do that:
+##### remove everything that is inside of settings.json to do that:
 
 ##### press Command + A
 
@@ -407,7 +417,7 @@ remove everything that is inside of settings.json to do that:
  
 #### settings.json should be empty.
  
-type this into settings.json :
+type the following into settings.json :
 
 ```
     {
@@ -873,7 +883,7 @@ cd
 type the following into iTerm2:
 
 ```
-ssh-keygen -t ed25519 -C "babenko.elias@gmail.com"
+ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 #### Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [Press enter]
