@@ -1185,14 +1185,17 @@ for title write:
  
  ##### press add SSH key
  
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
  enter in your github password 
  
   ##### [press Enter]
+  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
  ## you're finished, good job 😀👍
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
-Also I really recommend geting:
+Also would I really recommend geting:
 - RedQuits:
 (if you press ❌ it preform command+Q on that Application, which unfortunately Apple did add. As if you press ❌ current Application window closes, but app is minimized into the Application Icon)
 
