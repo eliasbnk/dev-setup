@@ -1225,9 +1225,9 @@ login
  ##### &
  
   
- ##### Click New SSH key or Add SSH key
+ ##### Click on New SSH key 
  
- ![alt text]()
+ ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh3.png)
  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 for title write: 
@@ -1236,7 +1236,7 @@ for title write:
  macBook
  ```
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
-  ![alt text]()
+  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh2.png)
   
 ##### click into key text area
  
