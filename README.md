@@ -72,7 +72,7 @@ to download Homebrew you need paste the following link into Terminal:
 
 ## if prompted to input your Password, after inputing your Password [press Enter] again  
 
-# after a little while Terminal will prompt you "to continue with downloading Homebrew press return = [press Enter] 
+# after a little while Terminal will prompt you "to continue with downloading Homebrew press return" = [press Enter] 
 
 Wait patiently as this may takes a while (install can take around 4-5 minutes).🧐
 
