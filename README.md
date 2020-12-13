@@ -257,7 +257,7 @@ rm -rf packages.txt
 type the following into Terminal: 
 
 ```
-defaults write com.apple.dock autohide-time-modifier -float 0
+defaults write com.apple.dock autohide-time-modifier -float 0;
 ```
 
 ##### [press enter]
