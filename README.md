@@ -252,7 +252,7 @@ rm -rf packages.txt
 ##### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Also i reccommend running these 3 commands it will make your dock appear and disappear much faster
+## This is optinal. But I really reccommend running these 3 commands it will make your dock appear and disappear much faster.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into Terminal: 
 
