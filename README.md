@@ -1236,9 +1236,7 @@ for title write:
  macBook
  ```
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
-  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh2.png)
-  
-##### click into key text area
+  ##### click into key text area
  
 ##### &
   
@@ -1251,7 +1249,11 @@ for title write:
   ##### &
  
  ##### press Add SSH key
- 
+  
+  
+  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh2.png)
+  
+
  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  enter in your github password 
