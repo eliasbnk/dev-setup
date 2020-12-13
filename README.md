@@ -47,7 +47,7 @@ First thing you want to do is open your Terminal
 
 to open terminal
 
-##### [press command + SPACE]
+### [press command + SPACE]
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/spotlight.png)
 
@@ -56,7 +56,7 @@ in Spotlight type:
 ```
 Terminal 
 ```
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -66,13 +66,13 @@ to download Homebrew you need paste the following link into Terminal:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-##### [press Enter]
+### [press Enter]
 
-##### &
+### &
 
-#### if prompted to input your Password, after inputing your Password [press Enter]  
+## if prompted to input your Password, after inputing your Password [press Enter]  
 
-#### after a little it will prompt to press return = [press Enter] 
+## after a little Terminal Will prompt to press return = [press Enter] 
 
 Wait patiently as this may takes a while (install can take around 4-5 minutes).🧐
 
@@ -88,7 +88,7 @@ type the following into Terminal:
 cd Desktop
  ```
  
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
@@ -98,9 +98,9 @@ type the following into Terminal:
  touch packages.txt
  ```
  
- #### click on open/ok/allow
+### click on open/ok/allow
  
-##### [press Enter]
+### [press Enter]
  
  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
  
@@ -110,7 +110,7 @@ type the following into Terminal:
   open packages.txt
   ```
   
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
@@ -141,12 +141,12 @@ type the following into packages.txt:
  
 ```
 
-##### [press command + S] 
+### [press command + S] 
 
 don't close packages.txt just yet we will need it in a minute:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## go back into Terminal
+# go back into Terminal
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type the following into Terminal: 
@@ -155,9 +155,9 @@ type the following into Terminal:
 brew install $(<packages.txt)
 ```
 
-##### [press Enter]
+### [press Enter]
 
-#### if prompted to input your Password, after inputing your Password [press Enter]  
+### if prompted to input your Password, after inputing your Password [press Enter]  
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -168,19 +168,19 @@ After a little awhile all Packages & Applications should be installed. 😊
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## after all Packages & Applications install
+# after all Packages & Applications install
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## go back into packages.txt
+# go back into packages.txt
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-##### remove everything that is inside of packages.txt to do that:
+## remove everything that is inside of packages.txt to do that:
 
-##### [press Command + A]
+### [press Command + A]
 
-#### everything in packages.txt should be highlighted
+## everything in packages.txt should be highlighted
 
-##### [press delete/backspace]
+### [press delete/backspace]
  
-#### packages.txt should now be empty.
+## packages.txt should now be empty.
 
 type the following into packages.txt:
 
@@ -193,27 +193,27 @@ zsh
 
 nvm
 ```
-##### [press command + S] 
+### [press command + S] 
 
-#### Close packages.txt by clicking red ❌ or by:
+## Close packages.txt by clicking red ❌ or by:
 
-##### click inside of packages.txt
+## click inside of packages.txt
 
-##### &
+### &
 
-##### [press command + Q]
+### [press command + Q]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## go back into Terminal
+# go back into Terminal
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### [press UP(⬆) arrow key]
+### [press UP(⬆) arrow key]
 
-##### &
+### &
 
-##### [press Enter]
+### [press Enter]
 
-#### if prompted to input your Password, after inputing your Password [press Enter]  
+### if prompted to input your Password, after inputing your Password [press Enter]  
 
 ## or
 
@@ -223,11 +223,11 @@ type the following into Terminal:
 brew install $(<packages.txt)
 ```
 
-##### [press Enter]
+### [press Enter]
 
-#### if prompted to input your Password, after inputing your Password [press Enter]  
+## if prompted to input your Password, after inputing your Password [press Enter]  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## after all Packages & Applications install
+# after all Packages & Applications install
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into Terminal:
 
@@ -236,12 +236,12 @@ brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
 ```
 
-##### [press Enter]
+### [press Enter]
 
-#### if prompted to input your Password, after inputing your Password [press Enter] 
+## if prompted to input your Password, after inputing your Password [press Enter] 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## after all Packages install
+# after all Packages install
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into Terminal:
 
@@ -249,12 +249,12 @@ type the following into Terminal:
 rm -rf packages.txt
 ```
 
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## This is optional. 
-### If your dock is set to auto-hide I really reccommend running these 2 commands it will make your dock appear and disappear much faster.
+# This is optional. 
+## If your dock is set to auto-hide I really reccommend running these 2 commands it will make your dock appear and disappear much faster.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into Terminal: 
 
@@ -272,7 +272,7 @@ type the following into Terminal:
 defaults write com.apple.Dock autohide-delay -float 0 && Killall Dock
 ```
 
-##### [press enter]
+### [press enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -285,19 +285,19 @@ type the following into Terminal:
 open -a iTerm
 ```
 
-##### [press enter]
+### [press enter]
 
-#### click on open/ok/allow
+### click on open/ok/allow
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## iTerm2 should be open. We will use iTerm2 from now on. 
+# iTerm2 should be open. We will use iTerm2 from now on. 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### Close Terminal by clicking red ❌ or by:
+## Close Terminal by clicking red ❌ or by:
 
-##### click inside of Terminal
+## click inside of Terminal
 
-##### &
+### &
 
-##### [press command + Q]
+### [press command + Q]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -307,7 +307,7 @@ to install oh-my-zsh type the following link into iTerm2:
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -319,7 +319,7 @@ to install Spaceship Prompt Theme type the following link into iTerm2:
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 ```
 
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -329,7 +329,7 @@ type the following link into iTerm2:
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme" 
 ```
 
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -338,19 +338,19 @@ type the following into iTerm2:
 ```
 code ~/.zshrc
 ```
-##### [press Enter]
+### [press Enter]
 
-#### click on open/ok/allow
+### click on open/ok/allow
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## .zshrc should open in Visual Studio Code
+# .zshrc should open in Visual Studio Code
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### click inside Visual Studio Code
+### click inside Visual Studio Code
 
-##### &
+### &
 
-##### [press command + F]
+### [press command + F]
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/find.png)
 
@@ -361,7 +361,7 @@ ZSH_THEME
 ```
 
 
-#### VS CODE should highlight ZSH_THEME 
+## VS CODE should highlight ZSH_THEME 
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ZSH_THEME.png)
 
@@ -381,7 +381,7 @@ to:
 
 while we are in ~/.zshrc lets add couple more things:
 
-### Adding nvm
+## Adding nvm
 
 type the following right under ZSH_THEME:
 
@@ -393,11 +393,11 @@ type the following right under ZSH_THEME:
   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  
 ```
 
-#### (note: next step: removing git plugin is optional, but it tends to clash with my aliases, so i remove it.)
+## (note: next step: removing git plugin is optional, but it tends to clash with my aliases, so i remove it.)
 
 to remove git plugin:
 
-##### [press command + F]
+### [press command + F]
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/find.png)
 
@@ -407,7 +407,7 @@ type in Find bar:
 plugins 
 ```
 
-#### VS CODE should highlight plugins 
+## VS CODE should highlight plugins 
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/plugins1.png)
 
@@ -423,7 +423,7 @@ plugins=()
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Adding Aliases
+## Adding Aliases
 
 scroll all the way down to the bottom/end of the .zshrc file, and type all of the following:
 
@@ -513,15 +513,15 @@ alias gru='git remote update'
 ```
 
 
-##### [press command + S] 
+### [press command + S] 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Changing Visual Studio Code's Font, Theme, and Layout.
+# Changing Visual Studio Code's Font, Theme, and Layout.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## inside Visual Studio Code
+# inside Visual Studio Code
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-##### press Command + ,
+### press Command + ,
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/settings7.png)
 
@@ -533,21 +533,21 @@ in Search bar type:
 settings.json
 ```
 
-##### click on Edit in setiings.json 
+### click on Edit in setiings.json 
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/setting3.png)
 
-##### &
+### &
 
-##### remove everything that is inside of settings.json to do that:
+### remove everything that is inside of settings.json to do that:
 
-##### [press Command + A]
+### [press Command + A]
 
-#### everything in settings.json should be highlighted
+### everything in settings.json should be highlighted
 
-##### [press delete/backspace]
+### [press delete/backspace]
  
-#### settings.json should now be empty.
+### settings.json should now be empty.
  
 type the following into settings.json:
 
@@ -675,18 +675,18 @@ type the following into settings.json:
 
 ```
 
-##### [press Command + S]
+### [press Command + S]
 
- close Visual Studio Code by clicking red ❌ or by:
+## close Visual Studio Code by clicking red ❌ or by:
 
-##### click inside of Visual Studio Code
+## click inside of Visual Studio Code
 
-##### &
+### &
 
-##### [press command + Q]
+### [press command + Q]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## go back into iTerm2 
+# go back into iTerm2 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type all of the following into iTerm2 at once : 
@@ -701,7 +701,7 @@ source ~/.zshrc
 
 ```
 
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -805,7 +805,7 @@ code --install-extension  midnightsyntax.vscode-wrap-console-log
 
 ```
 
-##### [press Enter]
+### [press Enter]
 
 Wait patiently as this may takes awhile.🧐
 
@@ -821,17 +821,18 @@ After a little awhile all Visual Studio Extensions should be installed. 😊
 next we will setup node with nvm 
 
 
-### (note: I use node version 12.16.2 if you want to use the latest version, or any other version of node you're welcome to do so.)
+## (note: I use node version 12.16.2 if you want to use the latest version, or any other version of node you're welcome to do so.)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### example 1: for node version 12.16.2 preform 2 following commands skip example 2 & 3:
+## example 1: for node version 12.16.2 preform 2 following commands 
+#  if you're going to set your node to verion 12.16.2 skip example 2 & 3
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into iTerm2:
 ```
 nvm install "v12.16.2"
 ```
 
-##### press Enter
+### press Enter
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into iTerm2:
 
@@ -839,10 +840,11 @@ type the following into iTerm2:
 nvm use "v12.16.2"
 ```
 
-#### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### example 2: for your desired version of node preform 2 following commands skip example 1 & 3:
+## example 2: for your desired version of node preform 2 following commands 
+# if you're going to set your node version to your desired version skip example 1 & 3
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type the following into iTerm2:
@@ -851,7 +853,7 @@ type the following into iTerm2:
 nvm install "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
 ```
 
-##### [press Enter]
+### [press Enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into iTerm2:
 
@@ -859,10 +861,11 @@ type the following into iTerm2:
 nvm use "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
 ```
 
-#### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### example 3: for the latest available version of node preform 2 following commands skip example 1 & 2:
+## example 3: for the latest available version of node preform 2 following commands 
+# if you're going to set your node to the latest available version skip example 1 & 2
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type the following into iTerm2:
@@ -870,7 +873,7 @@ type the following into iTerm2:
 ```
  nvm install node
  ```
-##### [press Enter]
+### [press Enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into iTerm2:
  
@@ -878,10 +881,10 @@ type the following into iTerm2:
   nvm use node
   
  ```
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### to check node version
+# to check node version
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type the following into iTerm2 :
@@ -890,20 +893,20 @@ type the following into iTerm2 :
 node --version
 ```
 
-#### [press Enter]
+### [press Enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## iTerm2 Should return:
+# iTerm2 Should return:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### v12.16.2 
+## v12.16.2 
 
 or 
 
-#### v"YOUR_DESIRED_NODE_VERSION_NUMBER" 
+## v"YOUR_DESIRED_NODE_VERSION_NUMBER" 
 
 or 
 
-#### v"LATEST_NODE_VERSION"
+## v"LATEST_NODE_VERSION"
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -919,7 +922,7 @@ type the following into iTerm2:
 cd
 ```
 
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -930,7 +933,7 @@ type the following into iTerm2:
 mkdir eslint
 ```
 
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -941,25 +944,25 @@ type the following into iTerm2:
 cd eslint
 ```
 
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type all of the following into iTerm2 at once:
 
 ```
+npm init -y
+
 npm install -g eslint
 
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
 
 npx install-peerdeps --dev eslint-config-airbnb
 
-npm init -y
-
 eslint --init
 ```
 
-##### [press Enter]
+### [press Enter]
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -974,7 +977,7 @@ scroll down with arrow keys to choose
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint1.png)
 
 
-##### [press Enter]
+### [press Enter]
 
 
 
@@ -990,7 +993,7 @@ choose
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint2.png)
 
 
-##### [press Enter]
+### [press Enter]
 
 
 
@@ -1006,7 +1009,7 @@ choose
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint3.png)
 
 
-##### [press Enter]
+### [press Enter]
 
 
 
@@ -1021,13 +1024,13 @@ No
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint4.png)
 
  
-##### [press Enter]
+### [press Enter]
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  
-#### choose both  ( move down with arrow keys,  press space to select, make sure both check marks are green)
+## choose both  ( move down with arrow keys,  press space to select, make sure both check marks are green)
  
 ✅ Browser
 
@@ -1036,7 +1039,7 @@ No
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint5.png)
 
 
-##### [press Enter]
+### [press Enter]
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1049,7 +1052,7 @@ choose
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint6.png)
 
 
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -1060,7 +1063,7 @@ choose
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint7.png)
 
 
-##### [press Enter]
+### [press Enter]
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1073,7 +1076,7 @@ scroll down with arrow keys to choose
  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint8.png)
  
  
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -1084,7 +1087,7 @@ choose
  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint9.png)
  
  
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -1096,7 +1099,7 @@ type the following into iTerm2:
 ```
 cd
 ```
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -1105,34 +1108,34 @@ type the following into iTerm2:
 ```
 ssh-keygen -t ed25519 -C "your_github_acount_email_email@example.com"
 ```
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## iTerm2 will return the following:
+# iTerm2 will return the following:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): 
+# Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): 
 
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Enter passphrase (empty for no passphrase): 
+# Enter passphrase (empty for no passphrase): 
 
-##### "CHOOSE_AND_TYPE_A_PASSWORD"
+## "CHOOSE_AND_TYPE_A_PASSWORD"
 
-##### &
+### &
 
-##### [press Enter]
+### [press Enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Enter same passphrase again: 
+# Enter same passphrase again: 
 
-##### "WRITE_THE_SAME_PASSWORD_AGAIN"
+## "WRITE_THE_SAME_PASSWORD_AGAIN"
 
-##### &
+### &
 
-##### [press Enter]
+### [press Enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -1142,7 +1145,7 @@ type the following into iTerm2:
 eval "$(ssh-agent -s)"
 ```
 
-##### [press Enter]
+### [press Enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into iTerm2:
 
@@ -1150,13 +1153,13 @@ type the following into iTerm2:
 open ~/.ssh/config
 ```
 
-##### [press Enter]
+### [press Enter]
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## if ~/.ssh/config file exists and opens skip over to: in ~/.ssh/config file 
+# if ~/.ssh/config file exists and opens skip over to: in ~/.ssh/config file 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## if ~/.ssh/config file doesnt exist do the following command:
+# if ~/.ssh/config file doesnt exist do the following command:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type the following into iTerm2:
@@ -1164,7 +1167,7 @@ type the following into iTerm2:
 touch ~/.ssh/config
 ```
 
-##### [press Enter]
+### [press Enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into iTerm2:
 
@@ -1172,10 +1175,10 @@ type the following into iTerm2:
 open ~/.ssh/config
 ```
 
-##### [press Enter]
+### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## in ~/.ssh/config file 
+# in ~/.ssh/config file 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type all of the following into ~/.ssh/config:
@@ -1190,37 +1193,37 @@ Host *
   IdentityFile ~/.ssh/id_ed25519
 ``` 
  
-##### [press Command + S]
+### [press Command + S]
 
-close .ssh/config by clicking red ❌ or by:
+## close .ssh/config by clicking red ❌ or by:
 
-##### click inside of .ssh/config
+## click inside of .ssh/config
 
-##### &
+### &
 
-##### [press command + Q]
+### [press command + Q]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## go back to iTerm2
+# go back to iTerm2
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type the following into iTerm2:
  ```
  ssh-add -K ~/.ssh/id_ed25519
  ```
- ##### [press Enter]
+ ### [press Enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-type in the same password you used above for Keychains
+# type in the same password you used above for Keychains
  
- ##### [press Enter]
+### [press Enter]
  
- ##### &
+### &
  
-#### if prompted to input your again Password, type in your Password 
+## if prompted to input your again Password, type in the same password you used above for Keychains again
 
-##### &
+### &
 
-##### if necessary [press Enter] again
+### if necessary [press Enter] again
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
@@ -1230,32 +1233,32 @@ type the following into iTerm2:
  pbcopy < ~/.ssh/id_ed25519.pub
  ```
  
- ##### [press Enter]
+ ### [press Enter]
  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
- ## head over to your github account https://github.com
+ # head over to your github account https://github.com
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-login
+# login
  
- ##### click on your profile picture or this icon ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/3lines.png)
+ ## click on your profile picture or this icon ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/3lines.png)
  
- ##### &
+ ### &
  
- ##### click on settings 
+ ## click on settings 
  
- ##### &
+ ### &
  
  
  
- ##### click on SSH and GPG key
+ ## click on SSH and GPG key
  
  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh1.png)
  
- ##### &
+ ### &
  
   
- ##### Click on New SSH key 
+ ## Click on New SSH key 
  
  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh3.png)
  
@@ -1266,19 +1269,19 @@ for title write:
  macBook
  ```
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
-##### click into Key text area
+## click into Key text area
  
-##### &
+### &
   
-##### [press command + V]
+### [press command + V]
  
  ----------------------------------------------------------------------------------------------------------------------------------------------------------------- 
- ## SSH-KEY should paste into Key text area
+ # SSH-KEY should paste into Key text area
  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
- ### After you wrote the title and pasted in the SSH Key
+ # After you wrote the title and pasted in the SSH Key
  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
  
- ##### press Add SSH key
+ ## click on Add SSH key
   
   
   ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh2.png)
@@ -1286,10 +1289,14 @@ for title write:
 
  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- enter in your github password 
+ # enter in your github password 
  
-  ##### click Confirm Password or [press Enter]
+  ## click Confirm Password
+  
+  ### or
+  
+  ### [press Enter]
   
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
- ## you're finished, good job 😀👍
+ # you're finished, good job 😀👍
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
