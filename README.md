@@ -121,6 +121,8 @@ type the following into packages.txt:
  
  --cask flux
  
+ --cask slack
+ 
  --cask visual-studio-code 
  
  --cask bartender  
@@ -136,8 +138,6 @@ type the following into packages.txt:
  --cask hyperswitch
  
  --cask spotify
- 
- --cask iterm2
  
 ```
 
@@ -442,10 +442,6 @@ alias sett='open -a "System Preferences"'
 
 alias vs='open -a "Visual Studio Code"'
 
-alias viber="open -a Viber"
-
-alias trel="open -a Trello"
-
 alias appst='open -a "App Store"'
 
 alias gcb="git checkout -b"
@@ -478,13 +474,11 @@ alias S="sudo"
 
 alias vsn="code -n"
 
-alias sl="lite-server"
-
 alias app='echo -e "\033[1;32m React App Name?" && read name && cd /Users/`whoami`/project && npx create-react-app $name &&  cd $name &&  code . && npm start'
 
 alias gra='echo -e "\033[1;32m Repository Link?" && read link &&  git remote add origin $link'
 
-alias gfp='echo -e "\033[1;32m To which Repository-Branch do you want to push?" && read branch && git fetch origin $branch && git push -uf origin $branch'
+alias gfp='echo -e "\033[1;32m To which Repository-Branch do you want to push?" && read branch && git fetch origin $branch && git push -u origin $branch'
 
 alias gcm='echo -e "\033[1;32m What is your commit message (what have you done, changed, or need to do) ?" && read message && git commit -m "$message"'
 
