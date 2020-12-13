@@ -424,8 +424,6 @@ alias gpom="git push origin master"
 
 alias gss="git status -s"
 
-alias gcl="git clone"
-
 alias path='echo -e ${PATH//:/\\n}'
 
 alias ns="npm install"
@@ -434,19 +432,15 @@ alias yad="yarn add"
 
 alias ni="npm init -y"
 
-alias spotify="open -a Spotify"
+alias sp="open -a Spotify"
 
-alias slack="open -a Slack"
+alias sl="open -a Slack"
 
 alias sett='open -a "System Preferences"'
 
 alias vs='open -a "Visual Studio Code"'
 
-alias appst='open -a "App Store"'
-
-alias gcb="git checkout -b"
-
-alias gc="git checkout"
+alias apst='open -a "App Store"'
 
 alias a="code"
 
@@ -470,9 +464,15 @@ alias e="exit"
 
 alias dd="cd /Users/`whoami`/project"
 
-alias S="sudo"
+alias $="sudo"
 
 alias vsn="code -n"
+
+alias gcb='echo -e "\033[1;32m New branch name?" && read branchname &&git checkout -b $branchname'
+
+alias gc='echo -e "\033[1;32m To what branch do you want to switch?" && read branchname && git checkout $branchname'
+
+alias gcl='echo -e "\033[1;32m Link to Repository you want to clone/download?" && read link && git clone $link'
 
 alias app='echo -e "\033[1;32m React App Name?" && read name && cd /Users/`whoami`/project && npx create-react-app $name &&  cd $name &&  code . && npm start'
 
@@ -485,6 +485,7 @@ alias gcm='echo -e "\033[1;32m What is your commit message (what have you done, 
 alias gs='git status -uno'
 
 alias gru='git remote update'
+
 ```
 
 
