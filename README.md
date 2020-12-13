@@ -253,12 +253,12 @@ rm -rf packages.txt
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## This is optional. 
-### If your dock is set to auto-hide I really reccommend running these 3 commands it will make your dock appear and disappear much faster.
+### If your dock is set to auto-hide I really reccommend running these 2 commands it will make your dock appear and disappear much faster.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into Terminal: 
 
 ```
-defaults write com.apple.dock autohide-time-modifier -float 0;
+defaults write com.apple.dock autohide-time-modifier -float 0 && Killall Dock
 ```
 
 ##### [press enter]
@@ -268,20 +268,11 @@ defaults write com.apple.dock autohide-time-modifier -float 0;
 type the following into Terminal: 
 
 ```
-defaults write com.apple.Dock autohide-delay -float 0;
+defaults write com.apple.Dock autohide-delay -float 0 && Killall Dock
 ```
 
 ##### [press enter]
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-type the following into Terminal: 
-
-```
-killall Dock
-```
-
-##### [press enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
