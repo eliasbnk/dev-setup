@@ -70,9 +70,11 @@ to download Homebrew you need paste the following link into Terminal:
 
 ##### &
 
-#### when/if prompted [press Enter] again 
+#### if prompted to input your Password, after inputing your Password [press Enter]  
 
-Wait patiently as this may takes a while.🧐
+#### after a little it will prompt to press return = [press Enter] 
+
+Wait patiently as this may takes a while (install can take around 4-5 minutes).🧐
 
 After a little awhile Homebrew should be installed. 😊
 
@@ -95,6 +97,8 @@ type the following into Terminal:
  ```
  touch packages.txt
  ```
+ 
+ #### click on open/ok/allow
  
 ##### [press Enter]
  
@@ -135,36 +139,20 @@ type the following into packages.txt:
  
  --cask iterm2
  
-git
-
-yarn
-
-zsh
-
-nvm
-
 ```
 
 ##### [press command + S] 
 
-close packages.txt by clicking red ❌ or by:
-
-##### click inside of packages.txt
-
-##### &
-
-##### [press command + Q]
+don't close packages.txt just yet we will need it in a minute:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### go back into Terminal
+## go back into Terminal
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type all of the following into Terminal at once: 
+type the following into Terminal: 
 
 ```
 brew install $(<packages.txt)
-brew tap homebrew/cask-fonts
-brew install --cask font-fira-code
 ```
 
 ##### [press Enter]
@@ -180,9 +168,70 @@ After a little awhile all Packages & Applications should be installed. 😊
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### after all Packages & Applications install
+## after all Packages & Applications install
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## go back into packages.txt
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##### remove everything that is inside of packages.txt to do that:
 
+##### [press Command + A]
+
+#### everything in packages.txt should be highlighted
+
+##### [press delete/backspace]
+ 
+#### packages.txt should now be empty.
+
+type the following into packages.txt:
+
+```
+git
+
+yarn
+
+zsh
+
+nvm
+```
+##### [press command + S] 
+
+#### Close packages.txt by clicking red ❌ or by:
+
+##### click inside of packages.txt
+
+##### &
+
+##### [press command + Q]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## go back into Terminal
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+type the following into Terminal: 
+
+```
+brew install $(<packages.txt)
+```
+
+##### [press Enter]
+
+#### if prompted to input your Password, after inputing your Password [press Enter]  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## after all Packages & Applications install
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+type the following into Terminal:
+
+```
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
+```
+
+##### [press Enter]
+
+#### if prompted to input your Password, after inputing your Password [press Enter] 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## after all Packages install
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into Terminal:
 
 ```
@@ -205,7 +254,7 @@ open -a iTerm
 
 #### click on open/ok/allow
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### iTerm2 should be open. We will use iTerm2 from now on. 
+## iTerm2 should be open. We will use iTerm2 from now on. 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### Close Terminal by clicking red ❌ or by:
 
@@ -257,8 +306,9 @@ code ~/.zshrc
 ##### [press Enter]
 
 #### click on open/ok/allow
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### .zshrc should open in Visual Studio Code
+## .zshrc should open in Visual Studio Code
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##### click inside Visual Studio Code
@@ -403,7 +453,7 @@ alias l="ls" # List files in current directory
 
 alias ll="ls -al" # List all files in current directory in long list format
 
-alias oo ="open ."
+alias oo="open ."
 
 alias o="open" # Open the current directory in Finder
 
@@ -438,7 +488,7 @@ alias gru='git remote update'
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Changing Visual Studio Code's Font, Theme, and Layout.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### inside Visual Studio Code
+## inside Visual Studio Code
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##### press Command + ,
@@ -606,7 +656,7 @@ type the following into settings.json:
 ##### [press command + Q]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### go back into iTerm2 
+## go back into iTerm2 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type all of the following into iTerm2 at once : 
@@ -741,12 +791,12 @@ After a little awhile all Visual Studio Extensions should be installed. 😊
 next we will setup node with nvm 
 
 
-### (note: I use node version 12.16.2 if you want use latest version or any other version you're welcome to do so.)
+### (note: I use node version 12.16.2 if you want to use the latest version, or any other version of node you're welcome to do so.)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### example 1 (setting up Node with version 12.16.2) :
+### example 1: for node version 12.16.2 preform 2 following commands skip example 2 & 3:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+type the following into iTerm2:
 ```
 nvm install "v12.16.2"
 ```
@@ -762,7 +812,7 @@ nvm use "v12.16.2"
 #### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### example 2 (setting up Node with your desired version) :
+### example 2: for your desired version of node preform 2 following commands skip example 1 & 3:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type the following into iTerm2:
@@ -782,7 +832,7 @@ nvm use "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
 #### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### example 3 (setting up Node with the latest available version) :
+### example 3: for the latest available version of node preform 2 following commands skip example 1 & 2:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type the following into iTerm2:
@@ -812,8 +862,8 @@ node --version
 
 #### [press Enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-### iTerm2 Should return:
+## iTerm2 Should return:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### v12.16.2 
 
@@ -868,6 +918,8 @@ cd eslint
 type all of the following into iTerm2 at once:
 
 ```
+npm install -g eslint
+
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
 
 npx install-peerdeps --dev eslint-config-airbnb
@@ -1024,15 +1076,18 @@ type the following into iTerm2:
 ssh-keygen -t ed25519 -C "your_github_acount_email_email@example.com"
 ```
 ##### [press Enter]
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### iTerm2 will return:
+## iTerm2 will return the following:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): 
+### Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): 
 
 ##### [press Enter]
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Enter passphrase (empty for no passphrase): 
+
+### Enter passphrase (empty for no passphrase): 
 
 ##### "CHOOSE_AND_TYPE_A_PASSWORD"
 
@@ -1040,13 +1095,15 @@ Enter passphrase (empty for no passphrase):
 
 ##### [press Enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Enter same passphrase again: 
+
+### Enter same passphrase again: 
 
 ##### "WRITE_THE_SAME_PASSWORD_AGAIN"
 
 ##### &
 
 ##### [press Enter]
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type the following into iTerm2:
@@ -1064,9 +1121,14 @@ open ~/.ssh/config
 ```
 
 ##### [press Enter]
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### if ~/.ssh/config file doesnt exist 
+## if ~/.ssh/config file exists and opens skip over to: in ~/.ssh/config file 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## if ~/.ssh/config file doesnt exist do the following command:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 type the following into iTerm2:
 ```
 touch ~/.ssh/config
@@ -1083,7 +1145,7 @@ open ~/.ssh/config
 ##### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### in ~/.ssh/config file 
+## in ~/.ssh/config file 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type all of the following into ~/.ssh/config:
@@ -1107,9 +1169,11 @@ close .ssh/config by clicking red ❌ or by:
 ##### &
 
 ##### [press command + Q]
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### go back to iTerm2
+## go back to iTerm2
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 type the following into iTerm2:
  ```
  ssh-add -K ~/.ssh/id_ed25519
@@ -1122,11 +1186,12 @@ type in the same password you used above for Keychains
  
  ##### &
  
- #### if necessary type the password agian
- 
- ##### &
- 
- ##### if necessary [press Enter] again
+#### if prompted to input your again Password, type in your Password 
+
+##### &
+
+##### if necessary [press Enter] again
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
 type the following into iTerm2:
@@ -1136,12 +1201,16 @@ type the following into iTerm2:
  ```
  
  ##### [press Enter]
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
- #### head over to your github account 
  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ## head over to your github account https://github.com
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 login
  
- ##### click on your profile picture 
+ ##### click on your profile picture or this icon
+ 
+  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/3lines.png)
  
  ##### &
  
@@ -1183,61 +1252,14 @@ for title write:
  
   ##### &
  
- ##### press add SSH key
+ ##### press Add SSH key
  
  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  enter in your github password 
  
-  ##### [press Enter]
+  ##### click Confirm Password or [press Enter]
   
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
  ## you're finished, good job 😀👍
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
-
-Also would I really recommend geting:
-- RedQuits:
-(if you press ❌ it preform command+Q on that Application, which unfortunately Apple did add. As if you press ❌ current Application window closes, but app is minimized into the Application Icon)
-
-To download RedQuits: http://redquits.s3.amazonaws.com/RedQuits_v2.pkg
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-- Amphetamine:
-(Keeps display awake. Very useful if you're downloading or uploading a large file, and dont want your computer to go to sleep, and end/pause the process)
-
-To download Amphetamine:
-
-##### [press command + SPACE]
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/spotlight.png)
-
-type in Spotlight:
-
-```
-App Store
-```
-
-##### [press Enter]
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/search.png)
-
-in Search bar type:
-
-```Amphetamine```
-
-##### [press Enter]
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/amphetamine.png)
-
-##### &
- 
-##### click on get
-
-##### &
-
-#### (if needed type in your iCloud password)
-
-Amphetamine should begin download
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
