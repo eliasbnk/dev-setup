@@ -1208,9 +1208,7 @@ type the following into iTerm2:
 
 login
  
- ##### click on your profile picture or this icon
- 
-  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/3lines.png)
+ ##### click on your profile picture or this icon ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/3lines.png)
  
  ##### &
  
@@ -1229,7 +1227,7 @@ login
   
  ##### Click New SSH key or Add SSH key
  
- ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh3.png)
+ ![alt text]()
  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 for title write: 
@@ -1238,7 +1236,7 @@ for title write:
  macBook
  ```
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
-  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh2.png)
+  ![alt text]()
   
 ##### click into key text area
  
