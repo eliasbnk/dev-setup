@@ -253,7 +253,7 @@ rm -rf packages.txt
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## This is optional. 
-### But I really reccommend running these 3 commands it will make your dock appear and disappear much faster.
+### If your dock is set to auto-hide I really reccommend running these 3 commands it will make your dock appear and disappear much faster.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into Terminal: 
 
@@ -283,7 +283,6 @@ killall Dock
 
 ##### [press enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Now you dock will appearing and disappear blazing fast
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 3. Installing Oh-My-Zsh
