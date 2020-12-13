@@ -393,7 +393,7 @@ type the following right under ZSH_THEME:
   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  
 ```
 
-## (note: next step: removing git plugin is optional, but it tends to clash with my aliases, so i remove it.)
+## (note: next step, removing git plugin is optional, but it tends to clash with my aliases, so i remove it.)
 
 to remove git plugin:
 
