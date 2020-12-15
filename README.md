@@ -130,31 +130,11 @@ ls
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ls.png)
 
-brew-install-cask.txt       extensions.txt              vscode-settings.txt
-brew-install.txt            vscode-extension-install.sh zshrc.txt
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # If Terminal still doesnt return this repeat step 2 from beginning again.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 3. Installing Homebrew
-
-First thing you want to do is open your Terminal 
-
-to open terminal
-
-### [press command + SPACE]
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/spotlight.png)
-
-in Spotlight type:
-
-```
-Terminal 
-```
-### [press Enter]
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 to download Homebrew you need paste the following link into Terminal:
 
@@ -166,7 +146,7 @@ to download Homebrew you need paste the following link into Terminal:
 
 ### &
 
-## if prompted to input your Password, after inputing your Password [press Enter] again  
+## if prompted to enter your Password, enter your Password, after entering your Password [press Enter]   
 
 # after a little while Terminal will prompt you "to continue with downloading Homebrew press return" = [press Enter] 
 
