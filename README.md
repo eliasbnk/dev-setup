@@ -25,12 +25,6 @@
 -And I added some useful Visual Studio Code extensions
 
 
-#### Disclaimer:
-
-#### All information provided in this guide is for general informational purposes only. You agree that you use such information entirely at your own risk. Under no circumstances will I be held responsible or liable in any way for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss of profits, business interruption or loss of information) resulting or arising directly or indirectly from your use of or inability to use this manual. 
-
-### This guide is dumbed done to my granny's level. So if you mess your machine up, you must be a talented genius 😂
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 1. Downlod dev-setup-scripts.zip
