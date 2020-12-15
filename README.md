@@ -936,7 +936,7 @@ type the following into Terminal:
  
 ## close Terminal by clicking red ❌
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
- # head over to your github account @ <a href="https://github.com/login" target="_blank">github login</a>
+ # head over to your github account @ <a href="https://github.com/login" target="_blank" rel="noopener noreferrer">github login</a>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # login
