@@ -39,6 +39,8 @@
 
 https://github.com/eliasbnk/dev-setup/blob/main/dev-setup-scripts.zip?raw=true
 
+## if necessary click ok/allow/open
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 2. Setting Up Download Scripts
@@ -232,7 +234,8 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ```
 
 ### [press Enter]
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# only continue to step 7 after Oh-My-Zsh is installed 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 7. Installing Spaceship Prompt Theme for Terminal
@@ -297,13 +300,7 @@ open zshrc.txt
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Close zshrc.txt by clicking red ❌ or by:
-
-## click inside of zshrc.txt
-
-### &
-
-### [press command + Q]
+## Close zshrc.txt by clicking red ❌
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## go back inside of Visual Studio Code
@@ -390,13 +387,7 @@ open vscode-settings.txt
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Close vscode-settings.txt by clicking red ❌ or by:
-
-## click inside of vscode-settings.txt
-
-### &
-
-### [press command + Q]
+## Close vscode-settings.txt by clicking red ❌
 
 -------------------------------------------------------------------------
 ## go back inside of Visual Studio Code
@@ -412,13 +403,7 @@ if everything was done correctly this should replace the default settings to aut
 
 ### [press command + S]
 
-## Close Visual Studio Code by clicking red ❌ or by:
-
-## click inside of Visual Studio Code
-
-### &
-
-### [press command + Q]
+## Close Visual Studio Code by clicking red ❌
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # go back into Terminal 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -445,6 +430,10 @@ type the following into Terminal:
 ```
 cd ..
 ```
+
+  ### [press Enter]
+  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 that should go make Terminal go into Downlods or the Folder dev-setup-scripts file and dev-setup-scripts.zip are on your computer.
 
@@ -492,8 +481,14 @@ next we will setup node with nvm
 ## (note: I use node version 12.16.2 if you want to use the latest version, or any other version of node you're welcome to do so.)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## example 1: for node version 12.16.2 preform 2 following commands 
-#  if you're going to set your node to verion 12.16.2 skip example 2 & 3
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# if you're going to set your node to verion 12.16.2
+# skip example 2 & 3 and go to step 12 to check node version
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into Terminal:
 ```
@@ -502,7 +497,14 @@ nvm install "v12.16.2"
 ```
 
 ### press Enter
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Wait patiently as this may takes a while.🧐
+
+After a little awhile node version 12.16.2 should be installed. 😊
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 type the following into Terminal:
 
 ```
@@ -513,7 +515,12 @@ nvm use "v12.16.2"
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## example 2: for your desired version of node preform 2 following commands 
-# if you're going to set your node version to your desired version skip example 1 & 3
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# if you're going to set your node version to your desired version 
+# skip example 1 & 3 and go to step 12 to check node version
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type the following into Terminal:
@@ -523,6 +530,12 @@ nvm install "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
 ```
 
 ### [press Enter]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Wait patiently as this may takes a while.🧐
+
+After a little awhile node version {YOUR_DESIRED_NODE_VERSION_NUMBER} should be installed. 😊
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into Terminal:
 
@@ -533,8 +546,15 @@ nvm use "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
 ### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## example 3: for the latest available version of node preform 2 following commands 
-# if you're going to set your node to the latest available version skip example 1 & 2
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# if you're going to set your node to the latest available version
+
+# skip example 1 & 2 and go to step 12 to check node version
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type the following into Terminal:
@@ -543,7 +563,14 @@ type the following into Terminal:
  nvm install node
  ```
 ### [press Enter]
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Wait patiently as this may takes a while.🧐
+
+After a little awhile, and the latest version of node should be installed. 😊
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 type the following into Terminal:
  
  ```
@@ -553,7 +580,7 @@ type the following into Terminal:
 ### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# to check node version
+# 12. Check node version
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type the following into Terminal :
@@ -564,7 +591,7 @@ node --version
 
 ### [press Enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# iTerm2 Should return:
+# Terminal Should return:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## v12.16.2 
@@ -581,7 +608,7 @@ or
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## 12. Setting up Eslint + Prettier with Airbnb Style Guide.
+## 13. Setting up Eslint + Prettier with Airbnb Style Guide.
 
 
 type the following into Terminal:
@@ -621,11 +648,9 @@ type all of the following into Terminal at once:
 
 ```
 npm init -y
-
-npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
-
+npm install -g eslint
 npx install-peerdeps --dev eslint-config-airbnb
-
+npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
 eslint --init
 ```
 
@@ -771,7 +796,7 @@ choose
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 13. Adding SSH-KEY to github account.
+## 14. Adding SSH-KEY to github account.
 
 
 type the following into Terminal:
@@ -791,7 +816,7 @@ ssh-keygen -t ed25519 -C "your_github_acount_email_email@example.com"
 ### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# iTerm2 will return the following:
+# Terminal will return the following:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): 
@@ -875,19 +900,13 @@ Host *
  
 ### [press Command + S]
 
-## close .ssh/config by clicking red ❌ or by:
-
-## click inside of .ssh/config
-
-### &
-
-### [press command + Q]
+## close .ssh/config by clicking red ❌
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# go back to iTerm2
+# go back to Terminal
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type the following into iTerm2:
+type the following into Terminal:
  ```
  ssh-add -K ~/.ssh/id_ed25519
  ```
@@ -907,7 +926,7 @@ type the following into iTerm2:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
-type the following into iTerm2:
+type the following into Terminal:
  
  ```
  pbcopy < ~/.ssh/id_ed25519.pub
@@ -915,8 +934,9 @@ type the following into iTerm2:
  
  ### [press Enter]
  
+## close Terminal by clicking red ❌
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
- # head over to your github account @ https://github.com
+ # head over to your github account @ <a href="https://github.com/login" target="_blank">github login</a>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # login
