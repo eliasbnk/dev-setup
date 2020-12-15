@@ -338,11 +338,10 @@ if everything was done correctly this should replace the default settings to inc
 
 in Search bar type:
 
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/settings5.png)
-
 ```
 settings.json
 ```
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/settings5.png)
 
 ### click on Edit in setiings.json 
 
@@ -960,8 +959,7 @@ type the following into Terminal:
  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh3.png)
  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
- ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh2.png)
- 
+
 for title write: 
  
  ```
@@ -982,6 +980,7 @@ for title write:
  
  ## click on Add SSH key
  
+  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh2.png)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  # enter in your github password 
