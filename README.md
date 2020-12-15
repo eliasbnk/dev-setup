@@ -25,13 +25,6 @@
 -And I added some useful Visual Studio Code extensions
 
 
-
-## p.s. When I say type, I actually mean copy [press command + C] + paste [press command + V] 😁
-
-## Had to say "type" because there are people who don't know how to use copy + paste.
-
-## On that note, 
-
 # Disclaimer:
 
 # All information provided in this guide is for general informational purposes only. You agree that you use such information entirely at your own risk. Under no circumstances will I be held responsible or liable in any way for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss of profits, business interruption or loss of information) resulting or arising directly or indirectly from your use of or inability to use this manual. 
@@ -40,8 +33,111 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## 1. Downlod dev-setup-scripts.zip
 
-## 1. Installing Homebrew
+### click on link to download dev-setup-scripts.zip,download should begin automatically
+
+https://github.com/eliasbnk/dev-setup/blob/main/dev-setup-scripts.zip?raw=true
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 2. Setting Up Download Scripts
+
+type the following into Terminal: 
+ 
+ ```
+cd /Users/`whoami`/Downloads/dev-setup-scripts
+ ```
+ 
+### [press Enter]
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+type the following into Terminal: 
+
+```
+ls
+```
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##Terminal should Return something similiar
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ls.png)
+
+brew-install-cask.txt       extensions.txt              vscode-settings.txt
+brew-install.txt            vscode-extension-install.sh zshrc.txt
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# if your Terminal didn't return that 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### [press command + SPACE]
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/spotlight.png)
+
+in Spotlight type:
+
+```
+dev-setup-scripts
+```
+### [press Enter]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Finder should open where dev-setup-scripts folder has been downloded
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## click on dev-setup-scripts
+
+### &
+
+### [press command + C]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# go back into Terminal
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+type the following into Terminal: 
+
+```
+cd
+```
+
+### [press Space]
+
+### &
+
+### [command + V]
+
+## it should like somthing like this
+
+cd /Users/{YOUR_USERNAME}/{FOLDER_NAME_THE_FILE_IS_IN}/dev-setup-scripts
+
+## if it does great, if not redownload the dev-setup-scripts.zip file into Downloads folder and repeat step 2 from beginning.
+
+### [press Enter]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## you should now be in dev-setup-scripts folder
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+type the following into Terminal: 
+
+```
+ls
+```
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##Terminal should Return something similiar
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ls.png)
+
+brew-install-cask.txt       extensions.txt              vscode-settings.txt
+brew-install.txt            vscode-extension-install.sh zshrc.txt
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# If Terminal still doesnt return this repeat step 2 from beginning again.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 3. Installing Homebrew
 
 First thing you want to do is open your Terminal 
 
@@ -74,85 +170,24 @@ to download Homebrew you need paste the following link into Terminal:
 
 # after a little while Terminal will prompt you "to continue with downloading Homebrew press return" = [press Enter] 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Wait patiently as this may takes a while (install can take around 4-5 minutes).🧐
 
 After a little awhile Homebrew should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 2. Installing Packages & Applications
-
-type the following into Terminal: 
- 
- ```
-cd Desktop
- ```
- 
-### [press Enter]
-
+# only continue to step 4 after Homebrew installs 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
- 
-type the following into Terminal: 
- 
- ```
- touch packages.txt
- ```
- 
-### click on open/ok/allow
- 
-### [press Enter]
- 
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------
- 
-type the following into Terminal:
-  
-  ```
-  open packages.txt
-  ```
-  
-### [press Enter]
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  
-type the following into packages.txt:
- 
- ```
- --cask alfred 
- 
- --cask flux
- 
- --cask slack
- 
- --cask visual-studio-code 
- 
- --cask bartender  
- 
- --cask google-chrome 
- 
- --cask spectacle 
- 
- --cask cheatsheet 
- 
- --cask iterm2 
- 
- --cask hyperswitch
- 
- --cask spotify
- 
-```
-
-### [press command + S] 
-
-don't close packages.txt just yet we will need it in a minute:
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# go back into Terminal
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 4.Installing Packages & Applications
 
 type the following into Terminal: 
 
 ```
-brew install $(<packages.txt)
+brew tap homebrew/cask-fonts
+brew install $(<brew-install-cask.txt)
+brew install $(<brew-install.txt)
 ```
 
 ### [press Enter]
@@ -160,148 +195,39 @@ brew install $(<packages.txt)
 ### if prompted to input your Password, after inputing your Password [press Enter]  
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 Wait patiently as this may takes a while.🧐
 
 After a little awhile all Packages & Applications should be installed. 😊
 
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# after all Packages & Applications install
+# only continue to step 5, after all Packages & Applications install 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# go back into packages.txt
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## remove everything that is inside of packages.txt to do that:
-
-### [press Command + A]
-
-## everything in packages.txt should be highlighted
-
-### [press delete/backspace]
- 
-## packages.txt should now be empty.
-
-type the following into packages.txt:
-
-```
-git
-
-yarn
-
-zsh
-
-nvm
-```
-### [press command + S] 
-
-## Close packages.txt by clicking red ❌ or by:
-
-## click inside of packages.txt
-
-### &
-
-### [press command + Q]
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# go back into Terminal
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-### [press UP(⬆) arrow key]
-
-### &
-
-### [press Enter]
-
-### if prompted to input your Password, after inputing your Password [press Enter]  
-
-## or
+## 5. Downloading Visual Studio Code Extensions
 
 type the following into Terminal: 
 
 ```
-brew install $(<packages.txt)
+sudo chmod u+x vscode-extension-install.sh
+./vscode-extension-install.sh
 ```
-
-### [press Enter]
-
-## if prompted to input your Password, after inputing your Password [press Enter]  
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# after all Packages & Applications install
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-type the following into Terminal:
-
-```
-brew tap homebrew/cask-fonts
-brew install --cask font-fira-code
-```
-
-### [press Enter]
-
-## if prompted to input your Password, after inputing your Password [press Enter] 
+### enter your Password, after inputing your Password [press Enter]  
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# after all Packages install
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-type the following into Terminal:
-
-```
-rm -rf packages.txt
-```
-
-### [press Enter]
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# This is optional. 
-## If your dock is set to auto-hide I really reccommend running these 2 commands it will make your dock appear and disappear much faster.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-type the following into Terminal: 
-
-```
-defaults write com.apple.dock autohide-time-modifier -float 0 && Killall Dock
-```
-
-##### [press enter]
-
+## Visual Studio Code Extesion should begin downloading
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type the following into Terminal: 
+Wait patiently as this may takes a while.🧐
 
-```
-defaults write com.apple.Dock autohide-delay -float 0 && Killall Dock
-```
-
-### [press enter]
+After a little awhile all Extensions should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# only continue to step 6, after all Extensions install 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 3. Installing Oh-My-Zsh
+## 6. Installing Oh-My-Zsh
 
-type the following into Terminal: 
-
-```
-open -a iTerm
-```
-
-### [press enter]
-
-### click on open/ok/allow
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# iTerm2 should be open. We will use iTerm2 from now on. 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Close Terminal by clicking red ❌ or by:
-
-## click inside of Terminal
-
-### &
-
-### [press command + Q]
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-to install oh-my-zsh type the following link into iTerm2: 
+to install oh-my-zsh type the following link into Terminal: 
 
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -311,9 +237,9 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 4. Installing Spaceship Prompt Theme for iTerm2(Terminal)
+## 7. Installing Spaceship Prompt Theme for Terminal
 
-to install Spaceship Prompt Theme type the following link into iTerm2:
+to install Spaceship Prompt Theme type the following link into Terminal:
 
 ```
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
@@ -323,7 +249,7 @@ git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/theme
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type the following link into iTerm2: 
+type the following link into Terminal: 
 
 ```
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme" 
@@ -332,8 +258,9 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 ### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 8. Editing .zshrc file to have nvm, aliases, and spaceship prompt heme.
 
-type the following into iTerm2: 
+type the following into Terminal: 
 
 ```
 code ~/.zshrc
@@ -345,180 +272,103 @@ code ~/.zshrc
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # .zshrc should open in Visual Studio Code
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# go back into Terminal
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+type the following into Terminal:
 
-### click inside Visual Studio Code
+```
+open zshrc.txt
+```
+
+### [press Enter]
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# zshrc.txt should open in TextEdit
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### click inside of zshrc.txt
 
 ### &
 
-### [press command + F]
+### [press command + A]
 
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/find.png)
+## everything in zshrc.txt should be highlighted
 
-type in Find bar:
-
-```
-ZSH_THEME
-```
-
-
-## VS CODE should highlight ZSH_THEME 
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ZSH_THEME.png)
-
-change your ZSH_THEME 
-
-from:
- 
-ZSH_THEME="robbyrussell" 
- 
-to: 
- 
- ```ZSH_THEME="spaceship"```
+### [press command + C]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 5. Adding aliases & nvm to .zshrc, and Changing Visual Studio Font & Settings.
+## Close zshrc.txt by clicking red ❌ or by:
 
-while we are in ~/.zshrc lets add couple more things:
+## click inside of zshrc.txt
 
-## Adding nvm
+### &
 
-type the following right under ZSH_THEME:
+### [press command + Q]
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## go back inside of Visual Studio Code
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+you should see infront of yourself .zshrc file
 
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/nvm.png)
 
-```
- export NVM_DIR="$HOME/.nvm"
-  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  
-  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  
-```
+## we will remove everything that is inside .zshrc file and replace it with the settings we copid from zshrc.txt to do that:
 
-## (note: next step, removing git plugin is optional, but it tends to clash with my aliases, so i remove it.)
+### [press command + A]
 
-to remove git plugin:
+## everything in .zshrc file should be highlighted
 
-### [press command + F]
+### [press delete/backspace]
 
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/find.png)
+## .zshrc file should now be empty
 
-type in Find bar:
+### [press command + V]
 
-```
-plugins 
-```
+if everything was done correctly this should replace the default settings to include nvm, aliases, and spaceship prompt theme.
 
-## VS CODE should highlight plugins 
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/plugins1.png)
-
-remove everything inside of the brackets () after plugins=
-
-plugins should look like: 
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/plugins2.png)
-
-```
-plugins=()
-```
+### [press command + S]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Adding Aliases
-
-scroll all the way down to the bottom/end of the .zshrc file, and type all of the following:
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/aliases.png)
-
-```
-alias gap="git add -p"
-
-alias gaa="git add ."
-
-alias gd="git diff"
-
-alias gi="git init"
-
-alias gl="git log"
-
-alias gpll="git pull"
-
-alias gp="git push"
-
-alias gpom="git push origin master"
-
-alias gss="git status -s"
-
-alias path='echo -e ${PATH//:/\\n}'
-
-alias ns="npm install"
-
-alias yad="yarn add"
-
-alias ni="npm init -y"
-
-alias sp="open -a Spotify"
-
-alias sl="open -a Slack"
-
-alias sett='open -a "System Preferences"'
-
-alias vs='open -a "Visual Studio Code"'
-
-alias apst='open -a "App Store"'
-
-alias a="code"
-
-alias aa="code ."
-
-alias ns="npm start"
-
-alias nr="npm run"
-
-alias l="ls" # List files in current directory
-
-alias ll="ls -al" # List all files in current directory in long list format
-
-alias oo="open ."
-
-alias o="open" # Open the current directory in Finder
-
-alias c="clear"
-
-alias e="exit"
-
-alias dd="cd /Users/`whoami`/project"
-
-alias $="sudo"
-
-alias vsn="code -n"
-
-alias gcb='echo -e "\033[1;32m New branch name?" && read branchname &&git checkout -b $branchname'
-
-alias gc='echo -e "\033[1;32m To what branch do you want to switch?" && read branchname && git checkout $branchname'
-
-alias gcl='echo -e "\033[1;32m Link to Repository you want to clone/download?" && read link && git clone $link'
-
-alias app='echo -e "\033[1;32m React App Name?" && read name && cd /Users/`whoami`/project && npx create-react-app $name &&  cd $name &&  code . && npm start'
-
-alias gra='echo -e "\033[1;32m Repository Link?" && read link &&  git remote add origin $link'
-
-alias gfp='echo -e "\033[1;32m To which Repository-Branch do you want to push?" && read branch && git fetch origin $branch && git push -u origin $branch'
-
-alias gcm='echo -e "\033[1;32m What is your commit message (what have you done, changed, or need to do) ?" && read message && git commit -m "$message"'
-
-alias gs='git status -uno'
-
-alias gru='git remote update'
-
-```
-
-
-### [press command + S] 
+## 9. Changing Visual Studio Code's Font, Theme, and Layout.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Changing Visual Studio Code's Font, Theme, and Layout.
+# go back into Terminal
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# inside Visual Studio Code
+type the following into Terminal:
+
+```
+open vscode-settings.txt
+```
+
+### [press Enter]
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# vscode-settings.txt should open in TextEdit
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### click inside of vscode-settings.txt
+
+### &
+
+### [press command + A]
+
+## everything in vscode-settings.txt should be highlighted
+
+### [press command + C]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Close vscode-settings.txt by clicking red ❌ or by:
+
+## click inside of vscode-settings.txt
+
+### &
+
+### [press command + Q]
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## go back inside of Visual Studio Code
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### press Command + ,
@@ -547,156 +397,31 @@ settings.json
 
 ### [press delete/backspace]
  
-### settings.json should now be empty.
- 
-type the following into settings.json:
+## settings.json should now be empty.
 
-```
-    {
-    
-    "workbench.colorTheme": "Monokai",
-    
-    "[json]": {
-        
-       
-        "editor.quickSuggestions": {
-        
-            "strings": true
-        },
-        
-        "editor.suggest.insertMode": "replace",
-        
-    },
-    
-    "window.zoomLevel": 0,
-   
-    "editor.formatOnType": true,
-    
-    "editor.fontSize": 12,
-    
-    "editor.fontWeight": "normal",
-   
-        "editor.fontFamily": "Fira Code",
-        
-        "editor.fontLigatures": true,
-        
-    "editor.tokenColorCustomizations":{
-    
-        "textMateRules": [
-        
-            {
-            
-                "name": "comment",
-                
-                "scope": [
-                
-                    "comment"
-                    
-                ],
-                
-                "settings": {
-                
-                    "fontStyle": "italic"
-                    
-                }
-                
-            },
-            
-            {
-                "name": "Keyword Storage",
-                
-                "scope": [
-                
-                    "keyword",
-                    
-                    "keyword.control",
-                    
-                    "storage"
-                    
-                ],
-                
-                "settings": {
-                
-                    "fontStyle": "italic"
-                    
-                }
-                
-            },
-            
-            {
-                "name": "Entity",
-                
-                "scope": [
-                
-                    "entity.name.method",
-                    
-                    "entity.name.type.class",
-                    
-                    "entity.other.attribute-name"
-                    
-                ],
-                
-                "settings": {
-                
-                    "fontStyle": "italic"
-                  
-                }
-                
-            },
-            
-            {
-                "name": "Variable",
-                
-                "scope": [
-                
-                    "variable.language"
-                    
-                ],
-                
-                "settings": {
-                
-                    "fontStyle": "italic"
-                    
-                }
-                
-            }
-            
-        ]
-        
-    },
-    
-    "editor.matchBrackets": "always",
-    
-    "editor.suggestSelection": "first",
-    
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+### [press command + V]
 
-    }
+if everything was done correctly this should replace the default settings to auto format on save and paste, change file theme to Material Icon Theme, change font to Fira Code, and change editors theme to Monokai.
 
-```
+### [press command + S]
 
-### [press Command + S]
-
-## close Visual Studio Code by clicking red ❌ or by:
+## Close Visual Studio Code by clicking red ❌ or by:
 
 ## click inside of Visual Studio Code
 
 ### &
 
 ### [press command + Q]
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# go back into iTerm2 
+# go back into Terminal 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type all of the following into iTerm2 at once : 
+type all of the following into Terminal at once : 
 
 ```
 
 chmod 755 /usr/local/share/zsh
-
 chmod 755 /usr/local/share/zsh/site-functions
-
 source ~/.zshrc
 
 ```
@@ -705,117 +430,53 @@ source ~/.zshrc
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## 10. Removing dev-setup-scripts file and dev-setup-scripts.zip from your computer.
 
-## 6. Installing Visual Studio Extensions.
 
-
-in iTerm2 type all of the following at once:
+type the following into Terminal:
 
 ```
+cd ..
+```
 
-code --install-extension patbenatar.advanced-new-file
+that should go make Terminal go into Downlods or the Folder dev-setup-scripts file and dev-setup-scripts.zip are on your computer.
 
-code --install-extension formulahendry.auto-close-tag 
+type the following into Terminal:
 
-code --install-extension formulahendry.auto-rename-tag
-
-code --install-extension mgmcdermott.vscode-language-babel
-
-code --install-extension aaron-bond.better-comments
-
-code --install-extension coenraads.bracket-pair-colorizer-2
-
-code --install-extension wmaurer.change-case
-
-code --install-extension streetsidesoftware.code-spell-checker
-
-code --install-extension vmsynkov.colonize
-
-code --install-extension kamikillerto.vscode-colorize
-
-code --install-extension pranaygp.vscode-css-peek
-
-code --install-extension msjsdiag.debugger-for-chrome
-
-code --install-extension usernamehw.errorlens
-
-code --install-extension dbaeumer.vscode-eslint
-
-code --install-extension toba.vsfire
-
-code --install-extension tombonnike.vscode-status-bar-format-toggle
-
-code --install-extension waderyan.gitblame
-
-code --install-extension mhutchie.git-graph
-
-code --install-extension  donjayamanne.githistory
-
-code --install-extension  felipecaputo.git-project-manager
-
-code --install-extension eamodio.gitlens
-
-code --install-extension fabiospampinato.vscode-highlight
-
-code --install-extension vincaslt.highlight-matching-tag
-
-code --install-extension abusaidm.html-snippets
-
-code --install-extension oderwat.indent-rainbow
-
-code --install-extension sirtori.indenticator
-
-code --install-extension zignd.html-css-class-completion
-
-code --install-extension xabikos.javascriptsnippets
-
-code --install-extension ritwickdey.liveserver
-
-code --install-extension pkief.material-icon-theme
-
-code --install-extension ibm.output-colorizer
-
-code --install-extension ionutvmi.path-autocomplete
-
-code --install-extension christian-kohler.path-intellisense
-
-code --install-extension esbenp.prettier-vscode
-
-code --install-extension rvest.vs-code-prettier-eslint
-
-code --install-extension jundat95.react-native-snippet
-
-code --install-extension joeberria.statusbarerror
-
-code --install-extension rafamel.subtle-brackets
-
-code --install-extension  wayou.vscode-todo-highlight
-
-code --install-extension  britesnow.vscode-toggle-quotes
-
-code --install-extension  chakrounanas.turbo-console-log
-
-code --install-extension  visualstudioexptteam.vscodeintellicode
-
-code --install-extension shyykoserhiy.vscode-spotify
-
-code --install-extension  jpoissonnier.vscode-styled-components
-
-code --install-extension  midnightsyntax.vscode-wrap-console-log
-
+```
+rm -rf dev-setup-scripts
+rm -rf dev-setup-scripts.zip
 ```
 
 ### [press Enter]
 
-Wait patiently as this may takes awhile.🧐
+both file should now be deleted (in your Trash)
 
-After a little awhile all Visual Studio Extensions should be installed. 😊
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# This is optional. 
+## If your dock is set to auto-hide I really reccommend running these 2 commands it will make your dock appear and disappear much faster.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+type the following into Terminal: 
 
+```
+cd
+```
+
+### [press enter]
+
+type the following into Terminal: 
+
+```
+defaults write com.apple.dock autohide-time-modifier -float 0 && Killall Dock
+defaults write com.apple.Dock autohide-delay -float 0 && Killall Dock
+```
+
+### [press enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## 7. Setting up Node with nvm.
+## 11. Setting up Node with nvm.
 
 
 next we will setup node with nvm 
@@ -827,8 +488,9 @@ next we will setup node with nvm
 ## example 1: for node version 12.16.2 preform 2 following commands 
 #  if you're going to set your node to verion 12.16.2 skip example 2 & 3
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-type the following into iTerm2:
+type the following into Terminal:
 ```
+cd
 nvm install "v12.16.2"
 ```
 
@@ -912,7 +574,7 @@ or
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## 8. Setting up Eslint + Prettier with Airbnb Style Guide.
+## 12. Setting up Eslint + Prettier with Airbnb Style Guide.
 
 
 type the following into iTerm2:
@@ -1091,7 +753,7 @@ choose
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 9. Adding SSH-KEY to github account.
+## 13. Adding SSH-KEY to github account.
 
 
 type the following into iTerm2:
