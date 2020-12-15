@@ -439,7 +439,7 @@ cd ..
   
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-that should go make Terminal go into Downlods or the Folder dev-setup-scripts file and dev-setup-scripts.zip are on your computer.
+that command should've made Terminal go out of dev-setup-scripts file, and into Downlods or the Folder dev-setup-scripts file and dev-setup-scripts.zip are on your computer.
 
 type the following into Terminal:
 
