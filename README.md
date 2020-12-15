@@ -286,13 +286,14 @@ open zshrc.txt
 ### &
 
 ### [press command + Q]
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## go back inside of Visual Studio Code
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-you should see infront of yourself .zshrc file
+## you should see infront of yourself .zshrc file
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-## we will remove everything that is inside .zshrc file and replace it with the settings we copid from zshrc.txt to do that:
+## we will remove everything that is inside .zshrc file and replace it with the settings we copied from zshrc.txt to do that:
 
 ### [press command + A]
 
