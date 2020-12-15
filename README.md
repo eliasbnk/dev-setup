@@ -560,7 +560,7 @@ node --version
 ### Terminal Should return:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### v"YOUR_DESIRED_NODE_VERSION_NUMBER" 
+### vYOUR_DESIRED_NODE_VERSION_NUMBER 
 
 example: v12.16.2
 
