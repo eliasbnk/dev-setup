@@ -580,7 +580,6 @@ type all of the following into Terminal at once:
 
 ```
 npm init -y
-npm install eslint
 npx install-peerdeps --dev eslint-config-airbnb
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
 eslint --init
