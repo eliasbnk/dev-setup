@@ -1,29 +1,3 @@
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-# This guide contains info on how to setup web development enviroment on macOS. 
-
-## In this guide I cover:
-
--How to install Homebrew
-
--How to install necessary Packages & useful Applications
-
--How to install Oh-My-Zsh
-
--How to install Spaceship Prompt Theme for your Terminal
-
--How to add aliases & nvm to .zshrc
-
--How to change Visual Studio Font & Settings
-
--How to set up Node with nvm
-
--How to set up Eslint + Prettier with Airbnb Style Guide
-
--How to generate SSH key and add it to your github account
-
--And I added some useful Visual Studio Code extensions
-
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
