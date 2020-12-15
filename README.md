@@ -125,7 +125,7 @@ type the following into Terminal:
 ls
 ```
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-##Terminal should Return something similiar
+## Terminal should Return something similiar
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ls.png)
