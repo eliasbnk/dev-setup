@@ -903,7 +903,7 @@ type the following into Terminal:
  
  #### click on SSH and GPG key
  
- ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh1.png)
+ ![alt text]()
  
  #### &
   
