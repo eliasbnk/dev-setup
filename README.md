@@ -58,8 +58,11 @@ type the following into Terminal:
 ```
 ls
 ```
+
+### [press Enter]
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-##Terminal should Return something similiar
+## Terminal should Return something similiar
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ls.png)
