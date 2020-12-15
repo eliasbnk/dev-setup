@@ -61,14 +61,32 @@ ls
 
 ### [press Enter]
 
+## click on ok/allow
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Terminal should return something similiar
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ls.png)
 
+
+## Compare this list to what Terminal returned (if you are in dev-setup-scripts folder you should have all of these files)
+
+- brew-install-cask.txt
+
+- brew-install.txt
+
+- extensions.txt
+
+- vscode-extension-install.sh
+
+- vscode-settings.txt
+
+- zshrc.txt
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# if your Terminal didn't return that 
+# If you indeed have all those files skip over to step 3. Installing Homebrew
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# if your Terminal didn't return that or you dont have those files do the following
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### [press command + SPACE]
@@ -157,7 +175,7 @@ Wait patiently as this may takes a while (install can take around 4-5 minutes).�
 After a little awhile Homebrew should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# only continue to step 4 after Homebrew installs 
+# only continue to step 4 after Homebrew is installed 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 4.Installing Packages & Applications
@@ -181,7 +199,7 @@ Wait patiently as this may takes a while.🧐
 After a little awhile all Packages & Applications should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# only continue to step 5, after all Packages & Applications install 
+# only continue to step 5, after all Packages & Applications are installed 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 5. Downloading Visual Studio Code Extensions
 
@@ -202,7 +220,7 @@ Wait patiently as this may takes a while.🧐
 After a little awhile all Extensions should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# only continue to step 6, after all Extensions install 
+# only continue to step 6, after all Extensions are installed 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 6. Installing Oh-My-Zsh
@@ -314,6 +332,37 @@ if everything was done correctly this should replace the default settings to inc
 ## 9. Changing Visual Studio Code's Font, Theme, and Layout.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## inside of Visual Studio Code
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### [press Command + ,]
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/settings7.png)
+
+in Search bar type:
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/settings5.png)
+
+```
+settings.json
+```
+
+### click on Edit in setiings.json 
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/setting3.png)
+
+### &
+
+### remove everything that is inside of settings.json to do that:
+
+### [press Command + A]
+
+### everything in settings.json should be highlighted
+
+### [press delete/backspace]
+ 
+## settings.json should now be empty.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # go back into Terminal
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into Terminal:
@@ -348,37 +397,14 @@ open vscode-settings.txt
 ### &
 
 ### [press command + Q]
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------
 ## go back inside of Visual Studio Code
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### press Command + ,
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/settings7.png)
-
-in Search bar type:
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/settings5.png)
-
-```
-settings.json
-```
-
-### click on Edit in setiings.json 
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/setting3.png)
+### click inside of settings.json
 
 ### &
-
-### remove everything that is inside of settings.json to do that:
-
-### [press Command + A]
-
-### everything in settings.json should be highlighted
-
-### [press delete/backspace]
- 
-## settings.json should now be empty.
 
 ### [press command + V]
 
@@ -431,7 +457,7 @@ rm -rf dev-setup-scripts.zip
 
 ### [press Enter]
 
-both file should now be deleted (in your Trash)
+both file should now be deleted and move into your Trash.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # This is optional. 
@@ -477,7 +503,7 @@ nvm install "v12.16.2"
 
 ### press Enter
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-type the following into iTerm2:
+type the following into Terminal:
 
 ```
 nvm use "v12.16.2"
@@ -490,7 +516,7 @@ nvm use "v12.16.2"
 # if you're going to set your node version to your desired version skip example 1 & 3
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type the following into iTerm2:
+type the following into Terminal:
 
 ```
 nvm install "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
@@ -498,7 +524,7 @@ nvm install "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
 
 ### [press Enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-type the following into iTerm2:
+type the following into Terminal:
 
 ```
 nvm use "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
@@ -511,14 +537,14 @@ nvm use "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
 # if you're going to set your node to the latest available version skip example 1 & 2
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type the following into iTerm2:
+type the following into Terminal:
 
 ```
  nvm install node
  ```
 ### [press Enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-type the following into iTerm2:
+type the following into Terminal:
  
  ```
   nvm use node
@@ -530,7 +556,7 @@ type the following into iTerm2:
 # to check node version
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type the following into iTerm2 :
+type the following into Terminal :
 
 ```
 node --version
@@ -558,7 +584,7 @@ or
 ## 12. Setting up Eslint + Prettier with Airbnb Style Guide.
 
 
-type the following into iTerm2:
+type the following into Terminal:
 
  
 ```
@@ -569,7 +595,7 @@ cd
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type the following into iTerm2:
+type the following into Terminal:
 
 
 ```
@@ -580,7 +606,7 @@ mkdir eslint
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type the following into iTerm2:
+type the following into Terminal:
 
 
 ```
@@ -591,12 +617,10 @@ cd eslint
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type all of the following into iTerm2 at once:
+type all of the following into Terminal at once:
 
 ```
 npm init -y
-
-npm install -g eslint
 
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
 
@@ -610,6 +634,11 @@ eslint --init
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Wait patiently as this may takes a while.🧐
+
+After a little awhile all Eslint, Prettier, and Airbnb Dependencies should be installed. 😊
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 scroll down with arrow keys to choose
@@ -673,7 +702,15 @@ No
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  
-## choose both  ( move down with arrow keys,  press space to select, make sure both check marks are green)
+## choose both  
+
+to do that
+
+### move down with arrow keys, 
+
+### press space to select
+
+### make sure both check marks are green
  
 ✅ Browser
 
@@ -737,7 +774,7 @@ choose
 ## 13. Adding SSH-KEY to github account.
 
 
-type the following into iTerm2:
+type the following into Terminal:
 
 ```
 cd
@@ -746,7 +783,7 @@ cd
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type the following into iTerm2:
+type the following into Terminal:
 
 ```
 ssh-keygen -t ed25519 -C "your_github_acount_email_email@example.com"
@@ -782,7 +819,7 @@ ssh-keygen -t ed25519 -C "your_github_acount_email_email@example.com"
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type the following into iTerm2:
+type the following into Terminal:
 
 ```
 eval "$(ssh-agent -s)"
@@ -790,7 +827,7 @@ eval "$(ssh-agent -s)"
 
 ### [press Enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-type the following into iTerm2:
+type the following into Terminal:
 
 ```
 open ~/.ssh/config
@@ -805,14 +842,14 @@ open ~/.ssh/config
 # if ~/.ssh/config file doesnt exist do the following command:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type the following into iTerm2:
+type the following into Terminal:
 ```
 touch ~/.ssh/config
 ```
 
 ### [press Enter]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-type the following into iTerm2:
+type the following into Terminal:
 
 ```
 open ~/.ssh/config
@@ -879,7 +916,7 @@ type the following into iTerm2:
  ### [press Enter]
  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
- # head over to your github account https://github.com
+ # head over to your github account @ https://github.com
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # login
@@ -892,20 +929,19 @@ type the following into iTerm2:
  
  ### &
  
- 
- 
  ## click on SSH and GPG key
  
  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh1.png)
  
  ### &
- 
   
  ## Click on New SSH key 
  
  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh3.png)
  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+ ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh2.png)
+ 
 for title write: 
  
  ```
@@ -925,12 +961,8 @@ for title write:
  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
  
  ## click on Add SSH key
-  
-  
-  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ssh2.png)
-  
-
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  # enter in your github password 
  
