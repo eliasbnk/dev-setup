@@ -674,7 +674,7 @@ choose
 
 choose
 
-No
+❯ No
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint4.png)
 
@@ -744,7 +744,7 @@ scroll down with arrow keys to choose
 
 choose
  
- Yes
+❯ Yes
  
  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint9.png)
  
