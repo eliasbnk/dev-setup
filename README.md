@@ -62,13 +62,10 @@ ls
 ### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Terminal should Return something similiar
+## Terminal should return something similiar
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ls.png)
-
-brew-install-cask.txt       extensions.txt              vscode-settings.txt
-brew-install.txt            vscode-extension-install.sh zshrc.txt
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # if your Terminal didn't return that 
