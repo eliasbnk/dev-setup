@@ -106,7 +106,7 @@ cd
 
 ### &
 
-### [command + V]
+### [press command + V]
 
 ## it should like somthing like this
 
