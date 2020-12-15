@@ -86,7 +86,7 @@ dev-setup-scripts
 ## Finder should open where dev-setup-scripts folder has been downloded
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## click on dev-setup-scripts
+## click on dev-setup-scripts folder
 
 ### &
 
