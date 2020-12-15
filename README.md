@@ -96,7 +96,7 @@ cd
 
 #### [press command + V]
 
-### it should like somthing like this
+### it should like something like this
 
 cd /Users/{YOUR_USERNAME}/{FOLDER_NAME_THE_FILE_IS_IN}/dev-setup-scripts
 
