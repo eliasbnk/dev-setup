@@ -626,7 +626,7 @@ type the following into Terminal:
 
 
 ```
-mkdir eslint
+mkdir eslint-config
 ```
 
 ### [press Enter]
@@ -637,7 +637,7 @@ type the following into Terminal:
 
 
 ```
-cd eslint
+cd eslint-config
 ```
 
 ### [press Enter]
