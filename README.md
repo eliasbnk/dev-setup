@@ -238,7 +238,7 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 ### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## 8. Editing .zshrc file to have nvm, aliases, and spaceship prompt heme.
+## 8. Editing .zshrc file to have nvm, aliases, and Spaceship Prompt theme.
 
 type the following into Terminal: 
 
