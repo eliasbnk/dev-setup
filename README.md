@@ -478,9 +478,6 @@ defaults write com.apple.Dock autohide-delay -float 0 && Killall Dock
 
 ## 11. Setting up Node with nvm.
 
-
-next we will setup node with nvm 
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## example 1: for your desired version of node preform 2 following commands 
