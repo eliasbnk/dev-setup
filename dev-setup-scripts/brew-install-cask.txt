@@ -1,0 +1,21 @@
+--cask alfred 
+
+--cask flux
+
+--cask slack
+
+--cask visual-studio-code 
+
+--cask bartender  
+
+--cask google-chrome 
+
+--cask spectacle 
+
+--cask cheatsheet 
+
+--cask iterm2 
+
+--cask hyperswitch
+
+--cask spotify

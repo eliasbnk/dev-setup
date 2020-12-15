@@ -1,0 +1,121 @@
+{
+    
+    "workbench.colorTheme": "Monokai",
+    
+    "[json]": {
+        
+       
+        "editor.quickSuggestions": {
+        
+            "strings": true
+        },
+        
+        "editor.suggest.insertMode": "replace",
+        
+    },
+    
+    "window.zoomLevel": 0,
+   
+    "editor.formatOnType": true,
+    
+    "editor.fontSize": 12,
+    
+    "editor.fontWeight": "normal",
+   
+        "editor.fontFamily": "Fira Code",
+        
+        "editor.fontLigatures": true,
+        
+    "editor.tokenColorCustomizations":{
+    
+        "textMateRules": [
+        
+            {
+            
+                "name": "comment",
+                
+                "scope": [
+                
+                    "comment"
+                    
+                ],
+                
+                "settings": {
+                
+                    "fontStyle": "italic"
+                    
+                }
+                
+            },
+            
+            {
+                "name": "Keyword Storage",
+                
+                "scope": [
+                
+                    "keyword",
+                    
+                    "keyword.control",
+                    
+                    "storage"
+                    
+                ],
+                
+                "settings": {
+                
+                    "fontStyle": "italic"
+                    
+                }
+                
+            },
+            
+            {
+                "name": "Entity",
+                
+                "scope": [
+                
+                    "entity.name.method",
+                    
+                    "entity.name.type.class",
+                    
+                    "entity.other.attribute-name"
+                    
+                ],
+                
+                "settings": {
+                
+                    "fontStyle": "italic"
+                  
+                }
+                
+            },
+            
+            {
+                "name": "Variable",
+                
+                "scope": [
+                
+                    "variable.language"
+                    
+                ],
+                
+                "settings": {
+                
+                    "fontStyle": "italic"
+                    
+                }
+                
+            }
+            
+        ]
+        
+    },
+    
+  "workbench.iconTheme": "material-icon-theme",
+"editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+"[javascript]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+
+    }

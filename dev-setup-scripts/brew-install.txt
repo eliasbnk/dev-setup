@@ -1,0 +1,7 @@
+git
+
+yarn
+
+zsh
+
+nvm
