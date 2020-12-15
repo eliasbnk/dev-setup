@@ -417,11 +417,9 @@ if everything was done correctly this should replace the default settings to aut
 type all of the following into Terminal at once : 
 
 ```
-
 chmod 755 /usr/local/share/zsh
 chmod 755 /usr/local/share/zsh/site-functions
 source ~/.zshrc
-
 ```
 
 #### [press Enter]
@@ -452,11 +450,11 @@ rm -rf dev-setup-scripts.zip
 
 #### [press Enter]
 
-both file should now be deleted and move into your Trash.
+both file should now be deleted and moved into your Trash.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# This is optional. 
-## If your dock is set to auto-hide I really reccommend running these 2 commands it will make your dock appear and disappear much faster.
+## This is optional. 
+### If your dock is set to auto-hide I really reccommend running these 2 commands it will make your dock appear and disappear much faster.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into Terminal: 
 
@@ -489,7 +487,7 @@ next we will setup node with nvm
 
 ### if you're going to set your node version to your desired version 
 
-## skip example 2 and go to step 12 to check node version
+## after your done with example 1, dont do example 2 and go straight to step 12 to check node version
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -521,7 +519,7 @@ nvm use "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
 
 ### if you're going to set your node to the latest available version
 
-## skip example 1 and go to step 12 to check node version
+## dont do example 1 and go straight to step 12 to check node version
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
