@@ -302,7 +302,7 @@ everything in zshrc.txt should be highlighted
 
 #### &
 
-### Close zshrc.txt by clicking red ❌
+#### Close zshrc.txt by clicking red ❌
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### go back inside of Visual Studio Code
