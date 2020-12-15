@@ -491,22 +491,25 @@ defaults write com.apple.Dock autohide-delay -float 0 && Killall Dock
 type the following into Terminal:
 
 ```
-nvm install "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
+nvm install "YOUR_DESIRED_NODE_VERSION_NUMBER"
 ```
+
+example: nvm install "v12.16.2"
 
 #### [press Enter]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Wait patiently as this may takes a while.🧐
 
-After a little awhile node version {YOUR_DESIRED_NODE_VERSION_NUMBER} should be installed. 😊
+After a little awhile node version YOUR_DESIRED_NODE_VERSION_NUMBER should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into Terminal:
 
 ```
-nvm use "{YOUR_DESIRED_NODE_VERSION_NUMBER}"
+nvm use "YOUR_DESIRED_NODE_VERSION_NUMBER"
 ```
+example: nvm use "v12.16.2"
 
 #### [press Enter]
 
@@ -558,6 +561,8 @@ node --version
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### v"YOUR_DESIRED_NODE_VERSION_NUMBER" 
+
+example: v12.16.2
 
 or 
 
