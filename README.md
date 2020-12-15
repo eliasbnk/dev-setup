@@ -338,12 +338,16 @@ if everything was done correctly this should replace the default settings to inc
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/settings7.png)
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 in Search bar type:
 
 ```
 settings.json
 ```
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/settings5.png)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### click on Edit in setiings.json 
 
