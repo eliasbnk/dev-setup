@@ -4,19 +4,54 @@
 
 ## 1. Downloading Command Line Tools for Xcode
 
-#### click on the link below to download Command Line Tools for Xcode, download should begin automatically
+#### click on the link below to download dev-setup-scripts.zip,download should begin automatically
 
 <a href= "https://download.developer.apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_12.3/Command_Line_Tools_for_Xcode_12.3.dmg" target="_blank" rel="noopener noreferrer"> Command Line Tools for Xcode 12.3 </a>
 
-#### if necessary click ok/allow/open
+#### click on downloaded folder it should open something like this
 
-### file will downlod automatically in the background please proceed to Step 2 downloding dev-setup-scripts.zip
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/xcode1.png)
 
+#### double click on Command Line Tools.pkg
+
+#### another window should open, and it should look something like this
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/xcode2.png)
+
+#### click continue
+
+#### click continue again
+
+#### click agree
+
+#### click install
+
+#### type in your Password
+
+#### & 
+
+#### click Install Software 
+
+download should begin
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Wait patiently as this may takes a while.🧐
+
+After a little awhile Command Line Tools should be installed. 😊
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### after install of Command Line Tools completes
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#### click on close
+
+#### &
+
+#### click on Move to Trash
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 2. Downlod dev-setup-scripts.zip
 
-#### click on the link below to download dev-setup-scripts.zip, download should begin automatically
+#### click on the link below to download dev-setup-scripts.zip,download should begin automatically
 
 <a href="https://github.com/eliasbnk/dev-setup/blob/main/dev-setup-scripts.zip?raw=true" target="_blank" rel="noopener noreferrer"> dev-setup-scripts.zip </a>
 
