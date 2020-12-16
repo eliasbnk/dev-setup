@@ -6,7 +6,7 @@
 
 #### click on the link below to download dev-setup-scripts.zip,download should begin automatically
 
-<a href= "https://download.developer.apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_12.3/Command_Line_Tools_for_Xcode_12.3.dmg" target="_blank" rel="noopener noreferrer"> Command Line Tools for Xcode 12.3 </a>
+https://download.developer.apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_12.3/Command_Line_Tools_for_Xcode_12.3.dmg
 
 #### click on downloaded folder it should open something like this
 
@@ -53,7 +53,7 @@ After a little awhile Command Line Tools should be installed. 😊
 
 #### click on the link below to download dev-setup-scripts.zip,download should begin automatically
 
-<a href="https://github.com/eliasbnk/dev-setup/blob/main/dev-setup-scripts.zip?raw=true" target="_blank" rel="noopener noreferrer"> dev-setup-scripts.zip </a>
+https://github.com/eliasbnk/dev-setup/blob/main/dev-setup-scripts.zip?raw=true
 
 #### if necessary click ok/allow/open
 
