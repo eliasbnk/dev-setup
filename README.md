@@ -1016,7 +1016,7 @@ type the following into Terminal:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### head over to your github account ( I reccomend to open github in a new window, and putting it side-by-side with this guide)
+### open a new github window in your browser, and put it side-by-side with this guide
 
 <a href="https://github.com/login" target="_blank" rel="noopener noreferrer">GitHub Login Page</a>
 
