@@ -6,7 +6,7 @@
 
 #### click on link to download dev-setup-scripts.zip,download should begin automatically
 
-
+https://github.com/eliasbnk/dev-setup/blob/main/dev-setup-scripts.zip?raw=true
 
 #### if necessary click ok/allow/open
 
