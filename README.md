@@ -158,8 +158,8 @@ type the following into Terminal:
 
 ```
 brew tap homebrew/cask-fonts
-brew install $(<brew-install-cask.txt)
 brew install $(<brew-install.txt)
+brew install $(<brew-install-cask.txt)
 ```
 
 #### `[press Enter]`
