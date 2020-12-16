@@ -173,12 +173,13 @@ After a little awhile Homebrew should be installed. 😊
 
 ## 4.Installing Packages & Applications
 
-type the following into Terminal: 
+type all of the following into Terminal at once : 
 
 ```
 brew tap homebrew/cask-fonts
-brew install $(<brew-install.txt)
 brew install $(<brew-install-cask.txt)
+brew install $(<brew-install.txt)
+mkdir ~/.nvm
 ```
 
 #### `[press Enter]`
@@ -196,7 +197,7 @@ After a little awhile all Packages & Applications should be installed. 😊
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 5. Downloading Visual Studio Code Extensions
 
-type the following into Terminal: 
+type all of the following into Terminal at once : 
 
 ```
 sudo chmod u+x vscode-extension-install.sh
@@ -266,6 +267,7 @@ code ~/.zshrc
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### go back into Terminal
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 type the following into Terminal:
 
 ```
@@ -273,7 +275,6 @@ open zshrc.txt
 ```
 
 #### `[press Enter]`
-
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### zshrc.txt should open in TextEdit
@@ -432,7 +433,7 @@ cd ..
 
 that command should've made Terminal go out of dev-setup-scripts file, and into Downlods or the Folder dev-setup-scripts file and dev-setup-scripts.zip are on your computer.
 
-type the following into Terminal:
+type all of the following into Terminal at once : 
 
 ```
 rm -rf dev-setup-scripts
@@ -455,7 +456,7 @@ cd
 
 #### `[press enter]`
 
-type the following into Terminal: 
+type all of the following into Terminal at once : 
 
 ```
 defaults write com.apple.dock autohide-time-modifier -float 0 && Killall Dock
@@ -599,7 +600,7 @@ cd eslint-config
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type all of the following into Terminal at once:
+type all of the following into Terminal at once : 
 
 ```
 npm init -y
