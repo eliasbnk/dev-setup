@@ -20,7 +20,7 @@ type the following into Terminal:
 cd /Users/`whoami`/Downloads/dev-setup-scripts
  ```
  
-#### [press Enter]
+#### `[press Enter]`
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -30,7 +30,7 @@ type the following into Terminal:
 ls
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 
 #### click on ok/allow
 
@@ -60,7 +60,7 @@ ls
 ### if your Terminal didn't return that or you dont have those files do the following
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### [press command + SPACE]
+#### `[press command + SPACE]`
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/spotlight.png)
 
@@ -69,7 +69,7 @@ in Spotlight type:
 ```
 dev-setup-scripts
 ```
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Finder should open where dev-setup-scripts folder has been downloded
@@ -79,7 +79,7 @@ dev-setup-scripts
 
 #### &
 
-#### [press command + C]
+#### `[press command + C]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### go back into Terminal
@@ -91,11 +91,11 @@ type the following into Terminal:
 cd
 ```
 
-#### [press Space]
+#### `[press Space]`
 
 #### &
 
-#### [press command + V]
+#### `[press command + V]`
 
 ### it should like something like this
 
@@ -103,7 +103,7 @@ cd /Users/{YOUR_USERNAME}/{FOLDER_NAME_THE_FILE_IS_IN}/dev-setup-scripts
 
 ### if it does great, if not redownload the dev-setup-scripts.zip file into Downloads folder and repeat step 2 from beginning.
 
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### you should now be in dev-setup-scripts folder
@@ -114,7 +114,7 @@ type the following into Terminal:
 ls
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Terminal should Return something similiar
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -133,13 +133,13 @@ to download Homebrew you need paste the following link into Terminal:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 
 #### &
 
-### if prompted to enter your Password, enter your Password, after entering your Password [press Enter]   
+### if prompted to enter your Password, enter your Password, after entering your Password `[press Enter]`   
 
-## AFTER A LITTLE WHILE TERMINAL WILL PROMPT YOU "TO CONTINUE WITH DOWNLOADING HOMEBREW PRESS RETURN" = [press Enter], IF YOU DON'T [press Enter] DOWNLOAD WILL NOT BEGIN!
+## AFTER A LITTLE WHILE TERMINAL WILL PROMPT YOU "TO CONTINUE WITH DOWNLOADING HOMEBREW PRESS RETURN" = `[press Enter]`, IF YOU DON'T `[press Enter]` DOWNLOAD WILL NOT BEGIN!
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -161,9 +161,9 @@ brew install $(<brew-install-cask.txt)
 brew install $(<brew-install.txt)
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 
-#### if prompted to input your Password, after inputing your Password [press Enter]  
+#### if prompted to input your Password, after inputing your Password `[press Enter]`  
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -182,7 +182,7 @@ type the following into Terminal:
 sudo chmod u+x vscode-extension-install.sh
 ./vscode-extension-install.sh
 ```
-#### enter your Password, after inputing your Password [press Enter]  
+#### enter your Password, after inputing your Password `[press Enter]`  
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Visual Studio Code Extesion should begin downloading
@@ -204,7 +204,7 @@ to install oh-my-zsh type the following link into Terminal:
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### only continue to step 7 after Oh-My-Zsh is installed 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -217,7 +217,7 @@ to install Spaceship Prompt Theme type the following link into Terminal:
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -227,7 +227,7 @@ type the following link into Terminal:
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme" 
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 8. Editing .zshrc file to have nvm, aliases, and Spaceship Prompt theme.
@@ -237,7 +237,7 @@ type the following into Terminal:
 ```
 code ~/.zshrc
 ```
-#### [press Enter]
+#### `[press Enter]`
 
 #### click on open/ok/allow
 
@@ -252,7 +252,7 @@ type the following into Terminal:
 open zshrc.txt
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -263,11 +263,11 @@ open zshrc.txt
 
 #### &
 
-#### [press command + A]
+#### `[press command + A]`
 
 everything in zshrc.txt should be highlighted
 
-#### [press command + C]
+#### `[press command + C]`
 
 #### &
 
@@ -281,19 +281,19 @@ everything in zshrc.txt should be highlighted
 
 we will remove everything that is inside .zshrc file and replace it with the settings we copied from zshrc.txt to do that:
 
-#### [press command + A]
+#### `[press command + A]`
 
 everything in .zshrc file should be highlighted
 
-#### [press delete/backspace]
+#### `[press delete/backspace]`
 
 .zshrc file should now be empty
 
-#### [press command + V]
+#### `[press command + V]`
 
 if everything was done correctly this should replace the default settings to include nvm, aliases, and spaceship prompt theme.
 
-#### [press command + S]
+#### `[press command + S]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -303,7 +303,7 @@ if everything was done correctly this should replace the default settings to inc
 ### inside of Visual Studio Code
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### [press Command + ,]
+#### `[press Command + ,]`
 
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/settings7.png)
 
@@ -316,6 +316,8 @@ settings.json
 ```
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/settings5.png)
 
+#### `[press Enter]`
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### click on Edit in setiings.json 
@@ -326,11 +328,11 @@ settings.json
 
 remove everything that is inside of settings.json to do that:
 
-#### [press Command + A]
+#### `[press Command + A]`
 
 everything in settings.json should be highlighted
 
-#### [press delete/backspace]
+#### `[press delete/backspace]`
  
 settings.json should now be empty.
 
@@ -344,7 +346,7 @@ type the following into Terminal:
 open vscode-settings.txt
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -355,11 +357,11 @@ open vscode-settings.txt
 
 #### &
 
-#### [press command + A]
+#### `[press command + A]`
 
 everything in vscode-settings.txt should be highlighted
 
-#### [press command + C]
+#### `[press command + C]`
 
 #### Close vscode-settings.txt by clicking red ❌
 
@@ -371,11 +373,11 @@ everything in vscode-settings.txt should be highlighted
 
 #### &
 
-#### [press command + V]
+#### `[press command + V]`
 
 if everything was done correctly this should replace the default settings to auto format on save and paste, change file theme to Material Icon Theme, change font to Fira Code, and change editors theme to Monokai.
 
-#### [press command + S]
+#### `[press command + S]`
 
 #### Close Visual Studio Code by clicking red ❌
 
@@ -391,7 +393,7 @@ chmod 755 /usr/local/share/zsh/site-functions
 source ~/.zshrc
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -404,7 +406,7 @@ type the following into Terminal:
 cd ..
 ```
 
-#### [press Enter]
+#### `[press Enter]`
   
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -417,7 +419,7 @@ rm -rf dev-setup-scripts
 rm -rf dev-setup-scripts.zip
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 
 both file should now be deleted and moved into your Trash.
 
@@ -431,7 +433,7 @@ type the following into Terminal:
 cd
 ```
 
-#### [press enter]
+#### `[press enter]`
 
 type the following into Terminal: 
 
@@ -440,7 +442,7 @@ defaults write com.apple.dock autohide-time-modifier -float 0 && Killall Dock
 defaults write com.apple.Dock autohide-delay -float 0 && Killall Dock
 ```
 
-#### [press enter]
+#### `[press enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -465,7 +467,7 @@ nvm install "YOUR_DESIRED_NODE_VERSION_NUMBER"
 
 example: nvm install "v12.16.2"
 
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Wait patiently as this may takes a while.🧐
@@ -480,7 +482,7 @@ nvm use "YOUR_DESIRED_NODE_VERSION_NUMBER"
 ```
 example: nvm use "v12.16.2"
 
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -497,7 +499,7 @@ type the following into Terminal:
 ```
  nvm install node
  ```
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Wait patiently as this may takes a while.🧐
@@ -512,7 +514,7 @@ type the following into Terminal:
   nvm use node
   
  ```
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 12. Check node version
@@ -524,7 +526,7 @@ type the following into Terminal :
 node --version
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Terminal Should return:
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -551,7 +553,7 @@ type the following into Terminal:
 cd
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -562,7 +564,7 @@ type the following into Terminal:
 mkdir eslint-config
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -573,7 +575,7 @@ type the following into Terminal:
 cd eslint-config
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -586,7 +588,7 @@ npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-pl
 eslint --init
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -606,7 +608,7 @@ scroll down with arrow keys to choose
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint1.png)
 
 
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -620,7 +622,7 @@ choose
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint2.png)
 
 
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -634,7 +636,7 @@ choose
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint3.png)
 
 
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -647,7 +649,7 @@ choose
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint4.png)
 
  
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -669,7 +671,7 @@ to do that
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint5.png)
 
 
-#### [press Enter]
+#### `[press Enter]`
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -682,7 +684,7 @@ choose
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint6.png)
 
 
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -693,7 +695,7 @@ choose
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint7.png)
 
 
-#### [press Enter]
+#### `[press Enter]`
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -706,7 +708,7 @@ scroll down with arrow keys to choose
  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint8.png)
  
  
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -717,7 +719,7 @@ choose
  ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/eslint9.png)
  
  
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 14. Configuring your Git username/email
@@ -727,7 +729,7 @@ type the following into Terminal:
 ```
 cd
 ```
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -736,7 +738,7 @@ type the following into Terminal:
 ```
 git config --global user.name "FIRST_NAME LAST_NAME"
 ```
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -745,7 +747,7 @@ type the following into Terminal:
 ```
 git config --global user.email "MY_NAME@example.com"
 ```
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -757,7 +759,7 @@ type the following into Terminal:
 ```
 cd
 ```
-#### [press Enter]
+#### `[press Enter]`
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -766,7 +768,7 @@ type the following into Terminal:
 ```
 ssh-keygen -t ed25519 -C "your_github_acount_email_email@example.com"
 ```
-#### [press Enter]
+#### `[press Enter]`
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Terminal will return the following:
@@ -774,7 +776,7 @@ ssh-keygen -t ed25519 -C "your_github_acount_email_email@example.com"
 
 ### Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): 
 
-#### [press Enter]
+#### `[press Enter]`
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -784,7 +786,8 @@ ssh-keygen -t ed25519 -C "your_github_acount_email_email@example.com"
 
 #### &
 
-#### [press Enter]
+#### `[press Enter]`
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Enter same passphrase again: 
@@ -793,8 +796,8 @@ ssh-keygen -t ed25519 -C "your_github_acount_email_email@example.com"
 
 #### &
 
-#### [press Enter]
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#### `[press Enter]`
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 type the following into Terminal:
@@ -803,7 +806,8 @@ type the following into Terminal:
 eval "$(ssh-agent -s)"
 ```
 
-#### [press Enter]
+#### `[press Enter]`
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into Terminal:
 
@@ -811,7 +815,7 @@ type the following into Terminal:
 open ~/.ssh/config
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -825,7 +829,7 @@ type the following into Terminal:
 touch ~/.ssh/config
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 type the following into Terminal:
 
@@ -833,7 +837,7 @@ type the following into Terminal:
 open ~/.ssh/config
 ```
 
-#### [press Enter]
+#### `[press Enter]`
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## in ~/.ssh/config file 
@@ -851,7 +855,7 @@ Host *
   IdentityFile ~/.ssh/id_ed25519
 ``` 
  
-#### [press Command + S]
+#### `[press Command + S]`
 
 #### close .ssh/config by clicking red ❌
 
@@ -863,11 +867,11 @@ type the following into Terminal:
  ```
  ssh-add -K ~/.ssh/id_ed25519
  ```
- #### [press Enter]
+ #### `[press Enter]`
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### type in the same password you used above for Keychains
  
-#### [press Enter]
+#### `[press Enter]`
  
 #### &
  
@@ -875,7 +879,7 @@ type the following into Terminal:
 
 #### &
 
-#### if necessary [press Enter] again
+#### if necessary `[press Enter]` again
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
@@ -885,7 +889,7 @@ type the following into Terminal:
  pbcopy < ~/.ssh/id_ed25519.pub
  ```
  
-#### [press Enter]
+#### `[press Enter]`
  
 #### close Terminal by clicking red ❌
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -924,7 +928,7 @@ for title write:
  
 #### &
   
-#### [press command + V]
+#### `[press command + V]`
  
  ----------------------------------------------------------------------------------------------------------------------------------------------------------------- 
  ### SSH-KEY should paste into Key text area
