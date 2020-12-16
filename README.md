@@ -1016,7 +1016,9 @@ type the following into Terminal:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### head over to your <a href="https://github.com/login" target="_blank" rel="noopener noreferrer">github account</a> ( I reccomend to open github in window, and put it side-by-side with this guide, will be much easier to follow along)
+### head over to your github account ( I reccomend to open github in a new window, and putting it side-by-side with this guide)
+
+<a href="https://github.com/login" target="_blank" rel="noopener noreferrer">GitHub Login Page</a>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
