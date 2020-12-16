@@ -139,7 +139,8 @@ to download Homebrew you need paste the following link into Terminal:
 
 ### if prompted to enter your Password, enter your Password, after entering your Password `[press Enter]`   
 
-## AFTER A LITTLE WHILE TERMINAL WILL PROMPT YOU "TO CONTINUE WITH DOWNLOADING HOMEBREW PRESS RETURN" = `[press Enter]`, IF YOU DON'T `[press Enter]` DOWNLOAD WILL NOT BEGIN!
+## AFTER A LITTLE WHILE TERMINAL WILL PROMPT YOU "TO CONTINUE WITH DOWNLOADING HOMEBREW PRESS RETURN" = `[press Enter]`
+## IF YOU DON'T `[press Enter]` DOWNLOAD WILL NOT BEGIN!
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
