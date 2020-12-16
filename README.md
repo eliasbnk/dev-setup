@@ -4,49 +4,22 @@
 
 ## 1. Downloading Command Line Tools for Xcode
 
-#### click on the link below to download dev-setup-scripts.zip,download should begin automatically
+type the following into Terminal: 
 
-https://download.developer.apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_12.3/Command_Line_Tools_for_Xcode_12.3.dmg
+```
+sudo xcode-select --install
+```
 
-#### click on downloaded folder it should open something like this
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/xcode1.png)
-
-#### double click on Command Line Tools.pkg
-
-#### another window should open, and it should look something like this
-
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/xcode2.png)
-
-#### click continue
-
-#### click continue again
-
-#### click agree
+#### enter your Password and [press Enter]
 
 #### click install
 
-#### type in your Password
-
-#### & 
-
-#### click Install Software 
-
-download should begin
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Wait patiently as this may takes a while.🧐
 
 After a little awhile Command Line Tools should be installed. 😊
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### after install of Command Line Tools completes
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### click on close
-
-#### &
-
-#### click on Move to Trash
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 2. Downlod dev-setup-scripts.zip
