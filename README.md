@@ -14,6 +14,25 @@ https://github.com/eliasbnk/dev-setup/blob/main/dev-setup-scripts.zip?raw=true
 
 ## 2. Setting Up Download Scripts
 
+open Terminal to do that
+
+#### `[press command + Space]`
+
+that should open Spotlight
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/spotlight.png)
+
+type the following into Spotlight:
+
+```
+Terminal
+```
+#### `[press Enter]`
+
+Terminal should open
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 type the following into Terminal: 
  
  ```
