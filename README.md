@@ -93,10 +93,6 @@ ls
 
 - brew-install.txt
 
-- extensions.txt
-
-- vscode-extension-install.sh
-
 - vscode-settings.txt
 
 - zshrc.txt
@@ -250,15 +246,14 @@ After a little awhile all Packages & Applications should be installed. 😊
 type all of the following into Terminal at once : 
 
 ```
-sudo chmod u+x vscode-extension-install.sh
-./vscode-extension-install.sh
+code --install-extension JSMel.web-dev-pack
 ```
 
 #### enter your Password, after inputing your Password `[press Enter]`  
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Visual Studio Code Extesion should begin downloading
+### Visual Studio Code Extesions should begin downloading
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
