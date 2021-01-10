@@ -24,11 +24,10 @@ After a little awhile Command Line Tools should be installed. 😊
 
 ## 2. Downlod dev-setup-scripts.zip
 
-#### click on the link below to download dev-setup-scripts.zip,download should begin automatically
+#### click on the link to download 
+<a href="https://drive.google.com/u/0/uc?export=download&confirm=rDb9&id=1Zxd1rOTstNrCA7yTNrwpIDqfWzOAcAsa" target="_blank" rel="noreferrer noopener">dev-setup-scripts</a>.
 
-https://drive.google.com/u/0/uc?export=download&confirm=rDb9&id=1Zxd1rOTstNrCA7yTNrwpIDqfWzOAcAsa
-
-#### if necessary click ok/allow/open
+#### click Download Anyway
 
 ### file will downlod automatically in the background please proceed to Step 3 Setting Up Download Scripts
 
