@@ -26,7 +26,7 @@ After a little awhile Command Line Tools should be installed. 😊
 
 #### click on the link below to download dev-setup-scripts.zip,download should begin automatically
 
-https://github.com/eliasbnk/dev-setup/blob/main/dev-setup-scripts.zip?raw=true
+https://drive.google.com/u/0/uc?export=download&confirm=rDb9&id=1Zxd1rOTstNrCA7yTNrwpIDqfWzOAcAsa
 
 #### if necessary click ok/allow/open
 
@@ -97,9 +97,11 @@ ls
 
 - zshrc.txt
 
+- Command_Line_Tools_for_Xcode_12.3.dmg
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### If you indeed have all those files skip over to step 4. Installing Homebrew
+### If you indeed have all those files skip over to step 4. Installing Command Line Tools for Xcode
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -185,7 +187,23 @@ ls
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 4. Installing Homebrew
+## 4. Installing Command Line Tools for Xcode
+
+#### go into dev-setup-scripts folder 
+
+#### && 
+
+#### double click on Command_Line_Tools_for_Xcode_12.3.dmg
+
+Follow prompt's instructions to install Command Line Tools for Xcode
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## If you were unsuccessful in installing Command Line Tools for Xcode. Dont worry Homebrew will automatically install it, but it will take much loner to run the Homebrew installer.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### go back into Terminal
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 5. Installing Homebrew
 
 to download Homebrew you need paste the following link into Terminal:
 
@@ -211,11 +229,11 @@ After a little awhile Homebrew should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### only continue to step 5 after Homebrew is installed 
+### only continue to step 6 after Homebrew is installed 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 5. Installing Packages & Applications
+## 6. Installing Packages & Applications
 
 type all of the following into Terminal at once : 
 
@@ -237,11 +255,11 @@ After a little awhile all Packages & Applications should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### only continue to step 6, after all Packages & Applications are installed 
+### only continue to step 7, after all Packages & Applications are installed 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 6. Downloading Visual Studio Code Extensions
+## 7. Downloading Visual Studio Code Extensions
 
 type all of the following into Terminal at once : 
 
@@ -263,11 +281,11 @@ After a little awhile all Extensions should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### only continue to step 7, after all Extensions are installed 
+### only continue to step 8, after all Extensions are installed 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 7. Installing Oh-My-Zsh
+## 8. Installing Oh-My-Zsh
 
 to install oh-my-zsh type the following link into Terminal: 
 
@@ -279,11 +297,11 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### only continue to step 8 after Oh-My-Zsh is installed 
+### only continue to step 9 after Oh-My-Zsh is installed 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 8. Installing Spaceship Prompt Theme for Terminal
+## 9. Installing Spaceship Prompt Theme for Terminal
 
 to install Spaceship Prompt Theme type the following link into Terminal:
 
@@ -305,7 +323,7 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 9. Editing .zshrc file to have nvm, aliases, and Spaceship Prompt theme.
+## 10. Editing .zshrc file to have nvm, aliases, and Spaceship Prompt theme.
 
 type the following into Terminal: 
 
@@ -383,7 +401,7 @@ if everything was done correctly this should replace the default settings to inc
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 10. Changing Visual Studio Code's Font, Theme, and Layout.
+## 11. Changing Visual Studio Code's Font, Theme, and Layout.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -492,7 +510,7 @@ source ~/.zshrc
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 11. Removing dev-setup-scripts file and dev-setup-scripts.zip from your computer.
+## 12. Removing dev-setup-scripts file and dev-setup-scripts.zip from your computer.
 
 type the following into Terminal:
 
@@ -545,7 +563,7 @@ defaults write com.apple.Dock autohide-delay -float 0 && Killall Dock
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 12. Setting up Node with nvm.
+## 13. Setting up Node with nvm.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -642,7 +660,7 @@ type the following into Terminal:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 13. Check node version
+## 14. Check node version
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -670,7 +688,7 @@ or
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 14. Setting up Eslint + Prettier with Airbnb Style Guide.
+## 15. Setting up Eslint + Prettier with Airbnb Style Guide.
 
 
 type the following into Terminal:
@@ -824,7 +842,7 @@ choose
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# 15. Configuring your Git username/email
+# 16. Configuring your Git username/email
 
 type the following into Terminal:
 
@@ -856,7 +874,7 @@ git config --global user.email "MY_NAME@example.com"
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 16. Adding SSH-KEY to github account.
+## 17. Adding SSH-KEY to github account.
 
 type the following into Terminal:
 
