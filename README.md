@@ -83,9 +83,6 @@ ls
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ls.png)
-
-
 ### Compare this list to what Terminal returned (if you are in dev-setup-scripts folder you should have all of these files)
 
 - brew-install-cask.txt
