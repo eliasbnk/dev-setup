@@ -79,11 +79,9 @@ ls
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Terminal should return something similiar
+### Compare this list to what your Terminal returned (if you are in dev-setup-scripts folder you should have all of these files)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-### Compare this list to what Terminal returned (if you are in dev-setup-scripts folder you should have all of these files)
 
 - brew-install-cask.txt
 
