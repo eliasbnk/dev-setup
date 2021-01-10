@@ -169,11 +169,19 @@ ls
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Terminal should Return something similiar
+### Compare this list to what your Terminal returned (if you are in dev-setup-scripts folder you should have all of these files)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/ls.png)
+- brew-install-cask.txt
+
+- brew-install.txt
+
+- vscode-settings.txt
+
+- zshrc.txt
+
+- Command_Line_Tools_for_Xcode_12.3.dmg
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
