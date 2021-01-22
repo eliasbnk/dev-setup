@@ -1,39 +1,16 @@
-# Guide On How To Set Up Web Development Enviroment On macOS In Under 30 Minutes
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 1. Downloading Command Line Tools for Xcode
-
-type the following into Terminal: 
-
-```
-sudo xcode-select --install
-```
-
-#### enter your Password and [press Enter]
-
-#### click install
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Wait patiently as this may takes a while.🧐
-
-After a little awhile Command Line Tools should be installed. 😊
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 2. Downlod dev-setup-scripts.zip
+## 1. Downlod dev-setup-scripts.zip
 
 #### open the link below in new tab to download 
 <a href="https://drive.google.com/u/0/uc?export=download&confirm=rDb9&id=1Zxd1rOTstNrCA7yTNrwpIDqfWzOAcAsa" target="_blank" rel="noreferrer noopener">dev-setup-scripts</a>
 
 #### click Download Anyway
 
-### file will download automatically, please wait for download to finish, and then proceed to Step 3 Setting Up Download Scripts.
+### file will download automatically, please wait for download to finish, and then proceed to Step 2 Setting Up Download Scripts.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 3. Setting Up Download Scripts
+## 2. Setting Up Download Scripts
 
 open Terminal to do that
 
@@ -189,23 +166,7 @@ ls
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 4. Installing Command Line Tools for Xcode
-
-#### go into dev-setup-scripts folder 
-
-#### && 
-
-#### double click on Command_Line_Tools_for_Xcode_12.3.dmg
-
-Follow prompt's instructions to install Command Line Tools for Xcode
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## If you were unsuccessful in installing Command Line Tools for Xcode. Dont worry Homebrew will automatically install it, but it will take much loner to run the Homebrew installer.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### go back into Terminal
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 5. Installing Homebrew
+## 3. Installing Homebrew
 
 to download Homebrew you need paste the following link into Terminal:
 
@@ -235,7 +196,7 @@ After a little awhile Homebrew should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 6. Installing Packages & Applications
+## 4. Installing Packages & Applications
 
 type all of the following into Terminal at once : 
 
@@ -261,7 +222,7 @@ After a little awhile all Packages & Applications should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 7. Downloading Visual Studio Code Extensions
+## 5. Downloading Visual Studio Code Extensions
 
 type all of the following into Terminal at once : 
 
@@ -287,7 +248,7 @@ After a little awhile all Extensions should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 8. Installing Oh-My-Zsh
+## 6. Installing Oh-My-Zsh
 
 to install oh-my-zsh type the following link into Terminal: 
 
@@ -303,7 +264,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 9. Installing Spaceship Prompt Theme for Terminal
+## 7. Installing Spaceship Prompt Theme for Terminal
 
 to install Spaceship Prompt Theme type the following link into Terminal:
 
