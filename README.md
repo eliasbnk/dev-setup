@@ -1,4 +1,4 @@
-#How to set up Web-Dev Enviroment on M1 Mac
+# How to set up Web-Dev Enviroment on M1 Mac
 
 ## 1. Downlod dev-setup-scripts.zip
 
