@@ -6,7 +6,7 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 2. Setting Up Download Scripts
+## 2. Setting Up Rosetta Terminal
 
 #### `[press command + Space]`
 
@@ -143,9 +143,12 @@ After a little awhile Homebrew should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### only continue to step 6 after Homebrew is installed 
+### only continue to step 4 after Homebrew is installed 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 4. Setting Up Download Scripts
+
 type the following into Rosetta Terminal:
  ```
 cd /Users/`whoami`/Downloads/dev-setup-scripts
@@ -163,7 +166,7 @@ ls
 
 #### `[press Enter]`
 
-#### click on ok/allow
+#### if any prompts open click on ok/allow
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -182,7 +185,7 @@ ls
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### If you indeed have all those files skip over to step 4. Installing Command Line Tools for Xcode
+### If you indeed have all those files skip over to step 5 Installing Packages & Applications
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -270,11 +273,22 @@ ls
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### If Terminal still doesnt return this repeat step 3 from beginning again.
+### If Terminal still doesnt return this repeat step 4 from beginning again.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 4. Installing Packages & Applications
+## 5. Installing Packages & Applications
+
+type all of the following into Terminal at once : 
+
+```
+sudo chown -R $(whoami) /usr/local/Homebrew /usr/local/etc/bash_completion.d /usr/local/share/doc /usr/local/share/man /usr/local/share/man/man1 /usr/local/var/homebrew/locks &&
+chmod u+w /usr/local/Homebrew /usr/local/etc/bash_completion.d /usr/local/share/doc /usr/local/share/man /usr/local/share/man/man1 /usr/local/var/homebrew/locks
+```
+
+#### `[press Enter]`
+
+#### if prompted to input your Password, after inputing your Password `[press Enter]`  
 
 type all of the following into Terminal at once : 
 
@@ -283,7 +297,6 @@ brew tap homebrew/cask-fonts
 brew install $(<brew-install.txt)
 brew install $(<brew-install-cask.txt)
 ```
-
 #### `[press Enter]`
 
 #### if prompted to input your Password, after inputing your Password `[press Enter]`  
@@ -296,11 +309,11 @@ After a little awhile all Packages & Applications should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### only continue to step 7, after all Packages & Applications are installed 
+### only continue to step 6, after all Packages & Applications are installed 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 5. Downloading Visual Studio Code Extensions
+## 6. Downloading Visual Studio Code Extensions
 
 type all of the following into Terminal at once : 
 
@@ -322,7 +335,7 @@ After a little awhile all Extensions should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### only continue to step 8, after all Extensions are installed 
+### only continue to step 7, after all Extensions are installed 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -363,13 +376,37 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 #### `[press Enter]`
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 7. Installing Syntax Highlight, Autosuggetsions and Git Open for oh my zsh.
 
+type the following link into Terminal: 
+
+```
+cd
+```
+#### `[press Enter]`
+
+type the following link into Terminal: 
+
+```
+cd ~/.oh-my-zsh/custom/plugins    
+```
+#### `[press Enter]`
+
+type all of the following into Terminal at once : 
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions && git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting && git clone https://github.com/paulirish/git-open.git $ZSH_CUSTOM/plugins/git-open     
+```
+
+#### `[press Enter]`
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 10. Editing .zshrc file to have nvm, aliases, and Spaceship Prompt theme.
 
 type the following into Terminal: 
 
 ```
-code ~/.zshrc
+cd /Users/`whoami`/Downloads/dev-setup-scripts && code ~/.zshrc
 ```
 
 #### `[press Enter]`
@@ -539,11 +576,9 @@ if everything was done correctly this should replace the default settings to aut
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type all of the following into Terminal at once : 
+type the following into Terminal: 
 
 ```
-chmod 755 /usr/local/share/zsh
-chmod 755 /usr/local/share/zsh/site-functions
 source ~/.zshrc
 ```
 
