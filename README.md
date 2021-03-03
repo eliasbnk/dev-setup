@@ -17,7 +17,7 @@ that should open Spotlight
 type the following into Spotlight:
 
 ```
-/application
+/applications
 ```
 ![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/Screen%20Shot%202021-03-02%20at%205.02.14%20PM.png)
 
