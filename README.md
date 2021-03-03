@@ -1,4 +1,12 @@
 # How to set up Web-Dev Enviroment on M1 Mac
+# In this guide I will show you
+- how to install homebrew 
+- how to install all necessary apps and extensions 
+- how to install Spaceship theme with Oh-My-Zsh
+- how to install node
+- how to setup eslint with airbnb style guide
+- how to add SSH-KEY to github accoun
+
 
 ## 1. Downlod dev-setup-scripts.zip
 
