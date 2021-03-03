@@ -1,12 +1,7 @@
+#How to set up Web-Dev Enviroment on M1 Mac
 
 ## 1. Downlod dev-setup-scripts.zip
 
-#### open the link below in new tab to download 
-<a href="https://drive.google.com/u/0/uc?export=download&confirm=rDb9&id=1Zxd1rOTstNrCA7yTNrwpIDqfWzOAcAsa" target="_blank" rel="noreferrer noopener">dev-setup-scripts</a>
-
-#### click Download Anyway
-
-### file will download automatically, please wait for download to finish, and then proceed to Step 2 Setting Up Download Scripts.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
