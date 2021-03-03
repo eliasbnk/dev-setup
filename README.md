@@ -8,8 +8,6 @@
 
 ## 2. Setting Up Download Scripts
 
-open Terminal to do that
-
 #### `[press command + Space]`
 
 that should open Spotlight
@@ -19,19 +17,134 @@ that should open Spotlight
 type the following into Spotlight:
 
 ```
+/application
+```
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/Screen%20Shot%202021-03-02%20at%205.02.14%20PM.png)
+
+#### double click on Applications Folder
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Applications Folder should open
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/Screen%20Shot%202021-03-02%20at%205.02.24%20PM.png)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+type the following into search:
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/Screen%20Shot%202021-03-02%20at%205.02.32%20PM.png)
+
+```
 Terminal
+```
+
+choose search Applications
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/Screen%20Shot%202021-03-02%20at%205.02.44%20PM.png)
+
+right-click Terminal 
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/Screen%20Shot%202021-03-02%20at%205.05.00%20PM.png)
+
+click on Duplicate
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/Screen%20Shot%202021-03-02%20at%205.05.03%20PM.png)
+
+if asked enter your password & press ok
+
+right-click duplicated Terminal & click on Rename
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/Screen%20Shot%202021-03-02%20at%205.05.32%20PM.png)
+
+rename the duplicated Terminal to:
+
+```
+Rosetta Terminal
+```
+
+if asked enter your password & press ok
+
+right-click Rosetta Terminal & click on Get Info
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/Screen%20Shot%202021-03-02%20at%205.05.57%20PM.png)
+
+in the Rosetta Terminal Info window make sure Open using Rosetta is checked
+
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/Screen%20Shot%202021-03-02%20at%205.06.04%20PM.png)
+
+#### Close Rosetta Terminal Info by clicking red ❌
+
+double click on Rosseta Terminal
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Rosetta Terminal should open
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+lets check if we are using Rosetta
+
+type the following into Terminal: 
+
+```
+arch 
+``` 
+
+#### `[press Enter]`
+
+if your Rosetta Terminal returned 
+
+i386
+
+Good Job you did everything correct so far. 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 3. Installing Homebrew
+
+type the following into Rosetta Terminal:
+
+```
+cd
+```
+
+#### `[press Enter]` 
+
+type the following into Rosetta Terminal:
+
+```
+mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+```
+
+#### `[press Enter]` 
+
+
+type the following into Rosetta Terminal:
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 #### `[press Enter]`
 
+#### &
+
+### if prompted to enter your Password, enter your Password, after entering your Password `[press Enter]`   
+
+## AFTER A LITTLE WHILE TERMINAL WILL PROMPT YOU "TO CONTINUE WITH DOWNLOADING HOMEBREW PRESS RETURN" = `[press Enter]`
+
+## IF YOU DON'T `[press Enter]` DOWNLOAD WILL NOT BEGIN!
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Terminal should open
+Wait patiently as this may takes a while (install can take around 4-5 minutes).🧐
+
+After a little awhile Homebrew should be installed. 😊
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-type the following into Terminal: 
- 
+### only continue to step 6 after Homebrew is installed 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+type the following into Rosetta Terminal:
  ```
 cd /Users/`whoami`/Downloads/dev-setup-scripts
  ```
@@ -64,7 +177,6 @@ ls
 
 - zshrc.txt
 
-- Command_Line_Tools_for_Xcode_12.3.dmg
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -154,41 +266,9 @@ ls
 
 - zshrc.txt
 
-- Command_Line_Tools_for_Xcode_12.3.dmg
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### If Terminal still doesnt return this repeat step 3 from beginning again.
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 3. Installing Homebrew
-
-to download Homebrew you need paste the following link into Terminal:
-
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-#### `[press Enter]`
-
-#### &
-
-### if prompted to enter your Password, enter your Password, after entering your Password `[press Enter]`   
-
-## AFTER A LITTLE WHILE TERMINAL WILL PROMPT YOU "TO CONTINUE WITH DOWNLOADING HOMEBREW PRESS RETURN" = `[press Enter]`
-
-## IF YOU DON'T `[press Enter]` DOWNLOAD WILL NOT BEGIN!
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Wait patiently as this may takes a while (install can take around 4-5 minutes).🧐
-
-After a little awhile Homebrew should be installed. 😊
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-### only continue to step 6 after Homebrew is installed 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
