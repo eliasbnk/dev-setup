@@ -5,7 +5,7 @@
 - how to install Spaceship theme with Oh-My-Zsh
 - how to install node
 - how to setup eslint with airbnb style guide
-- how to add SSH-KEY to github accoun
+- how to add SSH-KEY to github account
 
 
 ## 1. Downlod dev-setup-scripts.zip
