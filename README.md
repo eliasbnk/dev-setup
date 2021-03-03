@@ -96,6 +96,8 @@ if your Rosetta Terminal returned
 
 i386
 
+![alt text](https://raw.githubusercontent.com/eliasbnk/dev-setup/main/img/Screen%20Shot%202021-03-02%20at%205.06.27%20PM.png)
+
 Good Job you did everything correct so far. 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 3. Installing Homebrew
