@@ -2,6 +2,7 @@
 
 ## 1. Downlod dev-setup-scripts.zip
 
+<a href='https://github.com/eliasbnk/dev-setup/blob/main/dev-setup-scripts.zip?raw=true' target="_blank" rel="noopener noreferrer">download link for dev-setup-scripts.zip</a>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
